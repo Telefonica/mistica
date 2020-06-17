@@ -1,6 +1,5 @@
 ![Mística Cover](img/cover.png)
 
-# Telefonica Design System
 ### What is Mística?
 
 <br>
