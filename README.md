@@ -1,3 +1,4 @@
+![Mística Cover](img/cover.png)
 
 # Telefonica Design System
 
