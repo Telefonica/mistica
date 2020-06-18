@@ -1,4 +1,4 @@
-![Mística Cover](img/cover.png)
+![Mística Cover](img/cover.gif)
 
 ### What is Mística?
 
