@@ -1,9 +1,4 @@
-
-# Telefonica Design System
-
-<div align="center">
-  <img alt="Mística Logo" src="https://i.imgur.com/3H975vE.png">
-</div>
+![Mística Cover](img/cover.gif)
 
 ### What is Mística?
 
