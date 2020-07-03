@@ -26,7 +26,14 @@ We are currently building our roadmap and initial components inventory to estima
 
 <br>
 
-| Other Mística Repos | Description                                               |
+| Mística Development Repos | Description                                               |
+| :------------------ | :-------------------------------------------------------- |
+| [mistica-web](https://github.com/Telefonica/mistica-web)      | React components library for Telefonica Design System (Mistica)  |
+| [mistica-android](https://github.com/Telefonica/mistica-android)      | Native Android components library for Telefonica Design System (Mistica)
+| [mistica-ios](https://github.com/Telefonica/mistica-ios)     | Native iOS components library for Telefonica Design System (Mistica)  |
+<br>
+
+| Mística Design Repos | Description                                               |
 | :------------------ | :-------------------------------------------------------- |
 | [mistica-libraries](https://github.com/Telefonica/mistica-design-libraries)      | Libraries with all the components, colors, typographies, styles, etc. needed to design our digital products  |
 | [mistica-icons](https://github.com/Telefonica/mistica-icons)      | The source of truth for icons in our digital products |
