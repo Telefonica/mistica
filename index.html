@@ -1,28 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="style.css">
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-    <title>Document</title>
-</head>
-<body>
-    <header>
-		<nav>
-            <img src="img/misticaLogo.svg" alt="Mística Logo"/>
-			<ul>
-                <li>Design</li>
-                <li>Develop</li>
-			</ul>
-		</nav>
-    </header>
-    
-    <section id="container">
-        <img src="img/hero.png" />
-    </section>
-</body>
-</html>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
