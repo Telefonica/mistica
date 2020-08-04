@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Mística Design System
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Mística is Telefónica CX design system, a system that responds to our specific circumstances. The aim of Mistica is to help Telefonica designers and developers deliver work faster and better. It provides teams with a common language and encourages adherence to design guidelines with compliant components right out of the box.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: /images/jekyll-logo.png
 
 #
 # Flags below are optional
