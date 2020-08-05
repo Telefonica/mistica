@@ -7,7 +7,7 @@
 	position: absolute;
 	width: 100%;
 	height: 5.625rem;
-	border-bottom: 1px solid rgba($color-dark-blue, .15);
+	border-bottom: 1px solid rgba($color-light-blue, .15);
 }
 
 /* ----- Navigation ----- */
@@ -56,11 +56,12 @@
 		border-bottom: 1px solid;
 		border-color: transparent;
 		transition: border-color .2s;
+		color: $color-dark;
 
 		&:hover,
 		&:focus,
 		&:active {
-			border-color: $color-dark-blue;
+			border-color: $color-dark;
 		}
 	}
 }
@@ -110,7 +111,7 @@
 
 	a {
 		@include link-reset;
-		color: $color-dark-blue;
+		color: $color-white;
 		font-family: $font-family-secondary;
 		text-transform: uppercase;
 	}

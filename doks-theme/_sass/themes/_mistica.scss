@@ -1,0 +1,44 @@
+/**
+ * Mistica (themes/_mistica.scss)
+ */
+
+/* ----- Hero subheader ----- */
+.mistica {
+	.hero-subheader {
+		background-color: $color-theme-mistica;
+	}
+}
+
+/* ----- Nav grid ----- */
+.mistica {
+	.nav-grid__item {
+		background-color: $color-theme-mistica;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $color-theme-mistica;
+		}
+	}
+}
+
+/* ----- Section ----- */
+.mistica {
+	.section--darker-theme-color-bg {
+		background-color: darken($color-theme-mistica, 3%);
+	}
+}
+
+/* ----- Page nav ----- */
+.mistica {
+	.page-nav {
+		background-color: $color-theme-mistica;
+	}
+}
+
+/* ----- Error 404 ----- */
+.mistica {
+	&.error-404 {
+		background-color: $color-theme-mistica;
+	}
+}

@@ -1,17 +1,15 @@
 # Theme settings
 doks:
     baseurl:
-    color_theme: # Available themes: blue (default), green, purple, red and yellow
+    color_theme: mistica # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
-            text: Mística
-            image:
+            text:
+            image: true
         nav:
-            - item_name: Item 1
+            - item_name: Design
               item_url: '#'
-            - item_name: Item 2
-              item_url: '#'
-            - item_name: Item 3
+            - item_name: Develop
               item_url: '#'
     footer:
         content:

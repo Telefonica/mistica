@@ -18,12 +18,12 @@
 }
 
 .btn--rounded {
-	border-radius: 3.125rem;
+	border-radius: 0.25rem;
 }
 
 .btn--dark {
 	color: $color-white;
-	background-color: $color-dark-blue;
+	background-color: $color-dark;
 	padding: .5625rem 1.5625rem;
 	transition: color .2s, background-color .2s;
 
@@ -34,8 +34,8 @@
 	&:hover,
 	&:focus,
 	&:active {
-		color: $color-dark-blue;
-		background-color: $color-yellow;
+		color: $color-white;
+		background-color: $color-dark-blue;
 	}
 }
 

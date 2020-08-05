@@ -3,44 +3,50 @@
 layout: homepage
 keywords:
 
+  
 # Hero section
-title: Mística
+title: Mística Design System
 description: Mística is Telefónica CX design system, a system that responds to our specific circumstances. The aim of Mistica is to help Telefonica designers and developers deliver work faster and better. It provides teams with a common language and encourages adherence to design guidelines with compliant components right out of the box.
+
 buttons:
-    - content: Button
+    - content: Get started
       url: '#'
       external_url: false
-    - icon: github
-      content: Button with icon
-      url: '#'
-      external_url: true
-
-# Author box
-# author:
-#     title: About Author
-#     title_url: '#'
-#     external_url: true
-#     description: Author description
+    # - icon: github
+    #   content: Develop
+    #   url: '#'
+    #   external_url: true
 
 # Grid navigation
 grid_navigation:
-    - title: Grid navigation
-      excerpt: Section description
+    - title: Mística Design Guidelines
+      excerpt: Design principles, styles and best practices
       cta: Read more
       url: '#'
 
-# Grid navigation
-grid_navigation2:
-    - title: Grid navigation2
-      excerpt: Section2 description
+    - title: Components
+      excerpt: Design guidance and developer documentation for interactive UI building blocks
       cta: Read more
       url: '#'
 
-# Grid navigation
-grid_navigation3:
-    - title: Grid navigation3
-      excerpt: Section2 description
+    - title: Icons
+      excerpt: Design guidance and developer documentation for interactive UI building blocks
       cta: Read more
+      url: '#'
+
+    - title: Mística components for the web
+      excerpt: Design guidance and developer documentation for interactive UI building blocks
+      cta: Get started
+      url: '#'
+
+    - title: Mística components for the iOS
+      excerpt: Design guidance and developer documentation for interactive UI building blocks
+      cta: Get started
+      url: '#'
+
+    - title: Mística components for the Android
+      excerpt: Design guidance and developer documentation for interactive UI building blocks
+      cta: Get started
       url: '#'
 
 ---
