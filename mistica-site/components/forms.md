@@ -8,8 +8,8 @@ comments: false
 title: Forms
 description: Forms allow users to easily enter data in the interface. This may allow them to use a service, configure options or make a transaction.
 
-# Micro navigation
-micro_nav: true
+# # Micro navigation
+# micro_nav: true
 
 # Page navigation
 page_nav:

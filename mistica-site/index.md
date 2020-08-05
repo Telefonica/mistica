@@ -32,21 +32,21 @@ grid_navigation:
     - title: Icons
       excerpt: Design guidance and developer documentation for interactive UI building blocks
       cta: Read more
-      url: '#'
+      url: 'https://telefonica.github.io/mistica-icons-web'
 
     - title: Mística components for the web
       excerpt: Design guidance and developer documentation for interactive UI building blocks
       cta: Get started
-      url: '#'
+      url: 'https://github.com/Telefonica/mistica-web'
 
     - title: Mística components for the iOS
       excerpt: Design guidance and developer documentation for interactive UI building blocks
       cta: Get started
-      url: '#'
+      url: 'https://github.com/Telefonica/mistica-ios'
 
     - title: Mística components for the Android
       excerpt: Design guidance and developer documentation for interactive UI building blocks
       cta: Get started
-      url: '#'
+      url: 'https://github.com/Telefonica/mistica-android'
 
 ---

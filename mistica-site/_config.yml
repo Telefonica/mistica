@@ -14,18 +14,12 @@ doks:
     footer:
         content:
             logo:
-                text: Mística DS
-                image:
-            copyright: Copyright &copy; 2020. - Mística Design System <br>All rights reserved.
+                text: 
+                image: true
+            copyright: 
         social_list:
-            - network_name: facebook
-              profile_url: '#'
-            - network_name: twitter
-              profile_url: '#'
-            - network_name: instagram
-              profile_url: '#'
-            - network_name: youtube
-              profile_url: '#'
+            - network_name: github
+              profile_url: 'https://github.com/Telefonica/mistica'
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
     comments:
