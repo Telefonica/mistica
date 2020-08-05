@@ -1,6 +1,6 @@
 # Theme settings
 doks:
-    baseurl:
+    baseurl: /mistica-site
     color_theme: mistica # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:

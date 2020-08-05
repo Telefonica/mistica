@@ -10,7 +10,7 @@ description: Mística is Telefónica CX design system, a system that responds to
 
 buttons:
     - content: Get started
-      url: '#'
+      url: 'components/forms'
       external_url: false
     # - icon: github
     #   content: Develop
