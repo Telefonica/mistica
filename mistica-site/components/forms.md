@@ -1,6 +1,6 @@
 ---
 # Page settings
-layout: default
+layout: sidebar
 keywords:
 comments: false
 
