@@ -5,7 +5,7 @@ keywords:
 
   
 # Hero section
-title: Mística Design System
+title: Design
 description: Mística is Telefónica CX design system, a system that responds to our specific circumstances. The aim of Mistica is to help Telefonica designers and developers deliver work faster and better. It provides teams with a common language and encourages adherence to design guidelines with compliant components right out of the box.
 
 buttons:
@@ -19,34 +19,19 @@ buttons:
 
 # Grid navigation
 grid_navigation:
-    - title: Mística Design Guidelines
+    - title: Fundations
       excerpt: Design principles, styles and best practices
+      cta: Read more
+      url: '#'
+
+    - title: Guidelines
+      excerpt: Design guidance and developer documentation for interactive UI building blocks
       cta: Read more
       url: '#'
 
     - title: Components
       excerpt: Design guidance and developer documentation for interactive UI building blocks
       cta: Read more
-      url: '#'
-
-    - title: Icons
-      excerpt: Design guidance and developer documentation for interactive UI building blocks
-      cta: Read more
       url: 'https://telefonica.github.io/mistica-icons-web'
-
-    - title: Mística components for the web
-      excerpt: Design guidance and developer documentation for interactive UI building blocks
-      cta: Get started
-      url: 'https://github.com/Telefonica/mistica-web'
-
-    - title: Mística components for the iOS
-      excerpt: Design guidance and developer documentation for interactive UI building blocks
-      cta: Get started
-      url: 'https://github.com/Telefonica/mistica-ios'
-
-    - title: Mística components for the Android
-      excerpt: Design guidance and developer documentation for interactive UI building blocks
-      cta: Get started
-      url: 'https://github.com/Telefonica/mistica-android'
 
 ---
