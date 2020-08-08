@@ -19,7 +19,7 @@ buttons:
 
 # Grid navigation
 grid_navigation:
-    - title: Fundations
+    - title: Foundations
       excerpt: Design principles, styles and best practices
       cta: Read more
       url: '#'

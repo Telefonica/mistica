@@ -1,9 +1,9 @@
 <ul class="sidebar">
     <ul class="block">
-        <h5>Fundations</h5>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
+        <h5>Foundations</h5>
+        {% for page in site.pages %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
     </ul>
     <ul class="block">
         <h5>Guidelines</h5>
