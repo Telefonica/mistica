@@ -25,9 +25,13 @@
 		padding: 9.375rem 0 (4.6875rem - 1.25rem) 0;
 
 		@media (min-width: $screen-sm-min) {
-			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
+			padding: 12rem 0 (8.3125rem - 1.25rem) 0;
 		}
 	}
+}
+
+.hero-subheader p{
+	font-size: $font-size-h5;
 }
 
 .hero-subheader--before-out {
