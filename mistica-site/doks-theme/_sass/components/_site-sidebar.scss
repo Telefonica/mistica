@@ -1,12 +1,24 @@
+.containerSpecial{
+    width: calc(100% - 264px);
+    overflow: hidden;
+    float: right;
+}
+
+.containerSpecial .site-header
+{
+
+    width: calc(100% - 264px);
+}
+
 .sidebar{
     width: 264px;
-    height: 100%;
+    min-height: 100vh;
     background: #fff;
     position: fixed;
-    border: 1px solid #ddd;
+    float: left;
+    border-right: 1px solid #ddd;
     padding: 40px 0 40px 0px;
     z-index: 1;
-    overflow: scroll;
 }
 
 .sidebar .block{
