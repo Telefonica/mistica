@@ -3,6 +3,7 @@
 layout: sidebar
 keywords:
 comments: false
+categories: [components]
 
 # Hero section
 title: Forms

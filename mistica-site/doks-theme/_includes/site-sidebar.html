@@ -2,40 +2,18 @@
     <ul class="block">
         <h5>Foundations</h5>
         {% for page in site.pages %}
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% if page.categories contains 'foundations' %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endif %}                
         {% endfor %}
     </ul>
     <ul class="block">
-        <h5>Guidelines</h5>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-    </ul>
-    <ul class="block">
         <h5>Components</h5>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
+        {% for page in site.pages %}
+            {% if page.categories contains 'components' %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endif %}                
+        {% endfor %}
     </ul>
 </ul>
+
