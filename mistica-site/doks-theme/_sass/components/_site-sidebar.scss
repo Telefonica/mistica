@@ -36,8 +36,12 @@
 	&:active {
         color: $color-dark;
         cursor: pointer;
-        background: #E9EAE8;
-	}
+        background: #f4f4f4;
+    }
+}
+
+.sidebar a{
+    border-bottom: 0;
 }
 
 .sidebar ul li:before {

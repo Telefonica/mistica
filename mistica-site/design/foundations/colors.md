@@ -6,7 +6,7 @@ comments: false
 categories: [foundations]
 
 # Hero section
-title: Color
+title: Colors
 description: Forms allow users to easily enter data in the interface. This may allow them to use a service, configure options or make a transaction.
 
 # # Micro navigation
