@@ -15,10 +15,22 @@ module.exports = {
         src: 'img/misticaLogo.svg',
       },
       items: [
+        // {
+        //   to: 'docs/',
+        //   activeBasePath: 'docs',
+        //   label: 'Design',
+        //   position: 'right',
+        // },
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          to: 'docs/design/doc1',
+          activeBasePath: 'docs/design',
           label: 'Design',
+          position: 'right',
+        },
+        {
+          to: 'docs/develop/introduction',
+          activeBasePath: 'docs/develop',
+          label: 'Develop',
           position: 'right',
         },
         // {to: 'blog', label: 'Blog', position: 'left'},
@@ -37,7 +49,7 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/',
+              to: 'docs/des/',
             },
             {
               label: 'Second Doc',
