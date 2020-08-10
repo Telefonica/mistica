@@ -1,6 +1,6 @@
 ---
 # Page settings
-layout: homepage
+layout: sub-home
 keywords:
 
   

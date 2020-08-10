@@ -6,11 +6,6 @@ doks:
         logo:
             text:
             image: true
-        nav:
-            - item_name: Design
-              item_url: 'design'
-            - item_name: Develop
-              item_url: '#'
     footer:
         content:
             logo:
