@@ -6,7 +6,7 @@ comments: false
 categories: [components]
 
 # Hero section
-title: test 2
+title: Textos
 description: Forms allow users to easily enter data in the interface. This may allow them to use a service, configure options or make a transaction.
 
 # # Micro navigation
