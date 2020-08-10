@@ -1269,15 +1269,6 @@
     remark-admonitions "^1.2.1"
     shelljs "^0.8.4"
 
-"@docusaurus/plugin-content-pages@^2.0.0-alpha.37":
-  version "2.0.0-alpha.37"
-  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-pages/-/plugin-content-pages-2.0.0-alpha.37.tgz#b7b83683b0934edd7bb33f4bad1a711cf5663e79"
-  integrity sha512-mb/oi7O1gDsHE054WoO4WRzEMbIxJLdUDh6cTGF7ve/9Lmf6r+pwHhDmc1cCH8QS6hf6iQIKT2JUDzxQvcLTYg==
-  dependencies:
-    "@docusaurus/types" "^2.0.0-alpha.37"
-    "@docusaurus/utils" "^2.0.0-alpha.37"
-    globby "^10.0.1"
-
 "@docusaurus/plugin-content-pages@^2.0.0-alpha.61":
   version "2.0.0-alpha.61"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-pages/-/plugin-content-pages-2.0.0-alpha.61.tgz#3fdc401fe4693fc3ec1f481022ccaaeac296a36e"
@@ -1366,15 +1357,6 @@
     clsx "^1.1.1"
     eta "^1.1.1"
 
-"@docusaurus/types@^2.0.0-alpha.37":
-  version "2.0.0-alpha.37"
-  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-alpha.37.tgz#e14b8758cfefab5235c5ec190c489dd32cb7a8b8"
-  integrity sha512-t0bwfUQLEY6FGZX1OGhB29y7OQFAzqmNfP/UewUWOb/OiG5HBZ/r7OfwOH1dfmbjRJD99eHA3r4br8jwuvQfPg==
-  dependencies:
-    "@types/webpack" "^4.41.0"
-    commander "^4.0.1"
-    querystring "0.2.0"
-
 "@docusaurus/types@^2.0.0-alpha.61":
   version "2.0.0-alpha.61"
   resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-alpha.61.tgz#b2f5eaa18fb242100c0a8011edefe521b09e8375"
@@ -1391,16 +1373,6 @@
   integrity sha512-3QrJqZoR5eBz2XG0ijuTIp5AEOe1OHtuv7nkKArOCzFmjuBJLhUTRcECf0K+lcmdJ25zrRAWAYNgTvpVpBjaNg==
   dependencies:
     "@hapi/joi" "17.1.1"
-
-"@docusaurus/utils@^2.0.0-alpha.37":
-  version "2.0.0-alpha.37"
-  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.37.tgz#d2b6fd67d449510f3c2e66b60d215864ed365df3"
-  integrity sha512-+gTzHu0iFnd1q7yY2nFhXkCtqHz3PyphjJ242SASJAYMJr9tH0y1OgwX+BUzabuIfQHblVdDm9xYygIztRk1aQ==
-  dependencies:
-    escape-string-regexp "^2.0.0"
-    fs-extra "^8.1.0"
-    gray-matter "^4.0.2"
-    lodash "^4.17.15"
 
 "@docusaurus/utils@^2.0.0-alpha.61":
   version "2.0.0-alpha.61"
