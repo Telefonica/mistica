@@ -17,11 +17,38 @@
   --ifm-code-font-size: 95%;
 }
 
+/* ----- Fonts ----- */
+@font-face {
+	font-family: 'Telefonica';
+	src: url('/fonts/TelefonicaWeb-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'Telefonica';
+	src: url('/fonts/telefonica/TelefonicaWeb-Light.woff') format('woff');
+	font-weight: lighter;
+	font-style: lighter;
+}
+
+@font-face {
+	font-family: 'Telefonica';
+	src: url('/fonts/telefonica/TelefonicaWeb-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ----- Edited css ----- */
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+  font-family: 'Telefonica';
 }
 
 .hero{
@@ -30,7 +57,9 @@
   background: var(--ifm-color-primary-light);
 }
 
-.hero, h1, h2, h3, h4, h5, h6, p{ color: var(--ifm-color-primary) !important; }
+.hero, h1, h2, h3, h4, h5, h6, p{ 
+  color: var(--ifm-color-primary) !important;
+}
 
 .hero__title{
   width: 512px;
@@ -46,6 +75,10 @@
 
 .button{
   border-radius: 4px;
+  background: var(--ifm-color-primary);
+  color: white !important;
+  border: none;
+  height: 48px;
 }
 
 .react-toggle{

@@ -3,199 +3,86 @@ id: android
 title: Android
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+[![Platform](https://img.shields.io/badge/Platform-Android-brightgreen)](https://github.com/Telefonica/mistica-android)
+[![Version](https://img.shields.io/badge/Version-0.2.1-blue)](https://github.com/Telefonica/mistica-android)
+[![Support](https://img.shields.io/badge/Support-%3E%3D%20Android%205.0-brightgreen)](https://github.com/Telefonica/mistica-android)
+[![Kotlin version badge](https://img.shields.io/badge/kotlin-1.3-blue.svg)](https://kotlinlang.org/docs/reference/whatsnew13.html)
 
-## Markdown Syntax
+Mistica is a framework that contains reusable UI components and utilities.
 
-To serve as an example page when styling markdown based Docusaurus sites.
+## Instalation
 
-## Headers
+Inside the dependency block in your build.gradle, add this line to add the library:
 
-# H1 - Create the best documentation
-
-## H2 - Create the best documentation
-
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
-
----
-
-## Emphasis
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
-
-* Unordered list can use asterisks
-
-- Or minuses
-
-+ Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com/)
-
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
-[1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
-Images from any folder can be used by providing path to file. Path should be relative to markdown file.
-
-![img](../../static/img/logo.svg)
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
+```gradle
+dependencies {
+    ...
+    implementation 'com.telefonica.mistica:mistica:$version'
+    ...
 }
 ```
 
----
+In case you also want to include also the components catalog in your application:
 
-## Tables
+```gradle
+dependencies {
+    ...
+    implementation 'com.telefonica.mistica:mistica:$version'
+    implementation 'com.telefonica.mistica:mistica-catalog:$version'
+    ...
+}
+```
 
-Colons can be used to align columns.
+## Configuration
 
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
+Mistica provides an Android theme for each brand supported by telefonica.
+Just set your App or any specific activity to use any of the following:
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+* MisticaTheme.Movistar
+* MisticaTheme.Movistar.Prominent
+* MisticaTheme.O2
+* MisticaTheme.O2Classic
+* MisticaTheme.Vivo
 
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
+```xml
+<manifest ...>
+    <application
+        ...
+        android:theme="@style/MisticaTheme.Movistar" />
+</manifest>
+```
 
----
+```xml
+...
+<activity
+    ...
+    android:theme="@style/MisticaTheme.Movistar.Prominent" />
+...
+```
 
-## Blockquotes
+## Components
 
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
+* [Buttons](library/src/main/java/com/telefonica/mistica/button)
+* [Inputs](library/src/main/java/com/telefonica/mistica/input)
+* [Snackbars](library/src/main/java/com/telefonica/mistica/feedback)
+* [Screen Feedbacks](library/src/main/java/com/telefonica/mistica/feedback/screen)
+* [Load Error Feedback](library/src/main/java/com/telefonica/mistica/feedback/error)
+* [Pop Overs](library/src/main/java/com/telefonica/mistica/feedback/popover)
+* [Badges](library/src/main/java/com/telefonica/mistica/badge)
+* [Scroll Content Indicator](library/src/main/java/com/telefonica/mistica/contentindicator)
+* [Tags](library/src/main/java/com/telefonica/mistica/tag)
+* [Lists](library/src/main/java/com/telefonica/mistica/list)
+* [Headers](library/src/main/java/com/telefonica/mistica/header)
+* [Sections](library/src/main/java/com/telefonica/mistica/section)
+* [Chips](library/src/main/java/com/telefonica/mistica/chips)
 
-Quote break.
+## Demo app
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
+Included in this repository is a demo of currently implemented components. A full list of implemented components can be found here: [Components](library/src/main/java/com/telefonica/mistica).
 
----
+To see samples of all of our implemented components, run the [App](app) module in Android Studio.
 
-## Inline HTML
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+## Contributing
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
-
-:::note
-
-This is a note
-
-:::
-
-:::tip
-
-This is a tip
-
-:::
-
-:::important
-
-This is important
-
-:::
-
-:::caution
-
-This is a caution
-
-:::
-
-:::warning
-
-This is a warning
-
-:::
+TODO
