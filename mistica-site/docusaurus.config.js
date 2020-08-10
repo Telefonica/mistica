@@ -1,29 +1,40 @@
 module.exports = {
-  title: 'My Site',
+  title: 'Mística',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'Telefonica', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Mística Design System',
+        src: 'img/misticaLogo.svg',
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
-          position: 'left',
+          position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: 'docs/design/',
+          customDocsPath: 'docs/design',
+          label: 'Design',
+          position: 'right',
+        },
+        {
+          to: 'docs/develop',
+          label: 'Develop',
+          position: 'right',
+        },
+        // {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/Telefonica/mistica',
           label: 'GitHub',
           position: 'right',
         },
