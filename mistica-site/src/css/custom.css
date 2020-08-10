@@ -24,19 +24,28 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+.hero{
+  padding: 10rem 2rem !important;
+  /* background-image: url('/img/hero.png') !important; */
+  background: var(--ifm-color-primary-light);
+}
+
+.hero, h1, h2, h3, h4, h5, h6, p{ color: var(--ifm-color-primary) !important; }
+
 .hero__title{
   width: 512px;
   margin-bottom: 48px;
-  color: white;
   font-size: 64px
 }
 
-.button{
-  border-radius: 4px;
+.heroBanner_src-pages-{
+  margin: 0
 }
 
-a{
-  color: #003245;
+.hero h4{ color: white; }
+
+.button{
+  border-radius: 4px;
 }
 
 .react-toggle{

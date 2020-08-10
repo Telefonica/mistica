@@ -64,7 +64,7 @@ function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h4>{siteConfig.title} Design System</h4>
-          <h1 className="hero__title">Building our design System together</h1>
+          <h1 className="hero__title">Building our design system together</h1>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -76,6 +76,7 @@ function Home() {
             </Link>
           </div>
         </div>
+        
       </header>
       <main>
         {features && features.length > 0 && (
