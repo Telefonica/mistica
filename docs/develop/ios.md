@@ -83,18 +83,18 @@ func scene(_ scene: UIScene, willConnectTo _: UISceneSession, options _: UIScene
 
 ## Components
 
-* [Button](./Mistica/Components/Button/)
-* [Crouton](./Mistica/Components/Crouton/)
-* [SegmentSelector](./Mistica/Components/SegmentSelector/)
-* [Feedbacks](./Mistica/Components/Feedback/)
-* [Popover](./Mistica/Components/Popover/)
-* [ViewStates](./Mistica/Components/ViewStates/)
-* [Badge](./Mistica/Components/Badge/)
-* [InputFields](./Mistica/Components/InputField/)
-* [ScrollContentIndicator](./Mistica/Components/ScrollContentIndicator/)
-* [Lists](./Mistica/Components/Lists/)
-* [SectionTitle](./Mistica/Components/SectionTitle/)
-* [Header](./Mistica/Components/Header/)
+* Button
+* Crouton
+* SegmentSelector
+* Feedbacks
+* Popover
+* ViewStates
+* Badge
+* InputFields
+* ScrollContentIndicator
+* Lists
+* SectionTitle
+* Header
 
 
 ## Components Catalog

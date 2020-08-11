@@ -78,7 +78,7 @@ ReactDOM.render(
 
 The `theme` prop in `ThemeContextProvider` is **mandatory**, and you can use it to configure some aspects of
 the library. There are multiple settings but the only two mandatory fields are `skin` and `i18n`. Read the
-[theme config doc](./doc/theme-config.md) for more info.
+theme config doc for more info.
 
 ## Components
 
@@ -89,12 +89,12 @@ Start prototyping interfaces with Mistica components in the
 
 ## More docs
 
-- [Working with forms](./doc/forms.md)
-- [Theme config options](./doc/theme-config.md)
-- [Customize media query break points](./doc/media-queries.md)
-- [Customize default texts](./doc/texts.md)
-- [Analytics](./doc/analytics.md)
-- [Style your components](./doc/styles.md)
+- Working with forms
+- Theme config options
+- Customize media query
+- Customize default texts
+- Analytics](./doc
+- Style your components
 
 ## Development
 

@@ -62,25 +62,25 @@ Just set your App or any specific activity to use any of the following:
 
 ## Components
 
-* [Buttons](library/src/main/java/com/telefonica/mistica/button)
-* [Inputs](library/src/main/java/com/telefonica/mistica/input)
-* [Snackbars](library/src/main/java/com/telefonica/mistica/feedback)
-* [Screen Feedbacks](library/src/main/java/com/telefonica/mistica/feedback/screen)
-* [Load Error Feedback](library/src/main/java/com/telefonica/mistica/feedback/error)
-* [Pop Overs](library/src/main/java/com/telefonica/mistica/feedback/popover)
-* [Badges](library/src/main/java/com/telefonica/mistica/badge)
-* [Scroll Content Indicator](library/src/main/java/com/telefonica/mistica/contentindicator)
-* [Tags](library/src/main/java/com/telefonica/mistica/tag)
-* [Lists](library/src/main/java/com/telefonica/mistica/list)
-* [Headers](library/src/main/java/com/telefonica/mistica/header)
-* [Sections](library/src/main/java/com/telefonica/mistica/section)
-* [Chips](library/src/main/java/com/telefonica/mistica/chips)
+* Buttons
+* Inputs
+* Snackbars
+* Screen
+* Load
+* Pop
+* Badges
+* Scroll
+* Tags
+* Lists
+* Headers
+* Sections
+* Chips
 
 ## Demo app
 
-Included in this repository is a demo of currently implemented components. A full list of implemented components can be found here: [Components](library/src/main/java/com/telefonica/mistica).
+Included in this repository is a demo of currently implemented components. A full list of implemented components can be found here: Components
 
-To see samples of all of our implemented components, run the [App](app) module in Android Studio.
+To see samples of all of our implemented components, run the App module in Android Studio.
 
 
 ## Contributing
