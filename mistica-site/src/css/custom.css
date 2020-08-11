@@ -107,14 +107,27 @@ h1, h2, h3, h4, h5, h6, p, a{
   display: none !important;
 }
 
-
-.componentContainer{
-  display: flex;
-  justify-content: space-between;
+.tabList{
 
 }
 
-.componentPreview{
-  float: left;
+.tabs__item{
+  padding: 0.5rem 0 ;
+  margin-right: 32px;
+  min-width: 56px;
+  display: inline;
+  text-align: center;
+  align-items: center;
 }
 
+.tabs__item:hover{
+  background-color: transparent;
+  color: var(--ifm-color-primary);
+  border-bottom-color: var(--ifm-tabs-color-);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: var(--ifm-tabs-color-active);
+}
+
+.tabs__item--active{
+}

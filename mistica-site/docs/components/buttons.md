@@ -3,16 +3,27 @@ id: buttons
 title: Buttons
 ---
 
+<!-- No tocar -->
+import MultiBrandExample from '../../src/components/multi-brand-example.js'
+import {Box, Stack, Placeholder, Inline} from '@telefonica/mistica' 
+
+
+<!-- IMPORTACIÓN DE COMPONENTES -->
+import {ButtonPrimary} from '@telefonica/mistica'
+import {ButtonSecondary} from '@telefonica/mistica'
+
+
+<!-- AQUÍ EMPIEZA EL CONTENIDO -->
 Buttons let users do actions and make choices immediately with just a simple interaction.
 
 ### Use mdx
 Here is an example of using mistica components in mdx
 
-import {ButtonPrimary} from '@telefonica/mistica'
-import MultiBrandExample from '../../src/components/multi-brand-example.js'
-
 <MultiBrandExample>
-    <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
+    <Inline space={16}>
+        <ButtonPrimary submit>Button action</ButtonPrimary> 
+        <ButtonSecondary submit>Button action</ButtonSecondary>
+    </Inline>
 </MultiBrandExample>
 
 <br/><br/>
