@@ -10,9 +10,31 @@
   --ifm-color-primary: #003245;
   --ifm-color-primary-dark: #050c11;
   --ifm-color-primary-light: #d3d9dd;
+  
   --ifm-color-secondary: #00EDFF;
   --ifm-color-secondary-dark: #236f77;
   --ifm-color-secondary-light: #b0f7ff;
+
+  --ifm-color-yellow: #B6B7B7;
+  --ifm-color-yellow-dark: #A69A2C;
+  --ifm-color-yellow-light: #FEFDAF;
+
+  --ifm-color-orange: #FF7B00;
+  --ifm-color-orange-dark: #9D5412;
+  --ifm-color-orange-light: #FFD8BA;
+
+  --ifm-color-green: #00FF99;
+  --ifm-color-green-dark: #00966C;
+  --ifm-color-green-light: #87FDDE;
+
+  --ifm-color-purple: #B6B7B7;
+  --ifm-color-purple-dark: #58176E;
+  --ifm-color-purple-light: #F6BAE3;
+
+  --ifm-color-neutral: #B6B7B7;
+  --ifm-color-neutral-dark: #50535A;
+  --ifm-color-neutral-light: #E9EAE8;
+
   --ifm-code-font-size: 95%;
 }
 
@@ -74,7 +96,7 @@ h1, h2, h3, h4, h5, h6, p, a{
   background: var(--ifm-color-secondary);
 }
 
-.hero, h1, h2, h3, h4, h5, h6, p{ 
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6, .hero p{ 
   color: var(--ifm-color-primary) !important;
 }
 
@@ -129,5 +151,48 @@ h1, h2, h3, h4, h5, h6, p, a{
   color: var(--ifm-tabs-color-active);
 }
 
-.tabs__item--active{
+.alert--secondary{
+  --ifm-alert-background-color: var(--ifm-color-neutral-light);
+  --ifm-alert-border-color: var(--ifm-color-neutral-light);
+}
+
+.alert--success{
+  --ifm-alert-background-color: var(--ifm-color-green);
+  --ifm-alert-border-color: var(--ifm-color-green);
+}
+
+.alert--info{
+  --ifm-alert-background-color: var(--ifm-color-primary);
+  --ifm-alert-border-color: var(--ifm-color-primary);
+}
+
+.alert--secondary h5,
+.alert--secondary p,
+.alert--success h5,
+.alert--success p
+{
+  color: var(--ifm-color-primary);
+}
+
+.alert--info h5,
+.alert--info p,
+.alert--warning h5,
+.alert--warning p,
+.alert--danger h5,
+.alert--danger p{
+  color: white;
+}
+
+.alert--warning{
+  --ifm-alert-background-color: var(--ifm-color-orange);
+  --ifm-alert-border-color: var(--ifm-color-orange);
+}
+
+.alert--danger{
+  --ifm-alert-background-color: #FF0B00;
+  --ifm-alert-border-color: #FF0B00;
+}
+
+.admonition-icon {
+  margin-right: 0.4em;
 }
