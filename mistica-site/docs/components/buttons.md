@@ -8,43 +8,12 @@ Buttons let users do actions and make choices immediately with just a simple int
 ### Use mdx
 Here is an example of using mistica components in mdx
 
-import {ButtonPrimary, ThemeContextProvider, alert} from '@telefonica/mistica';
+import {ButtonPrimary} from '@telefonica/mistica'
+import MultiBrandExample from '../../src/components/multi-brand-example.js'
 
-<div class="componentContainer">
-
-<div class="componentPreview">
-    <ThemeContextProvider 
-        theme={{skin: 'Movistar'}}
-    >
-        <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
-    </ThemeContextProvider>
-</div>
-
-<div class="componentPreview">
-    <ThemeContextProvider 
-        theme={{skin: 'Vivo'}}
-    >
-        <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
-    </ThemeContextProvider>
-</div>
-
-<div class="componentPreview">
-    <ThemeContextProvider 
-        theme={{skin: 'O2'}}
-    >
-        <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
-    </ThemeContextProvider>
-</div>
-
-<div class="componentPreview">
-    <ThemeContextProvider 
-        theme={{skin: 'O2-classic'}}
-    >
-        <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
-    </ThemeContextProvider>
-</div>
-
-</div>
+<MultiBrandExample>
+    <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
+</MultiBrandExample>
 
 <br/><br/>
 And here is an example of a live code block. You can edit the code:
