@@ -1,9 +1,9 @@
 module.exports = {
-  title: 'Mística',
+  title: 'Mística Design System',
   tagline: 'Telefónica CX design system',
   url: 'https://telefonica.github.io/mistica',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'Telefonica', // Usually your GitHub org/user name.
   projectName: 'mistica', // Usually your repo name.
@@ -61,15 +61,15 @@ module.exports = {
           items: [
             {
               label: 'Start using',
-              to: 'docs/des/',
+              to: 'docs/design/introduction',
             },
             {
               label: 'Foundamentals',
-              to: 'docs/doc2/',
+              to: 'docs/design/introduction',
             },
             {
               label: 'Components',
-              to: 'docs/doc2/',
+              to: 'docs/design/introduction',
             },
           ],
         },
