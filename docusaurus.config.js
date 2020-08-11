@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Telefónica CX design system',
   url: 'https://Telefonica.github.io/',
   baseUrl: '/',
-  onBrokenLinks: 'disable',
+  onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'Telefonica', // Usually your GitHub org/user name.
   projectName: 'mistica', // Usually your repo name.
