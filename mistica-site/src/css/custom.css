@@ -58,11 +58,14 @@ h1, h2, h3, h4, h5, h6, p, a{
   margin-right: 10px;
 }
 
+.navbar__items:last-child {
+  margin-right: 0px;
+}
+
 .navbar__link:hover, .navbar__link--active{
   background: var(--ifm-color-primary);
   color: white;
   border-radius: 4px;
-  
 }
 
 .hero{
@@ -95,7 +98,7 @@ h1, h2, h3, h4, h5, h6, p, a{
   height: 48px;
 }
 
-.button:first-child{
+.button{
   margin-right: 16px;
 }
 

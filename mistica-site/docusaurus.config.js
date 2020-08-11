@@ -33,12 +33,12 @@ module.exports = {
           label: 'Develop',
           position: 'right',
         },
-        // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'http://www.google.es',  
+          label: 'Resources',
           position: 'right',
         },
+        // {to: 'blog', label: 'Blog', position: 'left'},
       ],
     },
     footer: {
