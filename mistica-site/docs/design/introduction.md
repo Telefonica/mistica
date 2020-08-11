@@ -5,6 +5,34 @@ title: Introduction
 
 ![Mística Cover](../img/cover.gif)
 
+### Use mdx
+
+here is an example of using mistica components in mdx
+
+import {ButtonPrimary, ThemeContextProvider, alert} from '@telefonica/mistica';
+
+<ThemeContextProvider
+    theme={{skin: 'Movistar'}}
+>
+    <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button example</ButtonPrimary>
+</ThemeContextProvider>
+
+
+And here is an example of a live code block. You can edit the code:
+
+```jsx live
+<ThemeContextProvider
+    theme={{skin: 'Movistar'}}
+>
+    <ButtonPrimary
+        onPress={() => alert({title: 'pressed!'})}
+    >
+        Button example
+    </ButtonPrimary>
+</ThemeContextProvider>
+```
+
+
 ### What is Mística?
 
 Mística is Telefónica CX design system, a system that responds to our specific circumstances.
