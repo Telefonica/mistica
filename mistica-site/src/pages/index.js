@@ -71,8 +71,16 @@ function Home() {
                 'button button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
-              Get Started
+              to={useBaseUrl('docs/design/introduction')}>
+              Design
+            </Link>
+            <Link
+              className={clsx(
+                'button button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/develop/introduction')}>
+              Develop
             </Link>
           </div>
         </div>

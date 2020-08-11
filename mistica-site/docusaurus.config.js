@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Mística',
-  tagline: 'Building our Design System together',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Telefónica CX design system',
+  url: 'https://telefonica.github.io/mistica',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Telefonica', // Usually your GitHub org/user name.
+  projectName: 'mistica', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '',
@@ -45,44 +45,61 @@ module.exports = {
       style: 'light',
       links: [
         {
-          title: 'Docs',
+          title: 'Design',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Start using',
               to: 'docs/des/',
             },
             {
-              label: 'Second Doc',
+              label: 'Foundamentals',
+              to: 'docs/doc2/',
+            },
+            {
+              label: 'Components',
               to: 'docs/doc2/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Develop',
           items: [
             {
-              label: 'Stack Overflow',
+              label: 'Android',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'Discord',
+              label: 'iOS',
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
-              label: 'Twitter',
+              label: 'Web',
               href: 'https://twitter.com/docusaurus',
             },
           ],
         },
         {
-          title: 'More',
+          title: ' ',
           items: [
             {
-              label: 'Blog',
+              label: ' ',
               to: 'blog',
             },
             {
-              label: 'GitHub',
+              label: ' ',
+              href: 'https://github.com/facebook/docusaurus',
+            },
+          ],
+        },
+        {
+          title: ' ',
+          items: [
+            {
+              label: ' ',
+              to: 'blog',
+            },
+            {
+              label: ' ',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],

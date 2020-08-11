@@ -8,12 +8,11 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #003245;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: #00EDFF;
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary-dark: #050c11;
+  --ifm-color-primary-light: #d3d9dd;
+  --ifm-color-secondary: #00EDFF;
+  --ifm-color-secondary-dark: #236f77;
+  --ifm-color-secondary-light: #b0f7ff;
   --ifm-code-font-size: 95%;
 }
 
@@ -51,10 +50,25 @@ h1, h2, h3, h4, h5, h6, p, a{
   font-family: 'Telefonica';
 }
 
+.navbar{
+  transition: all 0.2 ease-in-out;
+}
+
+.navbar__link{
+  margin-right: 10px;
+}
+
+.navbar__link:hover, .navbar__link--active{
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 4px;
+  
+}
+
 .hero{
   padding: 10rem 2rem !important;
   /* background-image: url('/img/hero.png') !important; */
-  background: var(--ifm-color-primary-light);
+  background: var(--ifm-color-secondary);
 }
 
 .hero, h1, h2, h3, h4, h5, h6, p{ 
@@ -79,6 +93,10 @@ h1, h2, h3, h4, h5, h6, p, a{
   color: white !important;
   border: none;
   height: 48px;
+}
+
+.button:first-child{
+  margin-right: 16px;
 }
 
 .react-toggle{
