@@ -8,9 +8,6 @@ Buttons let users do actions and make choices immediately with just a simple int
 ### Use mdx
 Here is an example of using mistica components in mdx
 
-import {ButtonPrimary} from '@telefonica/mistica'
-import MultiBrandExample from '../../src/components/multi-brand-example.js'
-
 <MultiBrandExample>
     <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
 </MultiBrandExample>
