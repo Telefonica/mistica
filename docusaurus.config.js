@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'Telefonica', // Usually your GitHub org/user name.
-  projectName: 'https://Telefonica.github.io/mistica', // Usually your repo name.
+  projectName: 'mistica', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'], // https://v2.docusaurus.io/docs/markdown-features/#interactive-code-editor
   themeConfig: {
     navbar: {
