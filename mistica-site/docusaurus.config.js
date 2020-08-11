@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Mística',
+  title: 'Mística Design System',
   tagline: 'Telefónica CX design system',
   url: 'https://telefonica.github.io/mistica',
   baseUrl: '/',
