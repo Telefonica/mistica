@@ -3,16 +3,6 @@ id: buttons
 title: Buttons
 ---
 
-<!-- No tocar -->
-import MultiBrandExample from '../../src/components/multi-brand-example.js'
-import {Box, Stack, Placeholder, Inline} from '@telefonica/mistica' 
-
-
-<!-- IMPORTACIÓN DE COMPONENTES -->
-import {ButtonPrimary} from '@telefonica/mistica'
-import {ButtonSecondary} from '@telefonica/mistica'
-
-
 <!-- AQUÍ EMPIEZA EL CONTENIDO -->
 Buttons let users do actions and make choices immediately with just a simple interaction.
 
