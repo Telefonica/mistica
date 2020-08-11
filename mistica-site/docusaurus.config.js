@@ -47,7 +47,7 @@ module.exports = {
         },
         {
           href: 'https://mistica-web.now.sh/playroom',  
-          label: 'Playroom',
+          label: 'Playroom →',
           position: 'right',
         },
         // {to: 'blog', label: 'Blog', position: 'left'},

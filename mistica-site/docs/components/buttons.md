@@ -10,11 +10,41 @@ Here is an example of using mistica components in mdx
 
 import {ButtonPrimary, ThemeContextProvider, alert} from '@telefonica/mistica';
 
-<ThemeContextProvider
-    theme={{skin: 'Movistar'}}
->
-    <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button example</ButtonPrimary>
-</ThemeContextProvider>
+<div class="componentContainer">
+
+<div class="componentPreview">
+    <ThemeContextProvider 
+        theme={{skin: 'Movistar'}}
+    >
+        <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
+    </ThemeContextProvider>
+</div>
+
+<div class="componentPreview">
+    <ThemeContextProvider 
+        theme={{skin: 'Vivo'}}
+    >
+        <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
+    </ThemeContextProvider>
+</div>
+
+<div class="componentPreview">
+    <ThemeContextProvider 
+        theme={{skin: 'O2'}}
+    >
+        <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
+    </ThemeContextProvider>
+</div>
+
+<div class="componentPreview">
+    <ThemeContextProvider 
+        theme={{skin: 'O2-classic'}}
+    >
+        <ButtonPrimary onPress={() => alert({title: 'pressed!'})}>Button primary</ButtonPrimary>
+    </ThemeContextProvider>
+</div>
+
+</div>
 
 <br/><br/>
 And here is an example of a live code block. You can edit the code:
@@ -27,7 +57,7 @@ And here is an example of a live code block. You can edit the code:
     <ButtonPrimary
         onPress={() => alert({title: 'pressed!'})}
     >
-        Button example
+        Button primary
     </ButtonPrimary>
 </ThemeContextProvider>
 ```
