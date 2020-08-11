@@ -118,6 +118,11 @@ module.exports = {
         },
       ],
     },
+    googleAnalytics: {
+      trackingID: 'UA-136245358-7',
+      // Optional fields.
+      anonymizeIP: false, // Should IPs be anonymized?
+    },
   },
   presets: [
     [
