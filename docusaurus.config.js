@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Mística Design System',
   tagline: 'Telefónica CX design system',
-  url: 'https://telefonica.github.io/',
+  url: 'https://Telefonica.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
