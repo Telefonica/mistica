@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Mística Design System',
   tagline: 'Telefónica CX design system',
-  url: 'https://Telefonica.github.io/',
+  url: 'https://telefonica.github.io/',
   baseUrl: '/mistica/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'Telefonica', // Usually your GitHub org/user name.
+  organizationName: 'telefonica', // Usually your GitHub org/user name.
   projectName: 'mistica', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'], // https://v2.docusaurus.io/docs/markdown-features/#interactive-code-editor
   themeConfig: {
