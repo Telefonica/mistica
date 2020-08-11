@@ -1,33 +1,41 @@
-# Website
+![Mística Cover](images/cover.gif)
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+### What is Mística?
 
-### Installation
+<br>
 
-```
-$ yarn
-```
+Mística is Telefónica CX design system, a system that responds to our specific circumstances.<br>
+The aim of Mistica is to help Telefonica designers and developers deliver work faster and better. It provides teams with a common language and encourages adherence to design guidelines with compliant components right out of the box.
+<br>
 
-### Local Development
+- <b>It is the language of the entire Telefónica CX universe</b><br>
+Mística enables us to have a universal language with which to develop our products.
 
-```
-$ yarn start
-```
+- <b>Consistency in all our products</b><br>
+This consistency will be reflected in a better, unique and consistent user experience.
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+- <b>Optimizing the design process</b><br>
+Mística reduces design and development time in order to be able to put more effort into improving and evolving our product.
 
-### Build
+- <b>Flexibility and optimization</b><br>
+Iterations and improvements will be carried out at all times based on the needs and points of improvement that we identify among ourselves.
 
-```
-$ yarn build
-```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+We are currently building our roadmap and initial components inventory to estimate the v1 release date. We are in active development and testing with selected teams, so the components API may change frequently. However, you can play with the alpha version today! Your feedback will help us shape Mistica.
 
-### Deployment
 
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+<br>
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+| Mística Development Repos | Description                                               |
+| :------------------ | :-------------------------------------------------------- |
+| [mistica-web](https://github.com/Telefonica/mistica-web)      | React components library for Telefonica Design System (Mistica)  |
+| [mistica-android](https://github.com/Telefonica/mistica-android)      | Native Android components library for Telefonica Design System (Mistica)
+| [mistica-ios](https://github.com/Telefonica/mistica-ios)     | Native iOS components library for Telefonica Design System (Mistica)  |
+<br>
+
+| Mística Design Repos | Description                                               |
+| :------------------ | :-------------------------------------------------------- |
+| [mistica-design-libraries](https://github.com/Telefonica/mistica-design-libraries) | Libraries with components, colors & typographies needed to design our digital products  |
+| [mistica-icons](https://github.com/Telefonica/mistica-icons)      | The source of truth for icons in our digital products |
+| [mistica-icons-web](http://telefonica.github.io/mistica-icons-web) | Webapp to view, search and download icons  |
+| [mistica-manager](https://github.com/Telefonica/mistica-manager)     | App to allows designer install al the system in one-click  |
