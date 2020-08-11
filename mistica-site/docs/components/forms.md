@@ -1,5 +1,5 @@
 ---
-id: doc4
+id: forms
 title: Forms
 sidebar_label: Forms
 ---

@@ -29,6 +29,12 @@ module.exports = {
           position: 'right',
         },
         {
+          to: 'docs/components/buttons',
+          activeBasePath: 'docs/components',
+          label: 'Components',
+          position: 'right',
+        },
+        {
           to: 'docs/develop/introduction',
           activeBasePath: 'docs/develop',
           label: 'Develop',
@@ -37,6 +43,11 @@ module.exports = {
         {
           href: 'http://www.google.es',  
           label: 'Resources',
+          position: 'right',
+        },
+        {
+          href: 'https://mistica-web.now.sh/playroom',  
+          label: 'Playroom',
           position: 'right',
         },
         // {to: 'blog', label: 'Blog', position: 'left'},
