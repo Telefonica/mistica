@@ -1,0 +1,19 @@
+{
+  "unversionedId": "develop/android",
+  "id": "develop/android",
+  "isDocsHomePage": false,
+  "title": "Android",
+  "description": "Platform",
+  "source": "@site/docs/develop/android.md",
+  "permalink": "/mistica/docs/develop/android",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/develop/android.md",
+  "sidebar": "develop",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/mistica/docs/develop/introduction"
+  },
+  "next": {
+    "title": "iOS",
+    "permalink": "/mistica/docs/develop/ios"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "facebook": {
+    "allTagsPath": "/mistica/blog/tags",
+    "slug": "facebook",
+    "name": "facebook",
+    "count": 1,
+    "permalink": "/mistica/blog/tags/facebook"
+  },
+  "hello": {
+    "allTagsPath": "/mistica/blog/tags",
+    "slug": "hello",
+    "name": "hello",
+    "count": 2,
+    "permalink": "/mistica/blog/tags/hello"
+  },
+  "docusaurus": {
+    "allTagsPath": "/mistica/blog/tags",
+    "slug": "docusaurus",
+    "name": "docusaurus",
+    "count": 3,
+    "permalink": "/mistica/blog/tags/docusaurus"
+  },
+  "hola": {
+    "allTagsPath": "/mistica/blog/tags",
+    "slug": "hola",
+    "name": "hola",
+    "count": 1,
+    "permalink": "/mistica/blog/tags/hola"
+  }
+}

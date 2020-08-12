@@ -1,0 +1,10 @@
+{
+  "unversionedId": "develop/mdx",
+  "id": "develop/mdx",
+  "isDocsHomePage": false,
+  "title": "Powered by MDX",
+  "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
+  "source": "@site/docs/develop/mdx.md",
+  "permalink": "/mistica/docs/develop/mdx",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/develop/mdx.md"
+}

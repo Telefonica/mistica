@@ -1,0 +1,65 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/mistica/docs",
+      "latestVersionName": null,
+      "versions": [
+        {
+          "name": null,
+          "path": "/mistica/docs",
+          "mainDocId": "components/buttons",
+          "docs": [
+            {
+              "id": "components/buttons",
+              "path": "/mistica/docs/components/buttons"
+            },
+            {
+              "id": "components/forms",
+              "path": "/mistica/docs/components/forms"
+            },
+            {
+              "id": "design/colors",
+              "path": "/mistica/docs/design/colors"
+            },
+            {
+              "id": "design/introduction",
+              "path": "/mistica/docs/design/introduction"
+            },
+            {
+              "id": "design/layouts",
+              "path": "/mistica/docs/design/layouts"
+            },
+            {
+              "id": "design/manager",
+              "path": "/mistica/docs/design/manager"
+            },
+            {
+              "id": "design/texts",
+              "path": "/mistica/docs/design/texts"
+            },
+            {
+              "id": "develop/android",
+              "path": "/mistica/docs/develop/android"
+            },
+            {
+              "id": "develop/introduction",
+              "path": "/mistica/docs/develop/introduction"
+            },
+            {
+              "id": "develop/ios",
+              "path": "/mistica/docs/develop/ios"
+            },
+            {
+              "id": "develop/mdx",
+              "path": "/mistica/docs/develop/mdx"
+            },
+            {
+              "id": "develop/web",
+              "path": "/mistica/docs/develop/web"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

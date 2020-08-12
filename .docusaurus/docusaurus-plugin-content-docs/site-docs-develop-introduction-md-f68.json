@@ -1,0 +1,15 @@
+{
+  "unversionedId": "develop/introduction",
+  "id": "develop/introduction",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "Mística Cover",
+  "source": "@site/docs/develop/introduction.md",
+  "permalink": "/mistica/docs/develop/introduction",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/develop/introduction.md",
+  "sidebar": "develop",
+  "next": {
+    "title": "Android",
+    "permalink": "/mistica/docs/develop/android"
+  }
+}

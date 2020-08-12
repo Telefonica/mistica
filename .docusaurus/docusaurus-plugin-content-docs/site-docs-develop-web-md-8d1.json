@@ -1,0 +1,15 @@
+{
+  "unversionedId": "develop/web",
+  "id": "develop/web",
+  "isDocsHomePage": false,
+  "title": "Web",
+  "description": "React components library for Telefonica Design System (Mistica)",
+  "source": "@site/docs/develop/web.md",
+  "permalink": "/mistica/docs/develop/web",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/develop/web.md",
+  "sidebar": "develop",
+  "previous": {
+    "title": "iOS",
+    "permalink": "/mistica/docs/develop/ios"
+  }
+}

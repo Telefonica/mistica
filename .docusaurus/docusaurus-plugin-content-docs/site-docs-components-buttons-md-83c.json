@@ -1,0 +1,15 @@
+{
+  "unversionedId": "components/buttons",
+  "id": "components/buttons",
+  "isDocsHomePage": false,
+  "title": "Buttons",
+  "description": "Buttons let users do actions and make choices immediately with just a simple interaction.",
+  "source": "@site/docs/components/buttons.md",
+  "permalink": "/mistica/docs/components/buttons",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/components/buttons.md",
+  "sidebar": "components",
+  "next": {
+    "title": "Forms",
+    "permalink": "/mistica/docs/components/forms"
+  }
+}
