@@ -68,8 +68,9 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-h1, h2, h3, h4, h5, h6, p, a{
+h1, h2, h3, h4, h5, h6, li, p, a{
   font-family: 'Telefonica';
+  color: var(--ifm-color-primary);
 }
 
 .navbar{
@@ -179,7 +180,8 @@ h1, h2, h3, h4, h5, h6, p, a{
 .alert--warning h5,
 .alert--warning p,
 .alert--danger h5,
-.alert--danger p{
+.alert--danger p
+{
   color: white;
 }
 
