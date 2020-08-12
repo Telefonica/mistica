@@ -32,7 +32,7 @@
   --ifm-color-purple-light: #F6BAE3;
 
   --ifm-color-neutral: #B6B7B7;
-  --ifm-color-neutral-dark: #50535A;
+  --ifm-color-neutral-dark: #50535A;  
   --ifm-color-neutral-light: #E9EAE8;
 
   --ifm-code-font-size: 95%;
@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5, h6, li, p, a{
 
 .navbar__link{
   margin-right: 10px;
+  padding-bottom: 7px;
 }
 
 .navbar__items:last-child {
@@ -134,6 +135,10 @@ h1, h2, h3, h4, h5, h6, li, p, a{
 
 }
 
+.tabs li{
+  color: #757575;
+}
+
 .tabs__item{
   padding: 0.5rem 0 ;
   margin-right: 32px;
@@ -141,6 +146,10 @@ h1, h2, h3, h4, h5, h6, li, p, a{
   display: inline;
   text-align: center;
   align-items: center;
+}
+
+.tabs__item--active{
+  color: var(--ifm-color-primary) !important;
 }
 
 .tabs__item:hover{
