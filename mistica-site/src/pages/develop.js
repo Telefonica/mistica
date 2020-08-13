@@ -67,7 +67,7 @@ function Home() {
           <h1 className="hero__title">Builded for Android, iOS and Web</h1>
           <ul class="cardContainer">
             <li class="card">
-              <img src="img/android.svg"></img>
+            <img src={useBaseUrl('img/android.svg')}/>
               <h2>Android</h2>
               <p>Java, C++, and Kotlin</p>
               <Link
@@ -80,7 +80,7 @@ function Home() {
               </Link>
             </li>
             <li class="card">
-              <img src="img/ios.svg"></img>
+            <img src={useBaseUrl('img/ios.svg')}/>
               <h2>iOS</h2>
               <p>Swift & Objective-C</p>
               <Link
@@ -93,7 +93,7 @@ function Home() {
               </Link>
             </li>
             <li class="card">
-              <img src="img/react.svg"></img>
+              <img src={useBaseUrl('img/react.svg')}/>
               <h2>Web</h2>
               <p>React</p>
               <Link
