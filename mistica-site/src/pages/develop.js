@@ -69,7 +69,7 @@ function Home() {
             <li class="card">
             <img src={useBaseUrl('img/android.svg')}/>
               <h2>Android</h2>
-              <p>Java, C++, and Kotlin</p>
+              <p>Java, C++ and Kotlin</p>
               <Link
                 className={clsx(
                   'button button--secondary button--md  ',
