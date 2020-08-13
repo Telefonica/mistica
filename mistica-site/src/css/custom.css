@@ -93,13 +93,22 @@ h1, h2, h3, h4, h5, h6, li, p, a{
 }
 
 .hero{
-  padding: 10rem 2rem !important;
+  padding: 6rem 2rem !important;
   /* background-image: url('/img/hero.png') !important; */
   background: var(--ifm-color-secondary);
 }
 
 .hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6, .hero p{ 
   color: var(--ifm-color-primary) !important;
+}
+
+.hero--secondary h1, .hero--secondary h2, .hero--secondary h3, .hero--secondary h4, .hero--secondary h5, .hero--secondary h6, .hero--secondary p{ 
+  color: white !important;
+}
+
+.hero--secondary{
+  background: var(--ifm-color-primary);
+  min-height: 100%;
 }
 
 .hero__title{
@@ -207,3 +216,74 @@ h1, h2, h3, h4, h5, h6, li, p, a{
 .admonition-icon {
   margin-right: 0.4em;
 }
+
+.card img{
+  height: 56px;
+  width: 56px;
+  display: block;
+  margin-bottom: 32px;
+}
+
+.card .button{
+  width: 120px;
+  height: 40px;
+  line-height: 27px;
+}
+
+.card{
+  z-index: 1;  
+  /* -webkit-box-shadow: 0px 6px 9px -4px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 6px 9px -4px rgba(0,0,0,0.10);
+  box-shadow: 0px 6px 9px -4px rgba(0,0,0,0.10); */
+  padding: 32px;
+  border-radius: 4px;
+}
+
+.card h2{
+  margin-bottom: 0px;
+  color: var(--ifm-color-primary) !important;
+}
+
+.card p{
+  font-size: 18px;
+  color: var(--ifm-color-primary) !important;
+}
+
+.cardContainer{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--ifm-container-width);
+  padding: 0;
+  width: 100%;
+  z-index: 1;
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(328px, 1fr));
+  grid-gap: 32px;
+}
+
+.footer--dark{
+  background: var(--ifm-color-primary);
+}
+
+.row{
+  padding: 0 var(--ifm-spacing-horizontal);;
+}
+
+.infoModule{
+  width: 30%;
+  height: 400px;
+  float: left;
+  padding: 100px 0;
+  margin-right: 32px;
+}
+
+.playroom{
+  padding: 80px 0;
+}
+
+.playroom img{
+  width: 60%;
+  float: right;
+}
+

@@ -61,11 +61,52 @@ function Home() {
     <Layout
       // title={`${siteConfig.title} Design System`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx('hero hero--secondary', styles.heroBanner)}>
         <div className="container">
-          <h4>Mística, Telefonica CX Design System</h4>
-          <h1 className="hero__title">Building our design system together</h1>
-          <div className={styles.buttons}>
+          <h4>DEVELOP</h4>
+          <h1 className="hero__title">Builded for Android, iOS and Web</h1>
+          <ul class="cardContainer">
+            <li class="card">
+              <img src="img/android.svg"></img>
+              <h2>Android</h2>
+              <p>Java, C++, and Kotlin</p>
+              <Link
+                className={clsx(
+                  'button button--secondary button--md  ',
+                  styles.getStarted,
+                )}
+                to={useBaseUrl('https://github.com/Telefonica/mistica-android')}>
+                Get started
+              </Link>
+            </li>
+            <li class="card">
+              <img src="img/ios.svg"></img>
+              <h2>iOS</h2>
+              <p>Swift & Objective-C</p>
+              <Link
+                className={clsx(
+                  'button button--secondary button--md  ',
+                  styles.getStarted,
+                )}
+                to={useBaseUrl('https://github.com/Telefonica/mistica-ios')}>
+                Get started
+              </Link>
+            </li>
+            <li class="card">
+              <img src="img/react.svg"></img>
+              <h2>Web</h2>
+              <p>React</p>
+              <Link
+                className={clsx(
+                  'button button--secondary button--md  ',
+                  styles.getStarted,
+                )}
+                to={useBaseUrl('https://github.com/Telefonica/mistica-web')}>
+                Get started
+              </Link>
+            </li>
+          </ul>
+          {/* <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--secondary button--lg',
@@ -74,18 +115,33 @@ function Home() {
               to={useBaseUrl('docs/design/introduction')}>
               Get started
             </Link>
-          </div>
+          </div> */}
         </div>
-        
       </header>
+
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
+                <div class="playroom">
+                  <div class="infoModule">
+                    <h1>Meets Playroom!</h1>
+                    <p>Specify helps you keep the same identity across all the platforms you use. Increase your incomes and speed-up your time to market.</p>
+                    <div className={styles.buttons}>
+                      <Link
+                        className={clsx(
+                          'button button--secondary button--lg',
+                          styles.getStarted,
+                        )}
+                        to={useBaseUrl('docs/design/introduction')}>
+                        Go to Playroom
+                      </Link>
+                    </div>
+                  </div>
+                  <img src="img/playroom.png"></img>
+                  
+                </div>
               </div>
             </div>
           </section>

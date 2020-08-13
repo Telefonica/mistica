@@ -11,6 +11,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: '',
+      hideOnScroll: true,
       logo: {
         alt: 'Mística Design System',
         src: 'img/misticaLogo.svg',
@@ -35,8 +36,7 @@ module.exports = {
           position: 'right',
         },
         {
-          to: 'docs/develop/introduction',
-          activeBasePath: 'docs/develop',
+          to: 'develop',
           label: 'Develop',
           position: 'right',
         },
@@ -54,7 +54,7 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'light',
+      style: 'dark',
       links: [
         {
           title: 'Design',
@@ -122,7 +122,12 @@ module.exports = {
       trackingID: 'UA-136245358-7',
       // Optional fields.
       anonymizeIP: false, // Should IPs be anonymized?
-    },
+    }
+    // algolia: {
+    //   apiKey: 'YOUR_API_KEY',
+    //   indexName: 'YOUR_INDEX_NAME',
+    //   searchParameters: {}, // Optional (if provided by Algolia)
+    // },
   },
   presets: [
     [
