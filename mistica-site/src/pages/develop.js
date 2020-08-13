@@ -135,7 +135,7 @@ function Home() {
                           styles.getStarted,
                         )}
                         to={useBaseUrl('docs/design/introduction')}>
-                        Go to Playroom
+                        Go to Playroom →
                       </Link>
                     </div>
                   </div>
