@@ -139,7 +139,7 @@ function Home() {
                       </Link>
                     </div>
                   </div>
-                  <img src="img/playroom.png"></img>
+                  <img src={useBaseUrl('img/playroom.png')}/>
                   
                 </div>
               </div>
