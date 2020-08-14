@@ -13,7 +13,7 @@ sidebar_label: Forms
 </MultiBrandExample>
 
 <br/>
-
+    
 <br/>
 
 This documentation is intended to establish guidelines for designing forms with the different components that comprise the Novum design system, known as Mística. The objective is to learn about their use, behavior, the elements that comprise them and the types of structures that we can build.

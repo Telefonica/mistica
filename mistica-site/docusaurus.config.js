@@ -123,11 +123,11 @@ module.exports = {
       // Optional fields.
       anonymizeIP: false, // Should IPs be anonymized?
     }
-    // algolia: {
-    //   apiKey: 'YOUR_API_KEY',
-    //   indexName: 'YOUR_INDEX_NAME',
-    //   searchParameters: {}, // Optional (if provided by Algolia)
-    // },
+    algolia: {
+      apiKey: 'e92dcfd99d0dd1cbacfcb33f95865578',
+      indexName: 'telefonica_mistica',
+      searchParameters: {}, // Optional (if provided by Algolia)
+    },
   },
   presets: [
     [

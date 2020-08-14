@@ -41,21 +41,21 @@
 /* ----- Fonts ----- */
 @font-face {
 	font-family: 'Telefonica';
-	src: url('/fonts/TelefonicaWeb-Bold.woff') format('woff');
+	src: useBaseUrl('/fonts/TelefonicaWeb-Bold.woff') format('woff');
 	font-weight: bold;
 	font-style: bold;
 }
 
 @font-face {
 	font-family: 'Telefonica';
-	src: url('/fonts/telefonica/TelefonicaWeb-Light.woff') format('woff');
+	src: useBaseUrl('/fonts/telefonica/TelefonicaWeb-Light.woff') format('woff');
 	font-weight: lighter;
 	font-style: lighter;
 }
 
 @font-face {
 	font-family: 'Telefonica';
-	src: url('/fonts/telefonica/TelefonicaWeb-Regular.woff') format('woff');
+	src: useBaseUrl('/fonts/telefonica/TelefonicaWeb-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -287,3 +287,7 @@ h1, h2, h3, h4, h5, h6, li, p, a{
   float: right;
 }
 
+.Hola{
+  width: 10px;
+  background: yellow;
+}
