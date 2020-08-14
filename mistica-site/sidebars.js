@@ -12,5 +12,7 @@ module.exports = {
   components:  [
     "components/buttons",
     "components/forms",
+    "components/feedbacks",
+    "components/headers",
   ],
 };
