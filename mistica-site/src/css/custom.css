@@ -300,8 +300,8 @@ h1, h2, h3, h4, h5, h6, li, p, a{
   padding-bottom: 0px !important;
   position: relative;
   top: 0px !important;
-  width: 7px !important;
-  margin-left: 7px;
+  width: 4px !important;
+  margin-left: 12px !important;
 }
 
 .DocSearch-Button-Placeholder {
@@ -322,17 +322,17 @@ h1, h2, h3, h4, h5, h6, li, p, a{
   color: var(--ifm-color-primary) !important;
 }
 
-.DocSearch-Button:active, .DocSearch-Button:focus {
-  background: var(--ifm-color-white) !important;
-  box-shadow: var(--docsearch-searchbox-shadow);
+.DocSearch-Button:active, .DocSearch-Button:focus, .DocSearch-Button:hover {
+  background: #f4f4f4 !important;
+  box-shadow: none !important;
   color: var(--docsearch-text-color);
   outline: none;
   border: none !important;
 }
 
 
-
 html[data-theme='light'] .DocSearch {
+  --docsearch-searchbox-shadow: 0px 0px 0px 2px var(--ifm-color-primary);
   --docsearch-primary-color: var(--ifm-color-secondary);
   --docsearch-text-color: var(--ifm-color-primary);
   --docsearch-muted-color: var(--ifm-color-neutral);
