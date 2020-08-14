@@ -9,6 +9,15 @@ module.exports = {
   projectName: 'mistica', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'], // https://v2.docusaurus.io/docs/markdown-features/#interactive-code-editor
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-136245358-7',
+      // Optional fields.
+      anonymizeIP: false, // Should IPs be anonymized?
+    },
+    algolia: {
+      apiKey: 'e92dcfd99d0dd1cbacfcb33f95865578',
+      indexName: 'telefonica_mistica',
+    },
     navbar: {
       title: '',
       hideOnScroll: true,
@@ -117,16 +126,6 @@ module.exports = {
           ],
         },
       ],
-    },
-    googleAnalytics: {
-      trackingID: 'UA-136245358-7',
-      // Optional fields.
-      anonymizeIP: false, // Should IPs be anonymized?
-    }
-    algolia: {
-      apiKey: 'e92dcfd99d0dd1cbacfcb33f95865578',
-      indexName: 'telefonica_mistica',
-      searchParameters: {}, // Optional (if provided by Algolia)
     },
   },
   presets: [
