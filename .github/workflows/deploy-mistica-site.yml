@@ -15,9 +15,10 @@ jobs:
           node-version: '12.x'
       - name: Test Build
         run: |
-          if [ -e mistica-site/yarn.lock ]; then
+          cd mistica-site
+          if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
-          elif [ -e mistica-site/package-lock.json ]; then
+          elif [ -e package-lock.json ]; then
           npm ci
           else
           npm i
@@ -51,9 +52,9 @@ jobs:
         run: |
           git config --global user.email "actions@gihub.com"
           git config --global user.name "gh-actions"
-          if [ -e mistica-site/yarn.lock ]; then
+          if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
-          elif [ -e mistica-site/package-lock.json ]; then
+          elif [ -e package-lock.json ]; then
           npm ci
           else
           npm i
