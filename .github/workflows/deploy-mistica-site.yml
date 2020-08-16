@@ -17,7 +17,7 @@ jobs:
         run: |
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
-          elif [ -e mistica-site/package-lock.json ]; then
+          elif [ -e ./mistica-site/package-lock.json ]; then
           npm ci
           else
           npm i
@@ -53,7 +53,7 @@ jobs:
           git config --global user.name "gh-actions"
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
-          elif [ -e mistica-site/package-lock.json ]; then
+          elif [ -e ./mistica-site/package-lock.json ]; then
           npm ci
           else
           npm i
