@@ -3,8 +3,6 @@ name: deploy to mistica site
 on:
   pull_request:
     branches: [master]
-    paths:
-    - 'mistica-site/**'
   push:
     branches: [master]
     paths:
