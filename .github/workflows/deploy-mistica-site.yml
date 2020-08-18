@@ -3,6 +3,8 @@ name: deploy to mistica site
 on:
   push:
     branches: [master]
+    paths:
+    - 'mistica-site/**'
 
 jobs:
   checks:
