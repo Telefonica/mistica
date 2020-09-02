@@ -35,7 +35,7 @@ The single card message is the default layout used to explain a new feature in a
 * Subtitle
 * Action \(1 Button / 2 Buttons / 1 Button + Link\)
 
-![](../../../.gitbook/assets/inapp1.jpg)
+![](../img/inapp1.jpg)
 
 ### Slideshow
 
@@ -47,7 +47,7 @@ The slideshow message is the available layout used to explain a series of specif
 * Previous card \(Back button / No button\)
 * Last card \(1 Button / 2 Buttons / 1 Button + Link\)
 
-![](../../../.gitbook/assets/inapp2%20%281%29.jpg)
+![](../img/inapp2%20%281%29.jpg)
 
 ### **Bullet list**
 
@@ -58,7 +58,7 @@ A bullet message is an option used only when the single card is not enough and h
 * Checks \(Up to 3\)
 * Action \(1 Button / 2 Buttons / 1 Button + Link\)
 
-![](../../../.gitbook/assets/inapp3%20%281%29.jpg)
+![](../img/inapp3%20%281%29.jpg)
 
 ## Modes available
 

@@ -16,7 +16,7 @@ Croutons persist for 5 seconds. Users can always dismiss them by swiping up.
 
 More than one crouton can never be shown in the same screen. If more than one crouton need to be shown simultaneously, closing one should trigger showing the next one and so on.
 
-![](../../../../.gitbook/assets/ios-system-crouton.jpg)
+![](../../img/ios-system-crouton.jpg)
 
 
 

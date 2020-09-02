@@ -14,5 +14,6 @@ module.exports = {
     "components/forms",
     "components/feedbacks",
     "components/headers",
+    "components/badges",
   ],
 };

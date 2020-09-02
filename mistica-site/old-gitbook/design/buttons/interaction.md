@@ -12,7 +12,7 @@ It's very important for users to **get feedback** when they **interact** with th
 * A loading icon will appear in the intermediate state next to a text label and it will express the action in gerund. The button will go now into a disabled state. Consequently, users won't be left wondering if the action is really being done. 
 * To keep the button from getting frozen in that state and making the user frustrated, a maximum time \(TBD\) the button will stay in a loading state should be defined. 
 
-![](../../.gitbook/assets/interaction_loading.gif)
+![](../img/interaction_loading.gif)
 
 {% hint style="info" %}
 The loading state should be used when a wait needs to be backed up with context about the action. For example, during a payment process where we estimate that payment transactions will create a waiting time for the user.
@@ -26,7 +26,7 @@ When a flow is defined, in addition to the button copy for the normal state it's
 
 The buttons in flows should always be positioned statically at the bottom of the screen. These buttons go inside a container, which helps to avoid problems with seeing the content when users scroll.
 
-![](../../.gitbook/assets/interaction_scroll.gif)
+![](../img/interaction_scroll.gif)
 
-![Fixed button scroll detail](../../.gitbook/assets/interaction_scroll_02.gif)
+![Fixed button scroll detail](../img/interaction_scroll_02.gif)
 

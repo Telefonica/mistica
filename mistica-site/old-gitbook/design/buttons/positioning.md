@@ -19,21 +19,21 @@ The buttons should follow specific rules for positioning depending on the number
 
 El tamaño del botón vendrá definido por el contenido de este \(text label\), partiendo siempre de un mínimo de 156px de anchura.
 
-![Button size](../../.gitbook/assets/positioning_betweenbuttons_oneaction.png)
+![Button size](../img/positioning_betweenbuttons_oneaction.png)
 
 **Two actions**
 
 Generally speaking, they will be positioned horizontally and take up the entire width of the space from one side to the other. This makes it possible to optimise the space without cluttering up the interface. The secondary action should be placed on the left and the primary action on the right.
 
-![Horizontal positioning](../../.gitbook/assets/positioning_betweenbuttons_twoaction.png)
+![Horizontal positioning](../img/positioning_betweenbuttons_twoaction.png)
 
 When the width of the text is greater than the minimum button width \(when the text is wider than what the button padding allows\), the buttons should be placed vertically, one on top of the other. The primary action should be placed above the secondary one. In this case, the size of both buttons will be determined by the largest button.
 
-![Positioning in relation to the length of the text](../../.gitbook/assets/positioning_betweenbuttons_twoaction_02.png)
+![Positioning in relation to the length of the text](../img/positioning_betweenbuttons_twoaction_02.png)
 
 If the second action is a link button, the buttons should never be placed horizontally, one beside the other, but vertically with the link button under the other button.
 
-![Positioning between a button and a link button](../../.gitbook/assets/positioning_betweenbuttons_twoaction_03.png)
+![Positioning between a button and a link button](../img/positioning_betweenbuttons_twoaction_03.png)
 
 {% hint style="info" %}
 There can never be more than two actions associated with a component or outside flows and processes. A good practice is that you should always use fewer buttons and only when they are really needed.
@@ -59,17 +59,17 @@ When the resolution of the screen increases, the space reserved for components a
 
 The size of the button will be defined by its content \(text label\), but it will always have a minimum width of 156px.
 
-![Button size](../../.gitbook/assets/positioning_tablet-and-desktop_oneaction.png)
+![Button size](../img/positioning_tablet-and-desktop_oneaction.png)
 
 #### Two actions
 
 Buttons will be positioned horizontally, one beside the other, placing the main action on the right. The size of the buttons will be determined by the size of the biggest button.
 
-![Horizontal positioning](../../.gitbook/assets/positioning_tablet-and-desktop_twoaction.png)
+![Horizontal positioning](../img/positioning_tablet-and-desktop_twoaction.png)
 
 If the second action is a link button, the actions should be positioned horizontally one next to the other. And the link button should be on the right and the main action should be on the left.
 
-![Positioning between a button and a link button](../../.gitbook/assets/positioning_tablet-and-desktop_twoaction_02.png)
+![Positioning between a button and a link button](../img/positioning_tablet-and-desktop_twoaction_02.png)
 
 ## Button position in relation to the layout
 
@@ -91,19 +91,19 @@ This provides better coherence and stability. A button within a flow will not be
 
 The button should be statically positioned at the bottom of the screen and take up 100% of the width of the grid.
 
-![](../../.gitbook/assets/positioning_flows_oneaction.png)
+![](../img/positioning_flows_oneaction.png)
 
 #### Two actions
 
 Actions are placed above each other. Less important action should be placed under the primary one. The size of the buttons occupies 100% of the screen width.
 
-![](../../.gitbook/assets/positioning_flows_twoaction.png)
+![](../img/positioning_flows_twoaction.png)
 
 ### 2. In components
 
 The rules stated above are for actions on flow and process screens. However, if a button is associated and related with a component, the button should be placed beneath the component and positioned in relation to the distribution of its content.
 
-![Button position in relation to content centred on the layout](../../.gitbook/assets/positioning_flows_components_01.png)
+![Button position in relation to content centred on the layout](../img/positioning_flows_components_01.png)
 
-![Button position in relation to left aligned content](../../.gitbook/assets/positioning_flows_components_02.png)
+![Button position in relation to left aligned content](../img/positioning_flows_components_02.png)
 

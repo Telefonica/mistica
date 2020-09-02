@@ -13,7 +13,7 @@ For cached screens, where we want to convey users that the presented content is 
 * For iOS a [progress bar](../components/ios/progress-bar.md)
 * For Android a [progress bar](../components/android/progress-bar.md)
 
-![](../../../.gitbook/assets/progress-bar.jpg)
+![](../img/progress-bar.jpg)
 
 This is also shown in webviews in browser mode \(check out the documentation for [Android](../../webviews/android/browser.md) and [iOS](../../webviews/ios/browser.md)\)
 
@@ -27,15 +27,15 @@ Therefore, in this case please use:
 * For Android a [skeleton](../components/android/skeleton.md)
 * For web a [skeleton](../components/web/skeleton.md)
 
-![](../../../.gitbook/assets/skeleton.jpg)
+![](../img/skeleton.jpg)
 
 If the estimated load time is very short \(in the range of 0-500ms\) using spinners without any text should be the best solution, as users won’t be able to read any message in such a short time or interpret a skeleton appropriately.
 
-![](../../../.gitbook/assets/spinner-no-text.jpg)
+![](../img/spinner-no-text.jpg)
 
 If the estimated load time is very short \(in the range of 0-500ms\) using spinners without any text should be the best solution, as users won’t be able to read any message in such a short time or interpret a skeleton appropriately.
 
-![](../../../.gitbook/assets/spinner-text.jpg)
+![](../img/spinner-text.jpg)
 
 Therefore, in these cases please use:
 
@@ -47,7 +47,7 @@ We just showcased how to indicate a loading process when navigating between scre
 
 In these cases, if possible from a design standpoint, a spinner should be shown in the element that triggered the loading indicator \(for example, a button\)
 
-![](../../../.gitbook/assets/loading-button.jpg)
+![](../img/loading-button.jpg)
 
 
 

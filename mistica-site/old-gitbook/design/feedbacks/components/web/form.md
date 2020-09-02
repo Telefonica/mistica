@@ -10,5 +10,5 @@ Also take into account that form errors related with login are an exception to t
 
 These error messages are persistent until users retry submitting the form. 
 
-![](../../../../.gitbook/assets/sofa_form.jpg)
+![](../../img/sofa_form.jpg)
 

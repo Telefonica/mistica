@@ -37,7 +37,7 @@ The usage of every button will depend on its context and the functionality we wa
 | **Contextual button** | Accompanies a specific element of the interface and causes an instantaneous action on that component. | Low |
 | **Danger button** | Causes a destructive and irreversible action. | High |
 
-![A button&apos;s level of emphasis helps to determine its appearance, typography and placement](../../.gitbook/assets/usage_typology_emphasis.png)
+![A button&apos;s level of emphasis helps to determine its appearance, typography and placement](../img/usage_typology_emphasis.png)
 
 ### Variations
 

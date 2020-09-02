@@ -25,7 +25,7 @@ Pdf or other type of documents that should be opened into our app.
 
 It gives to the users the opportunity to navigate inside the webview or to leave it and back to the app as well as other native browser options.
 
-![](../../../.gitbook/assets/ios_browser.png)
+![](../img/ios_browser.png)
 
 ### **Back behaviour**
 
@@ -40,7 +40,7 @@ The default transition vertically slides the modal view up from the bottom of th
 
 Lineal progress indicator with brand color under the navigation bar. The indicator animates along the length of the track.
 
-![](../../../.gitbook/assets/ios_progress-indicator_browser.png)
+![](../img/ios_progress-indicator_browser.png)
 
 ### Error
 
@@ -62,14 +62,14 @@ Not configurable - Always false.
 Not configurable - always true  
 URL and reload option always on the right side of the navigation bar.
 
-![](../../../.gitbook/assets/ios_browser_navbar.png)
+![](../img/ios_browser_navbar.png)
 
 ### Tool bar
 
 Not configurable  - always true  
 With navigation actions and browser options: share and open in safari..
 
-![](../../../.gitbook/assets/ios_browser_toolbar.png)
+![](../img/ios_browser_toolbar.png)
 
 ## Useful links <a id="useful-links"></a>
 

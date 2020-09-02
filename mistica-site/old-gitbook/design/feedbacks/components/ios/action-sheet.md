@@ -12,5 +12,5 @@ Always provide a Cancel button to add clarity. Cancel buttons should always be i
 
 As we use action sheets to confirm destructive actions, these should always be styled in red color. 
 
-![](../../../../.gitbook/assets/ios_actionsheet.jpg)
+![](../../img/ios_actionsheet.jpg)
 

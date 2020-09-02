@@ -10,7 +10,7 @@ Also take into account that form errors related with login are an exception to t
 
 These error messages are persistent until users retry submitting the form. 
 
-![](../../../../.gitbook/assets/ios_form.jpg)
+![](../../img/ios_form.jpg)
 
 
 

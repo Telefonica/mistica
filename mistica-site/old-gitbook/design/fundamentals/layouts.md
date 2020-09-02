@@ -16,7 +16,7 @@ Un layout está formado por diferentes tipos de espacios.
 2. Espacio entre bloques dentro del contenedor
 3. Espacio entre elementos dentro de un bloque
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../img/image%20%281%29.png)
 
 ### \[LVL 1\] Espacio exterior del contenedor
 
@@ -108,7 +108,7 @@ Solo cambiarán las distancias relativas a cada elemento.
 {% tab title="Origami layout exercise" %}
 En este archivo de Origami, se puede ver como funciona un layout de manera automática.
 
-{% file src="../../.gitbook/assets/layout \(1\).zip" caption="Origami file with layout" %}
+{% file src="../img/layout \(1\).zip" caption="Origami file with layout" %}
 {% endtab %}
 {% endtabs %}
 

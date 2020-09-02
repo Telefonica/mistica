@@ -23,7 +23,7 @@ Critical internal flows where we don’t want the user to leave in an easy way.
 
 ## **Behaviour**
 
-![Android Internal Flow Behaviour](../../../../.gitbook/assets/android_internal_flow.png)
+![Android Internal Flow Behaviour](../../img/android_internal_flow.png)
 
 ### **Back behaviour**
 
@@ -37,7 +37,7 @@ Given by the system \(Android version\)
 
 Android circular progress indicator with brand color + generic text
 
-![](../../../../.gitbook/assets/android_progress-indicator.png)
+![](../../img/android_progress-indicator.png)
 
 ### Error
 
@@ -60,12 +60,12 @@ Not configurable - Always false.
 
 True - by default
 
-![](../../../../.gitbook/assets/android_internal_flow_navbar_true.png)
+![](../../img/android_internal_flow_navbar_true.png)
 
 False - when an image is designed to reach the top of the screen.   
 Actions keep floating when user scrolls down
 
-![](../../../../.gitbook/assets/android_internal_flow_navbar_false.png)
+![](../../img/android_internal_flow_navbar_false.png)
 
 ## Useful links
 

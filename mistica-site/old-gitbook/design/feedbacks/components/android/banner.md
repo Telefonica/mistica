@@ -10,5 +10,5 @@ Please use short, descriptive and easy to understand copywriting. Avoid technica
 
 Based on the importance of the message, banners have different subtypes. By default, users can dismiss banners by tapping on the close action. “Critical” banners are an exception to this rule, as they have no close action and therefore persist until users fix an important issue related to them.
 
-![](../../../../.gitbook/assets/android_banner.jpg)
+![](../../img/android_banner.jpg)
 

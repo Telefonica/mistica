@@ -11,17 +11,17 @@ Please use:
 * For Android a [dialog](../components/android/dialog.md)
 * For web a [dialog](../components/web/dialog.md)
 
-![](../../../.gitbook/assets/action-confirmation-android.jpg)
+![](../img/action-confirmation-android.jpg)
 
 For iOS we establish two different scenarios and component uses:
 
 For destructive confirmations, meaning those that result in destroying information \(deleting messages, removing images, etc.\) please use [action sheets](../components/ios/action-sheet.md).
 
-![](../../../.gitbook/assets/action-confirmation-copy.jpg)
+![](../img/action-confirmation-copy.jpg)
 
 For all other types of confirmations, including abandoning multi-step processes while completing them, please use an [alert](../components/ios/alert.md).
 
-![](../../../.gitbook/assets/action-confirmation-alert.jpg)
+![](../img/action-confirmation-alert.jpg)
 
 
 

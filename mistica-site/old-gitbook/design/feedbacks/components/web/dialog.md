@@ -20,5 +20,5 @@ Try to convey all the important information using the title and the actions, as 
 We use dialogs when users hasn't acceptance of terms and conditions and wants to continue with a process.
 {% endhint %}
 
-![](../../../../.gitbook/assets/sofa_dialog.jpg)
+![](../../img/sofa_dialog.jpg)
 

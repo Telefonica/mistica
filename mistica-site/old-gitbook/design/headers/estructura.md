@@ -6,7 +6,7 @@
 
 Conceptually, a header is made up of two blocks of related information, with these blocks being made up of different elements. We can use six different elements to communicate a message. Of these six, only the _Title_ is mandatory in the construction of headers.
 
-![1.Pre-title 2.Title 3.Pre-title 4. Amount 5.Action 6.Subtitle](../../.gitbook/assets/anatomia-greater-than-app-greater-than-headers-.png)
+![1.Pre-title 2.Title 3.Pre-title 4. Amount 5.Action 6.Subtitle](../img/anatomia-greater-than-app-greater-than-headers-.png)
 
 _Block 1_
 
@@ -29,9 +29,9 @@ On the website we lack the _Navigation Bar_ component, and therefore its _Large_
 * **Main Tab Header** The Main Tab Header is equivalent to the Large Navigation Bars in the app
 * **Common Header** The Common Header is equivalent to the Headers in the app
 
-![Main Tab Header](../../.gitbook/assets/tipologia-greater-than-web-greater-than-main-tab-headers-.png)
+![Main Tab Header](../img/tipologia-greater-than-web-greater-than-main-tab-headers-.png)
 
-![Common Header](../../.gitbook/assets/tipologia-greater-than-web-greater-than-common-headers-.png)
+![Common Header](../img/tipologia-greater-than-web-greater-than-common-headers-.png)
 
 ### Main tab header
 
@@ -39,7 +39,7 @@ On the website we lack the _Navigation Bar_ component, and therefore its _Large_
 
 Conceptually, a _Main Tab Header_ is made up of two blocks of related information, with these blocks being made up of different elements. There are three elements with which we can communicate a message. Of these three elements, only the _Title_ is mandatory in the construction of headers.
 
-![1. Title 2. Description 3. Action](../../.gitbook/assets/anatomia-greater-than-app-greater-than-main-tab-headers-.png)
+![1. Title 2. Description 3. Action](../img/anatomia-greater-than-app-greater-than-main-tab-headers-.png)
 
 _Block 1_
 
@@ -56,7 +56,7 @@ Block 2
 
 As with the app, a _Common Header_ is conceptually made up of two blocks of related information, with these blocks being made up of different elements. There are six elements with which we can communicate a message. Of these six elements, only the _Title_ is mandatory in the construction of headers.
 
-![1.Pre-title 2.Title 3.Pre-title 4. Amount 5.Action 6.Subtitle](../../.gitbook/assets/anatomia-greater-than-app-greater-than-common-headers-.png)
+![1.Pre-title 2.Title 3.Pre-title 4. Amount 5.Action 6.Subtitle](../img/anatomia-greater-than-app-greater-than-common-headers-.png)
 
 _Block 1_
 

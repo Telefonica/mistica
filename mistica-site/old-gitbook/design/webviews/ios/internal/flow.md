@@ -25,11 +25,11 @@ Critical internal flows where we don’t want the user to leave in an easy way.
 
 ### **Standard nested flow behaviour**
 
-![iOS Internal Flow Standard behaviour](../../../../.gitbook/assets/ios_internal_flow_standard.png)
+![iOS Internal Flow Standard behaviour](../../img/ios_internal_flow_standard.png)
 
 ### **Purchase flow behaviour**
 
-![iOS Internal Flow Purchase behaviour](../../../../.gitbook/assets/ios_internal_flow_purchase.png)
+![iOS Internal Flow Purchase behaviour](../../img/ios_internal_flow_purchase.png)
 
 ### **Back behaviour**
 
@@ -43,7 +43,7 @@ Push \(from the right side\)
 
 Native progress indicator with brand color + generic text
 
-![](../../../../.gitbook/assets/ios_progress-indicator.png)
+![](../../img/ios_progress-indicator.png)
 
 ### Error
 
@@ -67,12 +67,12 @@ Standard nested flow - Always True
 
 True - by default
 
-![](../../../../.gitbook/assets/ios_internal_flow_navbar_true.png)
+![](../../img/ios_internal_flow_navbar_true.png)
 
 False - when an image is designed to reach the top of the screen  
 Actions keep floating when user scrolls down
 
-![](../../../../.gitbook/assets/android_internal_flow_navbar_false.png)
+![](../../img/android_internal_flow_navbar_false.png)
 
 ## Useful links <a id="useful-links"></a>
 

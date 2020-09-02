@@ -6,7 +6,7 @@ description: >-
 
 # Buttons
 
-![](../../.gitbook/assets/buttons_header.png)
+![](../img/buttons_header.png)
 
 This documentation intends to set out guidelines for using the various buttons that are part of Novum's design system, called _Mística_. The goal is to learn about the typologies, when to use each one and how to do so depending on the context we are working with.
 

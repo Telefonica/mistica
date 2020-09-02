@@ -4,7 +4,7 @@
 
 All buttons are designed to drop down over a background with a colour or image where the contrast is changed. There is an inverse version of every button that is always used whenever needed because of the visual context of the screen for this purpose.
 
-![](../../../.gitbook/assets/typology_variations_inverse.png)
+![](../img/typology_variations_inverse.png)
 
 ## Small buttons
 

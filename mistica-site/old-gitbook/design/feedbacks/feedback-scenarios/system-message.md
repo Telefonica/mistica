@@ -12,5 +12,5 @@ Please use:
 * For Android a [snackbar](../components/android/snackbar.md)
 * For web a [snackbar](../components/web/snackbar.md)
 
-![](../../../.gitbook/assets/error-crouton%20%281%29.jpg)
+![](../img/error-crouton%20%281%29.jpg)
 

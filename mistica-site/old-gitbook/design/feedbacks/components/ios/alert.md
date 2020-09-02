@@ -22,7 +22,7 @@ Try to convey all the important information using the title and the actions, as 
 We use alerts when users hasn't acceptance of terms and conditions and wants to continue with a process.
 {% endhint %}
 
-![](../../../../.gitbook/assets/ios_alert.jpg)
+![](../../img/ios_alert.jpg)
 
 
 

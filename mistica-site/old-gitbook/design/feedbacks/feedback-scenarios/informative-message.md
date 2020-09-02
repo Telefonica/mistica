@@ -12,9 +12,9 @@ Please use:
 * For Android a [banner](../components/android/banner.md) or [info screen](https://app.gitbook.com/@tef-novum/s/novum/~/drafts/-LtU-1GY-zzIljdw9K5C/design/feedbacks/components/android/info-screen)
 * For web a [banner](../components/web/banner.md) or [info screen](https://app.gitbook.com/@tef-novum/s/novum/~/drafts/-LtU-1GY-zzIljdw9K5C/design/feedbacks/components/web/info-screen)
 
-![banner](../../../.gitbook/assets/informative-message.jpg)
+![banner](../img/informative-message.jpg)
 
-![Info screen](../../../.gitbook/assets/info-screen.jpg)
+![Info screen](../img/info-screen.jpg)
 
 
 

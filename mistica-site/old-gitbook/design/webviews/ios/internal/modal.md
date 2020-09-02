@@ -20,11 +20,11 @@ Non critical subtasks, so it doesn’t matter if the users leave, that should be
 
 This mode gives the user the opportunity to leave the whole flow and also the possibility of going back chronologically.
 
-![iOS Internal Modal behaviour](../../../../.gitbook/assets/ios_internal_modal.png)
+![iOS Internal Modal behaviour](../../img/ios_internal_modal.png)
 
 A subtask could have several steps/screens. Modal presentation should be applied for the first screen, and flow presentation should be applied from the step 2 to the end of the subtask. Close option will remain until de subtask is finished or abandoned.
 
-![](../../../../.gitbook/assets/ios_internal_modal_subtask.png)
+![](../../img/ios_internal_modal_subtask.png)
 
 ### **Back behaviour**
 
@@ -38,7 +38,7 @@ The default transition vertically slides the modal view up from the bottom of th
 
 Native progress indicator with brand color + generic text
 
-![](../../../../.gitbook/assets/ios_progress-indicator.png)
+![](../../img/ios_progress-indicator.png)
 
 ### Error
 
@@ -61,12 +61,12 @@ Not configurable - Always false.
 
 True - by default
 
-![](../../../../.gitbook/assets/ios_internal_modal_navbar_true.png)
+![](../../img/ios_internal_modal_navbar_true.png)
 
 False - when an image is designed to reach the top of the screen  
 Actions keep floating when user scrolls down
 
-![](../../../../.gitbook/assets/ios_internal_modal_navbar_false.png)
+![](../../img/ios_internal_modal_navbar_false.png)
 
 ## Useful links <a id="useful-links"></a>
 

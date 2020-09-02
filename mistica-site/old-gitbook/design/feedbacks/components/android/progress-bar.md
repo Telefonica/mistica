@@ -4,5 +4,5 @@ We use progress bars as
 
 * \*\*\*\*[loading indicators](../../feedback-scenarios/loading-indicator.md)
 
-![](../../../../.gitbook/assets/android_progressbar.jpg)
+![](../../img/android_progressbar.jpg)
 

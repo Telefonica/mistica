@@ -12,5 +12,5 @@ Please use:
 * For Android a [tooltip](../components/android/tooltip.md)
 * For web a [tooltip](../components/web/tooltip.md)
 
-![](../../../.gitbook/assets/tooltip.jpg)
+![](../img/tooltip.jpg)
 

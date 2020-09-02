@@ -15,9 +15,9 @@ Please use:
 * for web a [dialog](../components/web/dialog.md)
 * For Android use a [dialog](../components/android/dialog.md). If the action is related to device permissions, use the specific format for this: the permission dialog
 
-![](../../../.gitbook/assets/action-requirement.jpg)
+![](../img/action-requirement.jpg)
 
-![](../../../.gitbook/assets/action-requirement-permission.jpg)
+![](../img/action-requirement-permission.jpg)
 
 
 

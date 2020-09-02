@@ -19,7 +19,7 @@ Please check out:
 * for Android the [Android success screen](../components/android/success-screen.md)
 * for web the [web success screen](../components/web/success-screen.md)
 
-![](../../../.gitbook/assets/success-screen.jpg)
+![](../img/success-screen.jpg)
 
 For **small and very specific actions** where it’s not possible to communicate success implicitly and where a success screen may be unnecessary \(for short processes or those not related with purchases, balance, upgrades, etc.\) consider using:
 
@@ -27,7 +27,7 @@ For **small and very specific actions** where it’s not possible to communicate
 * In Android a [snackbar](../components/android/snackbar.md)
 * in web a [snackbar](../components/web/snackbar.md)
 
-![](../../../.gitbook/assets/success-crouton.jpg)
+![](../img/success-crouton.jpg)
 
 Please use this components **sparingly**, as we should communicate implicitly the success of any action or process whenever possible.
 

@@ -14,5 +14,5 @@ Snackbars persist for 5 seconds and can’t be dismissed until that time has pas
 
 Multiple snackbars can never be shown in the same screen. If more than one snackbar need to be shown simultaneously, closing one should trigger showing the next one and so on.
 
-![](../../../../.gitbook/assets/sofa_snackbar.jpg)
+![](../../img/sofa_snackbar.jpg)
 

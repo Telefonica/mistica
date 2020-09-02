@@ -12,5 +12,5 @@ Please use:
 * For Android the [Android forms](../components/android/form.md)
 * For web the [web forms](../components/web/form.md)
 
-![](../../../.gitbook/assets/forms.jpg)
+![](../img/forms.jpg)
 

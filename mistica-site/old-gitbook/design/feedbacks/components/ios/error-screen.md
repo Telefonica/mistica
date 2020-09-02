@@ -10,7 +10,7 @@ Typically use a maximum of two actions to guide users to whatever is best next b
 
 If the process or action that triggered the error can be retried it may be a good idea using a “Retry” button as the primary action, especially if the error is something that may be temporary and the chances of success when retrying are high.
 
-![](../../../../.gitbook/assets/ios_error.jpg)
+![](../../img/ios_error.jpg)
 
 
 

@@ -8,5 +8,5 @@ We use spinners as
 
 Consider using the spinner with or without a title depending on the expected load time. If the expected load time is high enough \(500 ms and on\) for users to be able to read it, you should include a title with the spinner. This is critical for very high expected load times \(3s and on\), where you should prevent users indicating the expected load time with as much precision as possible \(for instance, favor using “a minute” over “a while”\).
 
-![](../../../../.gitbook/assets/sofa_spinner.jpg)
+![](../../img/sofa_spinner.jpg)
 

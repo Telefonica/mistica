@@ -21,16 +21,16 @@ The non-numeric badge:
 * The non-numeric badge is **displayed on the element that contains new information.**
   * If an element of the screen contains new information, **the tab bar should also indicate** the new information existence. 
 
-![](../../../.gitbook/assets/new-information-available.png)
+![](../img/new-information-available.png)
 
 ### Connection between the badge and the new information
 
 * The non-numeric badge should **guide the user** to the new information.
   * If the new information is placed at inner navigation levels, the badge should guide the user until the final new information destination \(like a breadcrumb\).
 
-![](../../../.gitbook/assets/connection-between-badge-and-information_%20%281%29.png)
+![](../img/connection-between-badge-and-information_%20%281%29.png)
 
-![](../../../.gitbook/assets/connection-between-badge-and-information_1.png)
+![](../img/connection-between-badge-and-information_1.png)
 
 ### Easy to clear
 

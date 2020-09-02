@@ -6,7 +6,7 @@ description: >-
 
 # Headers
 
-![](../../.gitbook/assets/header-cover.png)
+![](../img/header-cover.png)
 
 This documentation aims to establish guidelines for using the headings that are part of the _Mística_ design system.
 

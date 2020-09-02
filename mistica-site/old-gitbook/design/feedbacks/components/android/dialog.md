@@ -20,11 +20,11 @@ Try to convey all the important information using the title and the actions, as 
 We use dialogs when users hasn't acceptance of terms and conditions and wants to continue with a process.
 {% endhint %}
 
-![](../../../../.gitbook/assets/android_dialog.jpg)
+![](../../img/android_dialog.jpg)
 
 ### Permission dialog
 
 Please take into account that dialogs related with device permissions have a specific format and cannot be customized in any way, including copywriting.
 
-![](../../../../.gitbook/assets/android_dialog-permission.jpg)
+![](../../img/android_dialog-permission.jpg)
 

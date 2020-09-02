@@ -8,5 +8,5 @@ We use info screens for
 
 Typically use a maximum of two actions to guide users. Always make the most likely one prominent by using a primary button and display the others as a link to make a clear hierarchy.
 
-![](../../../../.gitbook/assets/sofa_info.png)
+![](../../img/sofa_info.png)
 

@@ -17,7 +17,7 @@ Launching an external website URL inside the app, only when it belongs to a know
 
 It gives to the users the opportunity to navigate inside the webview or to leave it and back to the app as well as other native browser options.
 
-![Android Browser Behaviour](../../../.gitbook/assets/android_browser.png)
+![Android Browser Behaviour](../img/android_browser.png)
 
 ### **Back behaviour**
 
@@ -32,7 +32,7 @@ The default transition vertically slides the modal view up from the bottom of th
 
 Lineal progress indicator with brand color under the navigation bar. The indicator animates along the length of the track.
 
-![](../../../.gitbook/assets/android_progress-indicator_browser.png)
+![](../img/android_progress-indicator_browser.png)
 
 ### Error
 
@@ -55,7 +55,7 @@ Not configurable - Always true.
 URL is shown in the navigation bar.  
 Kebab menu with browser options in the navigation bar.
 
-![](../../../.gitbook/assets/android_browser_navbar.png)
+![](../img/android_browser_navbar.png)
 
 ## Useful links <a id="useful-links"></a>
 

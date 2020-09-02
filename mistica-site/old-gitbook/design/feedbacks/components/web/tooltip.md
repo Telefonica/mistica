@@ -14,5 +14,5 @@ Users should always be able to close a tooltip, either by tapping the same eleme
 
 More than one tooltip can never be shown in the same screen.
 
-![](../../../../.gitbook/assets/sofa_tooltip.jpg)
+![](../../img/sofa_tooltip.jpg)
 

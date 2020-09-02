@@ -22,11 +22,11 @@ The type of language we use will range from a more functional language to a more
 
 We can build functional headers in which the elements are arranged in a structured way, allowing the user to identify them quickly and independently.
 
-![](../../.gitbook/assets/uso-greater-than-funcional-.png)
+![](../img/uso-greater-than-funcional-.png)
 
 ### Conversational structure
 
 Alternatively, we can design more organic content utilising conversational language, where the user is provided with all of the information of the message in the same sentence.
 
-![](../../.gitbook/assets/uso-greater-than-conversacional.png)
+![](../img/uso-greater-than-conversacional.png)
 

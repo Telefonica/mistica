@@ -8,5 +8,5 @@ We use load errors for
 
 If the content that couldn't be loaded is just a part of the whole screen and the latter is still comprehensible and has valuable information regardless, use the module instead of showing the full page error, as long as it's also technically possible.
 
-![](../../../../.gitbook/assets/ios_loaderror.jpg)
+![](../../img/ios_loaderror.jpg)
 

@@ -8,5 +8,5 @@ We use info screens for
 
 Typically use a maximum of two actions to guide users. Always make the most likely one prominent by using a primary button and display the others as a link to make a clear hierarchy.
 
-![](../../../../.gitbook/assets/ios_infomessage.jpg)
+![](../../img/ios_infomessage.jpg)
 

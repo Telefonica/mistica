@@ -20,7 +20,7 @@ In this way, every button gets associated with a volume level for the way we wan
 | Murmur | Icon button |
 | Whistle | Link button and Contextual button |
 
-![](../../.gitbook/assets/hierarchy_emphasis.png)
+![](../img/hierarchy_emphasis.png)
 
 ## Hierarchy in the layout
 
@@ -38,5 +38,5 @@ The main layout action can be accompanied by other buttons with less emphasis to
 When several main actions need to coexist in the same layout, for example, when there is a list of services the user can activate, the **small button** variant should be used.
 {% endhint %}
 
-![When there is more than one main action the small button variation should be used](../../.gitbook/assets/hierarchy_layout.png)
+![When there is more than one main action the small button variation should be used](../img/hierarchy_layout.png)
 

@@ -10,5 +10,5 @@ We use skeletons to reduce the perceived load time of a screen. Please take into
 
 For long expected load times \(3s and on\) you should warn users of how much time the process will take with as much precision as possible, so consider using a spinner with a title instead.
 
-![](../../../../.gitbook/assets/sofa_skeleton.jpg)
+![](../../img/sofa_skeleton.jpg)
 
