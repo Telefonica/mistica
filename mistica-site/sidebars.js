@@ -15,5 +15,8 @@ module.exports = {
     "components/feedbacks",
     "components/headers",
     "components/badges",
+    {
+      'Webviews': ['components/webviews/webviews', 'components/webviews/webview-ios', 'components/webviews/webview-android'],
+    },
   ],
 };
