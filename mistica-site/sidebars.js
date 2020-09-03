@@ -10,6 +10,9 @@ module.exports = {
     'Getting Started': ['develop/introduction', 'develop/android', 'develop/ios', 'develop/web']
   },
   components:  [
+    {
+      'Badge': ['components/badge/badge', 'components/badge/non-numeric-badge', 'components/badge/numeric-badge'],
+    },
     "components/buttons",
     "components/forms",
     "components/feedbacks",
