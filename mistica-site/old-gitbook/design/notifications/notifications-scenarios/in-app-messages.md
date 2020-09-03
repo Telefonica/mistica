@@ -7,16 +7,16 @@ description: >-
 
 # In-App Messages
 
-### **What is an In-App?**
+### What is an In-App?
 
 An in-app message is a message represented by a full-screen modal used to acknowledge users about new or revamped features within the app for whom they are segmented. This means that the message should be **understandable**, **representative** and **achievable** by the segmented user.
 
-### **What is NOT an In-App?**
+### What is NOT an In-App?
 
 An in-app message is not an element that indicates anything related about new information associated with an existing component or feature in the app nor new marketing promotions. For that goal, there’s another series of component that can be used with that purpose \(see: [Badge](./)\)  
 ****
 
-## **Usage examples**
+## Usage examples
 
 \* Replacement of the MyO2 Classic app to MyO2 NOVUM, with new features.
 
@@ -24,9 +24,9 @@ An in-app message is not an element that indicates anything related about new in
 
 \* Move support from top bar navigation to the main app bar and inform the users about this change.
 
-## **Layouts available**
+## Layouts available
 
-### **Single Card**
+### Single Card
 
 The single card message is the default layout used to explain a new feature in a concise and specific way.
 
@@ -49,7 +49,7 @@ The slideshow message is the available layout used to explain a series of specif
 
 ![](../img/inapp2%20%281%29.jpg)
 
-### **Bullet list**
+### Bullet list
 
 A bullet message is an option used only when the single card is not enough and highlight the key points of the feature in a more scannable way for the user.
 

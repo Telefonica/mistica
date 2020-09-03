@@ -26,11 +26,11 @@ In this way, every button gets associated with a volume level for the way we wan
 
 A hierarchy should also be established on every screen between the elements that make it up and the actions present. Two fundamental rules will be defined for that purpose:
 
-#### **Rule 1: Every screen should have a single main button**
+#### Rule 1: Every screen should have a single main button
 
 Every layout should have **a single primary button** to put the user's focus and attention on the main action.
 
-#### **Rule 2: Other complementary buttons**
+#### Rule 2: Other complementary buttons
 
 The main layout action can be accompanied by other buttons with less emphasis to establish a hierarchy between the actions on the screen.
 

@@ -49,11 +49,11 @@ module.exports = {
           label: 'Develop',
           position: 'right',
         },
-        {
-          href: 'http://www.google.es',  
-          label: 'Resources',
-          position: 'right',
-        },
+        // {
+        //   href: 'http://www.google.es',  
+        //   label: 'Resources',
+        //   position: 'right',
+        // },
         {
           href: 'https://mistica-web.now.sh/playroom',  
           label: 'Playroom →',

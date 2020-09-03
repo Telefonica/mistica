@@ -10,30 +10,30 @@ From the user’s point of view this flow imitates the native behaviour.
 
 We use this type of webview by default throughout the app unless we face a flow with special needs that fits better with a modal or browser flow \(see in the following sections\).
 
-## **Applications**
+## Applications
 
-### **1. Standard Nested Flow**
+### 1. Standard Nested Flow
 
 Where we just want to keep the native behaviour.
 
-### **2. Internal purchase flow or funnel**
+### 2. Internal purchase flow or funnel
 
 Critical internal flows where we don’t want the user to leave in an easy way.  
 
 
-## **Behaviour**
+## Behaviour
 
 ![Android Internal Flow Behaviour](../../img/android_internal_flow.png)
 
-### **Back behaviour**
+### Back behaviour
 
 Navigation bar back and native back are chronological \(back one step\)
 
-### **Entrance transition**
+### Entrance transition
 
 Given by the system \(Android version\)
 
-### **Progress indicator**
+### Progress indicator
 
 Android circular progress indicator with brand color + generic text
 

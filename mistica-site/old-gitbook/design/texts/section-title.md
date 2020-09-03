@@ -13,7 +13,7 @@ It is NOT a page title.
 
 It is NOT a header or an opening line/paragraph.
 
-## **How does it work?**
+## How does it work?
 
 A Section Title **helps to cluster** blocks of information within a form or a list of items i.e. it separates blocks according to groupings of content and information.
 

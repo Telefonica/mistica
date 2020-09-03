@@ -20,8 +20,8 @@ module.exports = {
                 type: 'category',
                 label: 'Internal',
                 items: [
-                  'design/webviews/ios/internal/flow',
-                  'design/webviews/ios/internal/modal',
+                  'design/webviews/android/internal/flow',
+                  'design/webviews/android/internal/modal',
                 ],
             },
             'design/webviews/android/browser',

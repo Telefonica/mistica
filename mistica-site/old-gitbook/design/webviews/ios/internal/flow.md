@@ -10,28 +10,28 @@ From the user’s point of view this flow imitates the native behaviour.
 
 We use this type of webview by default throughout the app unless we face a flow with special needs that fits better with a modal or browser flow \(see in the following sections\).
 
-## **Applications**
+## Applications
 
-### **1. Standard Nested Flow**
+### 1. Standard Nested Flow
 
 Where we just want to keep the native behaviour.
 
-### **2. Internal purchase flow or funnel**
+### 2. Internal purchase flow or funnel
 
 Critical internal flows where we don’t want the user to leave in an easy way.  
 
 
-## **Behaviour**
+## Behaviour
 
-### **Standard nested flow behaviour**
+### Standard nested flow behaviour
 
 ![iOS Internal Flow Standard behaviour](../../img/ios_internal_flow_standard.png)
 
-### **Purchase flow behaviour**
+### Purchase flow behaviour
 
 ![iOS Internal Flow Purchase behaviour](../../img/ios_internal_flow_purchase.png)
 
-### **Back behaviour**
+### Back behaviour
 
 Navigation bar back is chronological \(back one step\)
 
@@ -39,7 +39,7 @@ Navigation bar back is chronological \(back one step\)
 
 Push \(from the right side\)
 
-### **Progress indicator**
+### Progress indicator
 
 Native progress indicator with brand color + generic text
 
@@ -58,7 +58,7 @@ It could be modified using the web view javascript bridge message SET\_TITLE.
 
 ## Screen Configuration
 
-### **Tab** nav
+### Tab nav
 
 Purchase flow - Always False  
 Standard nested flow - Always True

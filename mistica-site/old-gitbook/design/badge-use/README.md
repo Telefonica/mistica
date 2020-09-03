@@ -4,7 +4,7 @@
 Please note this definition is being validated at the moment and it is not implementation-ready.
 :::
 
-### **What is a badge?**
+### What is a badge?
 
 A badge is an element used to indicate the user that there is new information associated with any component in the app.
 
@@ -13,7 +13,7 @@ For example, new information could be:
 * A new offer in an existing carrousel
 * A new message in an existing support chat
 
-### **What is not a badge?**
+### What is not a badge?
 
 A badge is not an element used to indicate the user the existence of new features in the app. Another element should be used for that objective.  
 

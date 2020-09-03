@@ -9,9 +9,9 @@ This type of webview is a way to step out of the normal flow of the app so the u
 
 Consider creating a modal context only when a task must be completed or abandoned to continue using the app.
 
-## **Applications**
+## Applications
 
-### **Subtask flow that can be abandoned**
+### Subtask flow that can be abandoned
 
 Non critical subtasks, so it doesn’t matter if the users leave, that should be accomplished or abandoned to continue using the app.
 
@@ -19,7 +19,7 @@ Non critical subtasks, so it doesn’t matter if the users leave, that should be
 **Don’t apply to purchase flows. For internal purchase flows should always be applied** [**Internal Webview mode with Flow Presentation.**](flow.md)\*\*\*\*
 :::
 
-## **Behaviour**
+## Behaviour
 
 This mode gives the user the opportunity to leave the whole flow and also the possibility of going back chronologically.
 
@@ -29,15 +29,15 @@ A subtask could have several steps/screens. Modal presentation should be applied
 
 ![](../../../../img/ios_internal_modal_subtask.png)
 
-### **Back behaviour**
+### Back behaviour
 
 Close action - the user leaves and closes the modal webview. It must continue showing from step 2 and so on.
 
-### **Entrance transition**
+### Entrance transition
 
 The default transition vertically slides the modal view up from the bottom of the screen and back down once dismissed.
 
-### **Progress indicator**
+### Progress indicator
 
 Native progress indicator with brand color + generic text
 

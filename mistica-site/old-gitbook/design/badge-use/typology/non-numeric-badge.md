@@ -16,7 +16,7 @@ The non-numeric badge:
 
 ## Behavior
 
-### **New information is available**
+### New information is available
 
 * The non-numeric badge is **displayed on the element that contains new information.**
   * If an element of the screen contains new information, **the tab bar should also indicate** the new information existence. 
