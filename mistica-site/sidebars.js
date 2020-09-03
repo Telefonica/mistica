@@ -11,7 +11,11 @@ module.exports = {
   },
   components:  [
     {
-      'Badge': ['components/badge/usage', 'components/badge/non-numeric-badge', 'components/badge/numeric-badge'],
+      'Badge': [
+              'components/badge/usage',
+              'components/badge/non-numeric-badge',
+              'components/badge/numeric-badge'
+              ],
     },
     {
       'Buttons': ['components/buttons/usage',
@@ -125,5 +129,58 @@ module.exports = {
                   },
                 ],
     },
+    {
+      'Notifications': [
+                'components/notifications/in-app-messages',
+              ],
+    },
+    {
+      'Texts': [
+                'components/texts/section-title',
+              ],
+    },
+    {
+      'Headers': [
+                'components/headers/usage',
+                'components/headers/structure',
+              ],
+    },
+    {
+      'Webviews': [
+        'components/webviews/introduction',
+        {
+          type: 'category',
+          label: 'Android',
+          items: [
+            {
+              type: 'category',
+              label: 'Internal',
+              items: [
+                'components/webviews/ios/internal/flow',
+                'components/webviews/ios/internal/modal',
+              ],
+            },
+            'components/webviews/android/browser',
+            'components/webviews/android/configuration-by-default',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'iOS',
+          items: [
+            {
+              type: 'category',
+              label: 'Internal',
+              items: [
+                'components/webviews/ios/internal/flow',
+                'components/webviews/ios/internal/modal',
+              ],
+            },
+            'components/webviews/ios/browser',
+            'components/webviews/ios/configuration-by-default',
+          ],
+        },
+        ],
+      },
   ],
 };

@@ -1,6 +1,6 @@
 ---
 id: buttons
-title: Buttons
+title: TEST PAGE
 ---
 
 <!-- AQUÍ EMPIEZA EL CONTENIDO -->
