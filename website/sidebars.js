@@ -5,11 +5,56 @@ module.exports = {
     {
       'Foundamentals': ['design/colors', 'design/texts', 'design/layouts'],
     },
+    {
+    'Navigation': [
+      {
+        type: 'category',
+        label: 'Webviews',
+        items: [
+          'design/webviews/introduction',
+            {
+              type: 'category',
+              label: 'Android',
+              items: [
+              {
+                type: 'category',
+                label: 'Internal',
+                items: [
+                  'design/webviews/ios/internal/flow',
+                  'design/webviews/ios/internal/modal',
+                ],
+            },
+            'design/webviews/android/browser',
+            'design/webviews/android/configuration-by-default',
+          ],
+          },
+          {
+            type: 'category',
+            label: 'iOS',
+            items: [
+            {
+              type: 'category',
+              label: 'Internal',
+              items: [
+                'design/webviews/ios/internal/flow',
+                'design/webviews/ios/internal/modal',
+            ],
+            },
+              'design/webviews/ios/browser',
+              'design/webviews/ios/configuration-by-default',
+            ],
+            },
+          ],
+
+      },
+    ],
+    },
   ],
   develop: {
     'Getting Started': ['develop/introduction', 'develop/android', 'develop/ios', 'develop/web']
   },
   components:  [
+    "components/introduction",
     {
       'Badge': [
               'components/badge/usage',
@@ -39,7 +84,6 @@ module.exports = {
                   'components/buttons/accessibility'
                 ],
     },
-    "components/buttons",
     {
     'Feedbacks': [
       {
@@ -130,6 +174,12 @@ module.exports = {
                 ],
     },
     {
+      'Headers': [
+                'components/headers/usage',
+                'components/headers/structure',
+              ],
+    },
+    {
       'Notifications': [
         'components/notifications/introduction',        
         'components/notifications/in-app-messages',
@@ -140,48 +190,5 @@ module.exports = {
                 'components/texts/section-title',
               ],
     },
-    {
-      'Headers': [
-                'components/headers/usage',
-                'components/headers/structure',
-              ],
-    },
-    {
-      'Webviews': [
-        'components/webviews/introduction',
-        {
-          type: 'category',
-          label: 'Android',
-          items: [
-            {
-              type: 'category',
-              label: 'Internal',
-              items: [
-                'components/webviews/ios/internal/flow',
-                'components/webviews/ios/internal/modal',
-              ],
-            },
-            'components/webviews/android/browser',
-            'components/webviews/android/configuration-by-default',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'iOS',
-          items: [
-            {
-              type: 'category',
-              label: 'Internal',
-              items: [
-                'components/webviews/ios/internal/flow',
-                'components/webviews/ios/internal/modal',
-              ],
-            },
-            'components/webviews/ios/browser',
-            'components/webviews/ios/configuration-by-default',
-          ],
-        },
-        ],
-      },
   ],
 };

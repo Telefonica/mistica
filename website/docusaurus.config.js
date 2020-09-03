@@ -39,7 +39,7 @@ module.exports = {
           position: 'right',
         },
         {
-          to: 'docs/components/buttons',
+          to: 'docs/components/introduction',
           activeBasePath: 'docs/components',
           label: 'Components',
           position: 'right',
