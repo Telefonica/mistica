@@ -11,9 +11,9 @@ We define form validation messages as those where we want to provide users infor
 
 Please use:
 
-* For iOS the [iOS forms](../components/ios/form.md)
-* For Android the [Android forms](../components/android/form.md)
-* For web the [web forms](../components/web/form.md)
+* For iOS the [iOS forms](../ios/form.md)
+* For Android the [Android forms](../android/form.md)
+* For web the [web forms](../web/form.md)
 
 ![](../../../img/forms.jpg)
 

@@ -5,7 +5,7 @@ title: Success Screen
 
 We use success screens for
 
-* [success messages](../../feedback-scenarios/success-scenario.md)
+* [success messages](../feedback-scenarios/success-scenario.md)
 
 ## Use considerations
 

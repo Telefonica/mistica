@@ -5,7 +5,7 @@ title: Action sheet
 
 We use action sheets for
 
-* [action confirmations](../../feedback-scenarios/action-confirmation.md) \(destructive only\)
+* [action confirmations](../feedback-scenarios/action-confirmation.md) \(destructive only\)
 
 ## Use considerations
 
