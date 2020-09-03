@@ -1,12 +1,13 @@
 ---
-description: >-
-  It responds to an action that is complementary to the primary button with a
-  lower hierarchy and visual weight.
+id: secondary-button
+title: Secondary button
 ---
+
+It responds to an action that is complementary to the primary button with a lower hierarchy and visual weight.
 
 # Secondary button
 
-![Secondary button applied to different brands](../img/typology_secondary.png)
+![Secondary button applied to different brands](../../../img/typology_secondary.png)
 
 ## Usage
 
@@ -20,17 +21,17 @@ A secondary button has three possible uses:
 
 They are below primary buttons in the hierarchy. Because of that, when they accompany a primary button, they go **after it**.
 
-![](../img/typology_secondary_hierarchy.png)
+![](../../../img/typology_secondary_hierarchy.png)
 
 ## Emphasis
 
 Secondary buttons give a **medium emphasis** to what they communicate. It's as if they encouraged users to do a certain action.
 
-![](../img/typology_secondary_emphasis.png)
+![](../../../img/typology_secondary_emphasis.png)
 
 ## Anatomy
 
-![1. Text label    2. Container    3. Icon \(optional\)](../img/typology_secondary_anatomy.png)
+![1. Text label    2. Container    3. Icon \(optional\)](../../../img/typology_secondary_anatomy.png)
 
 ### Text label
 
@@ -54,7 +55,7 @@ A secondary button can have the following states:
 * Loading
 * Focus \(this accessibility state is determined by the system\)
 
-![](../img/typology_secondary_states.png)
+![](../../../img/typology_secondary_states.png)
 
 {% hint style="info" %}
 Buttons must never have a disabled state. Helping users by showing an error message is significantly more effective than using a disabled button and having the user try to figure out the reasons why the button is disabled. That situation frequently makes users decide to give up on a process or even stop using the application.

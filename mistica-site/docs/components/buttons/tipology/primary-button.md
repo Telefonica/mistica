@@ -1,10 +1,11 @@
 ---
-description: This is the button that identifies the main interface action.
+id: primary-button
+title: Primary button
 ---
 
-# Primary button
+This is the button that identifies the main interface action.
 
-![Primary button applied to different brands](../img/typology_primary.png)
+![Primary button applied to different brands](../../../img/typology_primary.png)
 
 ## Usage
 
@@ -14,17 +15,17 @@ The primary button is used to represent the most important action on the screen.
 
 When it's accompanied by other actions, it will be the element at the **top of the hierarchy**, and consequently, it should be positioned in the **first place**.
 
-![](../img/typology_primary_hierarchy.png)
+![](../../../img/typology_primary_hierarchy.png)
 
 ## Emphasis
 
 The primary button puts a **high emphasis** on what it communicates. It would be like yelling at the user so they do an action.
 
-![](../img/typology_primary_emphasis.png)
+![](../../../img/typology_primary_emphasis.png)
 
 ## Anatomy
 
-![1. Text label    2. Container    3. Icon \(optional\)](../img/typology_primary_anatomy.png)
+![1. Text label    2. Container    3. Icon \(optional\)](../../../img/typology_primary_anatomy.png)
 
 ### Text label
 
@@ -48,7 +49,7 @@ A primary button can have the following states:
 * Loading
 * Focus \(this accessibility state is determined by the system\)
 
-![](../img/typology_primary_states.png)
+![](../../../img/typology_primary_states.png)
 
 {% hint style="info" %}
 Buttons must never have a disabled state. Helping users by showing an error message is significantly more effective than using a disabled button and having the user try to figure out the reasons why the button is disabled. That situation frequently makes users decide to give up on a process or even stop using the application.

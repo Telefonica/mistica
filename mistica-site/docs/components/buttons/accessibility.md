@@ -1,4 +1,7 @@
-# Accessibility
+---
+id: accessibility
+title: Accessibility
+---
 
 Digital accessibility is the practice of building digital content and applications that can be used by a wide range of people, including people with visual, motor, hearing, language or cognitive disabilities. ‌
 

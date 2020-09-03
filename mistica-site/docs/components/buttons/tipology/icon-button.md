@@ -1,10 +1,11 @@
 ---
-description: Icon buttons delimit interactive areas that act as distribution elements.
+id: icon-button
+title: Icon button
 ---
 
-# Icon button
+Icon buttons delimit interactive areas that act as distribution elements.
 
-![Icon button shown at different sizes](../img/typology_icon.png)
+![Icon button shown at different sizes](../../../img/typology_icon.png)
 
 ## Usage
 
@@ -18,11 +19,11 @@ Icon buttons have an equivalent hierarchy between each other. They provide **opt
 
 Icon buttons give a **low emphasis** to what they communicate. It's as if they were murmuring to users they may do a specific action.
 
-![](../img/typology_icon_emphasis.png)
+![](../../../img/typology_icon_emphasis.png)
 
 ## Anatomy
 
-![1. Text label    2. Icon \(optional\)](../img/typology_icon_anatomy.png)
+![1. Text label    2. Icon \(optional\)](../../../img/typology_icon_anatomy.png)
 
 ### Text label
 

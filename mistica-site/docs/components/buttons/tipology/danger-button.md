@@ -1,8 +1,9 @@
 ---
-description: >-
-  It identifies destructive actions and always raises a confirmation for doing
-  the action.
+id: danger-button
+title: Danger button
 ---
+
+It identifies destructive actions and always raises a confirmation for doing the action.
 
 # Danger button
 
@@ -14,13 +15,13 @@ There are two kinds of danger buttons:
 
 Used on **mobile** and **desktop** to open the **confirmation page** for the action.
 
-![](../img/typology_danger_linkstyle.png)
+![](../../../img/typology_danger_linkstyle.png)
 
 #### Button style
 
 Used on **desktop** as a **confirmation action** for doing a destructive action.
 
-![](../img/typology_danger_buttonstyle.png)
+![](../../../img/typology_danger_buttonstyle.png)
 
 ## Usage
 
@@ -42,7 +43,7 @@ They should not be accompanied by other actions on mobile. They can be accompani
 
 ## Emphasis
 
-![](../img/typology_danger_emphasis.png)
+![](../../../img/typology_danger_emphasis.png)
 
 Danger buttons give a **very strong emphasis** to what they communicate. It would be like yelling at the user about “dangerous” actions. This helps users pause and read the information shown on the screen carefully.
 
@@ -52,7 +53,7 @@ Danger buttons give a **very strong emphasis** to what they communicate. It woul
 
 The link style consists of:
 
-![1. Text label](../img/typology_danger_anatomy_01.png)
+![1. Text label](../../../img/typology_danger_anatomy_01.png)
 
 #### Text label
 
@@ -62,7 +63,7 @@ It should describe the action that is going to happen when the user interacts wi
 
 The button style consists of:
 
-![1. Text label    2. Container    3. Icon \(optional\)](../img/typology_danger_anatomy_02.png)
+![1. Text label    2. Container    3. Icon \(optional\)](../../../img/typology_danger_anatomy_02.png)
 
 #### Text label
 
@@ -74,7 +75,7 @@ The background visually identifies the relevance of the button in relation to ot
 
 #### Icon \(optional\)
 
-![](../img/typology_danger_states.png)
+![](../../../img/typology_danger_states.png)
 
 This element can accompany a text label to communicate a message more clearly.
 

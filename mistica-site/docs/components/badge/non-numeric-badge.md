@@ -3,8 +3,6 @@ id: non-numeric-badge
 title: Non-numeric Badge
 ---
 
-# Non-numeric badge
-
 ## Definition
 
 The non-numeric badge is an element displayed on any component of the app to indicate the user that there is **new non-urgent and impersonal information** associated with it.
@@ -21,21 +19,21 @@ The non-numeric badge:
 
 ## Behavior
 
-### **New information is available**
+### New information is available
 
 * The non-numeric badge is **displayed on the element that contains new information.**
   * If an element of the screen contains new information, **the tab bar should also indicate** the new information existence. 
 
-![](../img/new-information-available.png)
+![](../../img/new-information-available.png)
 
 ### Connection between the badge and the new information
 
 * The non-numeric badge should **guide the user** to the new information.
   * If the new information is placed at inner navigation levels, the badge should guide the user until the final new information destination \(like a breadcrumb\).
 
-![](../img/connection-between-badge-and-information.png)
+![](../../img/connection-between-badge-and-information.png)
 
-![](../img/connection-between-badge-and-information_1.png)
+![](../../img/connection-between-badge-and-information_1.png)
 
 ### Easy to clear
 

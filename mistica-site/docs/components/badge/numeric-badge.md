@@ -3,8 +3,6 @@ id: numeric-badge
 title: Numeric Badge
 ---
 
-# Numeric badge
-
 ## Definition
 
 The numeric badge is an element displayed on any component to indicate the user that there is **new personal and urgent information -- only conversations and personal communications** associated with it.
@@ -28,16 +26,16 @@ The numeric badge:
   * If an element of the screen contains new information -- conversations and communications, the **tab bar should also indicate** the new information existence. 
     * The number displayed on each tab should indicate the sum of the total number of new information -- conversations and communications distributed on that screen.
 
-![](../img/new-information-available_numeric.png)
+![](../../img/new-information-available_numeric.png)
 
 ### Connection between the badge and the new information
 
 * The numeric badge should guide the user to the new information.
   * If the new information is placed at inner navigation levels, the badge should guide the user until the final new information destination \(like a breadcrumb\).
 
-![](../img/connection-between-badge-and-information_1-numeric.png)
+![](../../img/connection-between-badge-and-information_1-numeric.png)
 
-![](../img/connection-between-badge-and-information_.png)
+![](../../img/connection-between-badge-and-information.png)
 
 ### Easy to clear
 
@@ -50,5 +48,5 @@ The numeric badge:
 * The numeric badge has a maximum of 2 digits. from 1 to 9. If the number of new information is more than 9, the numeric number should display a +9.
 * It is recommended to place the numeric badge on the right or upper right side of the element that is indicating the existence of new information.
 
-![](../img/connection-between-badge-and-information_launcher.png)
+![](../../img/connection-between-badge-and-information_launcher.png)
 
