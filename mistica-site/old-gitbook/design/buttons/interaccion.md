@@ -14,11 +14,11 @@ It's very important for users to **get feedback** when they **interact** with th
 
 ![](../.gitbook/assets/buttonsloading_cropped.gif)
 
-{% hint style="info" %}
+:::note
 The loading state should be used when a wait needs to be backed up with context about the action. For example, during a payment process where we estimate that payment transactions will create a waiting time for the user.
 
 When a flow is defined, in addition to the button copy for the normal state it's important to also indicate the copy for the loading state. Following the previous example, the “Pay” CTA could have copy in its loading state like “processing payment”.
-{% endhint %}
+:::
 
 ## Interaction in relation to the layout
 

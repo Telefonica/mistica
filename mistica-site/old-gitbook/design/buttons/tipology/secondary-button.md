@@ -56,7 +56,7 @@ A secondary button can have the following states:
 
 ![](../img/typology_secondary_states.png)
 
-{% hint style="info" %}
+:::note
 Buttons must never have a disabled state. Helping users by showing an error message is significantly more effective than using a disabled button and having the user try to figure out the reasons why the button is disabled. That situation frequently makes users decide to give up on a process or even stop using the application.
-{% endhint %}
+:::
 

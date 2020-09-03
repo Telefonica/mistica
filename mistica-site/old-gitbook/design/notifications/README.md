@@ -1,8 +1,8 @@
 # Notifications
 
-{% hint style="danger" %}
+:::warning
 Please note this documentation is being validated at the moment and is **not** implementation-ready
-{% endhint %}
+:::
 
 This documentation establishes which components should designers in Novum incorporate when giving notifications to our users.
 

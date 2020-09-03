@@ -23,9 +23,9 @@ This layout allows us to stack the fields vertically, which makes it easier for 
 
 If we need to distribute multiple fields in the same row, we'll use this two-column layout. We'll restrict its use for related fields, which require the user to enter a little bit of information. Remember that the fields in the two-column format are not as wide as those in the one-column format; as such, they serve as reference or visual orientation for the user in fields where 1 to 4 characters must be entered.
 
-{% hint style="info" %}
+:::note
 As we have mentioned above, we can combine the one-column and two-column layouts throughout the form. The fields for entering a payment method are a clear example of the combination of full-width fields immediately followed by two side-by-side fields in the two-column format.
-{% endhint %}
+:::
 
 
 

@@ -15,9 +15,9 @@ Consider creating a modal context only when a task must be completed or abandone
 
 Non critical subtasks, so it doesn’t matter if the users leave, that should be accomplished or abandoned to continue using the app.
 
-{% hint style="warning" %}
+:::caution
 **Don’t apply to purchase flows. For internal purchase flows should always be applied**[ **Internal Webview mode with Flow Presentation**](flow.md)**.**
-{% endhint %}
+:::
 
 ## **Behaviour**
 

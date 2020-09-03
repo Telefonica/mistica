@@ -1,8 +1,8 @@
 # Feedbacks
 
-{% hint style="danger" %}
+:::warning
 Please note this documentation is being validated at the moment and is **not** implementation-ready
-{% endhint %}
+:::
 
 This documentation establishes which components should designers in Novum incorporate when giving feedback to our users. For instance, providing the result of an action or process, requesting actions or giving important information beforehand.
 

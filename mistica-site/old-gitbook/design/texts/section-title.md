@@ -35,7 +35,7 @@ Examples of bad use \(as a Section Title\)
 * For you
 * Movistar+ \#0
 
-{% hint style="danger" %}
+:::warning
 These are bad uses of a Section Title, as they do not help the user to understand what information he/she will find in this block, or they are not clear, direct and concise.
-{% endhint %}
+:::
 

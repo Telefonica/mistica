@@ -21,9 +21,9 @@ For actions, use title-style capitalization and no ending punctuation. Use OK fo
 
 Try to convey all the important information using the title and the actions, as users are likely to read this information only. Use the small text to provide additional but non-essential information.
 
-{% hint style="info" %}
+:::note
 We use alerts when users hasn't acceptance of terms and conditions and wants to continue with a process.
-{% endhint %}
+:::
 
 ![](../../../img/ios_alert.jpg)
 

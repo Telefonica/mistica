@@ -6,9 +6,9 @@ description: >-
 
 # Forms
 
-{% hint style="danger" %}
+:::warning
 Please note this documentation is being validated at the moment and is **not** implementation-ready
-{% endhint %}
+:::
 
 This documentation is intended to establish guidelines for designing forms with the different components that comprise the Novum design system, known as _Mística_. The objective is to learn about their use, behavior, the elements that comprise them and the types of structures that we can build.
 

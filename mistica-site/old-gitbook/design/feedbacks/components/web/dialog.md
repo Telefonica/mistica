@@ -16,9 +16,9 @@ Please use short, descriptive and easy to understand copywriting. Avoid technica
 
 Try to convey all the important information using the title and the actions, as users are likely to read this information only. Use the small text to provide additional but non-essential information.
 
-{% hint style="info" %}
+:::note
 We use dialogs when users hasn't acceptance of terms and conditions and wants to continue with a process.
-{% endhint %}
+:::
 
 ![](../../img/sofa_dialog.jpg)
 

@@ -3,9 +3,17 @@ id: danger-button
 title: Danger button
 ---
 
-It identifies destructive actions and always raises a confirmation for doing the action.
+<br/>
+<MultiBrandExample>
+    <Inline space={16}>
+        <ButtonDanger submit>Button action</ButtonDanger>
+    </Inline>
+</MultiBrandExample>
+<br/>
 
-# Danger button
+---
+
+It identifies destructive actions and always raises a confirmation for doing the action.
 
 ## Typology
 
@@ -89,7 +97,7 @@ A danger button can have the following states:
 * Loading
 * Focus \(this accessibility state is determined by the system\)
 
-{% hint style="info" %}
+:::note
 Buttons must never have a disabled state. Helping users by showing an error message is significantly more effective than using a disabled button and having the user try to figure out the reasons why the button is disabled. That situation frequently makes users decide to give up on a process or even stop using the application.
-{% endhint %}
+:::
 

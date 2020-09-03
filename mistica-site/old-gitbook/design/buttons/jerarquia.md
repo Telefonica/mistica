@@ -35,11 +35,11 @@ If the second action is a link button, the buttons should never be placed horizo
 
 ![Positioning between a button and a link button.](../.gitbook/assets/2-acciones-link-button%20%281%29.png)
 
-{% hint style="info" %}
+:::note
 There can never be more than two actions associated with a component or outside flows and processes. A good practice is that you should always use fewer buttons and only when they are really needed.
 
 _E.g. Don't use a “back” button when you can go back using natural navigation elements._
-{% endhint %}
+:::
 
 ### 2. Buttons in flows and processes
 

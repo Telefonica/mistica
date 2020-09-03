@@ -37,9 +37,9 @@ Every layout should have **a single primary button** to put the user's focus and
 
 The main layout action can be accompanied by other buttons with less emphasis to establish a hierarchy between the actions on the screen.
 
-{% hint style="info" %}
+:::note
 When several main actions need to coexist in the same layout, for example, when there is a list of services the user can activate, the **small button** variant should be used.
-{% endhint %}
+:::
 
 ![When there is more than one main action the small button variation should be used](../../img/hierarchy_layout.png)
 

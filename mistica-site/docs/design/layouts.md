@@ -31,9 +31,9 @@ Llamamos “contenedor del layout” a todo el grupo de bloques y componentes do
 
 El primer espacio que tendrá este contenedor es el espacio que separa el primer componente que metamos con elementos que no formen parte de este contenedor por la parte superior. Del mismo modo, tendremos el mismo espacio en la parte inferior, para que ningún componente se pegue a la parte inferior de la pantalla y por ejemplo, “choque” con una TabBar.
 
-{% hint style="info" %}
+:::note
 Este espacio, es definido en desarrollo como **&lt;Box&gt;** y podría ser entendido como un margen del contenedor
-{% endhint %}
+:::
 
 ![](../img/level1-02.png)
 
@@ -63,15 +63,15 @@ Al meter un segundo componente se pueden tomar 2 decisiones.
 
 El espacio entre bloques sería la distancia visual entre diferentes bloques \(Bloque A - Bloque B\). El espaciado entre bloques será siempre de 32px, y no podrá ser modificado.
 
-{% hint style="info" %}
+:::note
 Un diseñador o diseñadora podrá hacer cuantos bloques necesite sin importar el número de componentes dentro de cada bloque.
-{% endhint %}
+:::
 
 ![](../img/level2-01.png)
 
-{% hint style="info" %}
+:::note
 A este espacio entre elementos, en desarrollo se le conoce con la etiqueta **&lt;Stack&gt;**
-{% endhint %}
+:::
 
 ### \[LVL 3\] **Espacio entre elementos dentro de un bloque**
 

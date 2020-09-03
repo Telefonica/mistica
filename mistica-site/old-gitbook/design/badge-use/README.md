@@ -1,8 +1,8 @@
 # Badge use
 
-{% hint style="danger" %}
+:::warning
 Please note this definition is being validated at the moment and it is not implementation-ready.
-{% endhint %}
+:::
 
 ### **What is a badge?**
 

@@ -50,9 +50,9 @@ We can use the icons for two purposes:
 * **Error message:** When the data entered does not conform to the acceptable parameters. This could be because it has not been entered, or because it has been entered incorrectly. An error message gives the user instructions on how to solve the problem. 
 * **Character counter:** In text areas where there is a character limit, we will indicate the number of characters used and the total character limit.
 
-{% hint style="info" %}
+:::note
 If the field already has a help text, the error message will replace that text until the information has been entered correctly.
-{% endhint %}
+:::
 
 ## States
 
