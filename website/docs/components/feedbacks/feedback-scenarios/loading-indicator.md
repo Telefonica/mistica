@@ -18,7 +18,7 @@ For cached screens, where we want to convey users that the presented content is 
 
 ![](../../../img/progress-bar.jpg)
 
-This is also shown in webviews in browser mode \(check out the documentation for [Android](../../webviews/android/browser.md) and [iOS](../../webviews/ios/browser.md)\)
+This is also shown in webviews in browser mode \(check out the documentation for [Android](../../../design/webviews/android/browser.md) and [iOS](../../../design/webviews/ios/browser.md)\)
 
 For new screens, please take into account the estimated loading time of the screen and use the most suitable component:
 

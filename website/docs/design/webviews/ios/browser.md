@@ -73,14 +73,3 @@ Not configurable  - always true
 With navigation actions and browser options: share and open in safari..
 
 ![](../../../img/ios_browser_toolbar.png)
-
-## Useful links <a id="useful-links"></a>
-
-How is it in Android?
-
-{% page-ref page="../android/browser.md" %}
-
- Related technical documentation
-
-{% page-ref page="../../../develop/webviews.md" %}
-

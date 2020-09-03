@@ -21,5 +21,5 @@ By tapping anywhere on the screen \(as long as it is not an input field\), the k
 
 ## Related content
 
-Find [more information about buttons](../../buttons/) in our documentation.
+Find [more information about buttons](../../buttons/usage.md) in our documentation.
 

@@ -60,16 +60,6 @@ Kebab menu with browser options in the navigation bar.
 
 ![](../../../img/android_browser_navbar.png)
 
-## Useful links <a id="useful-links"></a>
-
-How is it in iOS?
-
-{% page-ref page="../ios/browser.md" %}
-
- Related technical documentation
-
-{% page-ref page="../../../develop/webviews.md" %}
-
   
 
 
