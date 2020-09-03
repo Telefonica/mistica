@@ -80,6 +80,10 @@ p{
   font-size: 16px;
 }
 
+li{
+  color: #757575;
+}
+
 .navbar{
   transition: all 0.2 ease-in-out;
 }
