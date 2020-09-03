@@ -74,14 +74,9 @@ h1, h2, h3, h4, h5, h6, li, p, a{
   font-weight: normal;
 }
 
-p{
+p, li{
   color: var(--ifm-color-neutral-dark);
-  color: #757575;
   font-size: 16px;
-}
-
-li{
-  color: #757575;
 }
 
 .navbar{
