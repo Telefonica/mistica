@@ -11,12 +11,12 @@ By default scenarios for **undefined mode**:
 
 ![](../../../img/bydefault_undefined_mode.png)
 
-**Given an**[ **internal mode**](internal/), by default scenarios for **undefined presentation**:  
+**Given an internal mode**, by default scenarios for **undefined presentation**:  
 \(common in both platforms\)
 
 ![](../../../img/bydefault_internal_undefined_presentation.png)
 
-**Given an** [**internal mode**](https://tef-novum.gitbook.io/novum/~/edit/drafts/-L_lhdpNgDzMLvPhEui4/design/webviews/android/internal), configurable options by default:
+**Given an internal mode**, configurable options by default:
 
 ![](../../../img/android_bydefault_internal_configuration.png)
 

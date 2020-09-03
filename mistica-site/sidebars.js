@@ -131,7 +131,8 @@ module.exports = {
     },
     {
       'Notifications': [
-                'components/notifications/in-app-messages',
+        'components/notifications/introduction',        
+        'components/notifications/in-app-messages',
               ],
     },
     {
