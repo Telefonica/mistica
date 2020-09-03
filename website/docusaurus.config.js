@@ -108,7 +108,7 @@ module.exports = {
             },
             {
               label: ' ',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Telefonica/mistica',
             },
           ],
         },
@@ -121,7 +121,7 @@ module.exports = {
             },
             {
               label: ' ',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Telefonica/mistica',
             },
           ],
         },
