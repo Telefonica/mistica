@@ -5,7 +5,7 @@ title: Skeleton
 
 We use skeletons as
 
-* [loading indicators](../../feedback-scenarios/loading-indicator.md)
+* [loading indicators](../feedback-scenarios/loading-indicator.md)
 
 ## Use considerations
 
