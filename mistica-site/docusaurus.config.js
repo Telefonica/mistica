@@ -55,6 +55,11 @@ module.exports = {
         //   position: 'right',
         // },
         {
+          to: 'docs/contributing',
+          label: 'Contribute',
+          position: 'right',
+        },
+        {
           href: 'https://mistica-web.now.sh/playroom',  
           label: 'Playroom →',
           position: 'right',
