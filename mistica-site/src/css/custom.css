@@ -382,13 +382,13 @@ html[data-theme='light'] .DocSearch {
   padding: 0.5em 1em;
 }
 
-#cardPalette .info h4{
+#cardPalette .info h5{
   text-transform: none;
 }
 
-#cardPalette h1, h2, h3, h4{
+#cardPalette h1, h2, h3, h5{
   margin: 8px 0;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 #cardPalette h2{
@@ -397,12 +397,24 @@ html[data-theme='light'] .DocSearch {
 }
 
 .cardColor {
-  background: blue;
   border: 0;
   height: 6em;
   padding: 0;
   width: 100%;
 }
+
+.movistarBlue{ background: #019DF4; }
+.movistarBlueDark{ background: #008EDD; }
+.movistarBlueLight60{ background: #65C3F8; }
+.movistarBlueLight50{ background: #80CEF9; }
+.movistarBlueLight30{ background: #B3E1FB; }
+.movistarBlueLight10{ background: #E6F5FD; }
+.movistarBlueLight60Percent25{ background: #D8F0FD; }
+.movistarBlueLight30Percent25{ background: #ECF7FE; }
+.movistarGreen{ background: #5CB615; }
+.movistarGreenDark{ background: #499110; }
+.movistarGreenLight50{ background: #ADDA8A; }
+.movistarGreenLight30{ background: #CEE9B9; }
 
 
 .constant{
@@ -429,17 +441,18 @@ html[data-theme='light'] .DocSearch {
 }
 
 #cardConstant .info{
-  padding: 0em 1em;
+  padding: 0.5em 1em;
   float: left;
 }
 
 #cardConstant .info h5{
-  text-transform: none;
+  text-transform: lowercase;
+  color: var(--ifm-color-neutral-dark);
 }
 
 #cardConstant h1, h2, h3, h4, h5{
   margin: 0px 0;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 #cardConstant h2{
