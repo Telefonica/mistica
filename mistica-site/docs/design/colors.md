@@ -4,7 +4,12 @@ title: Color
 ---
 
 import {getColors} from '@telefonica/mistica'
-const colors = getColors('Movistar');
+const themeNames = ['Movistar', 'Vivo', 'O2', 'O2-classic'];
+const colorThemes = themeNames.map(t => getColors(t));
+const colors = {};
+Object.entries(colorThemes[0]).forEach(([colorName, color]) => {
+    colors[colorName] = colorThemes.map((theme) => theme[colorName])
+})
 
 ## Color Palette
 ### Movistar
@@ -363,19 +368,14 @@ const colors = getColors('Movistar');
 
 ## Color Constant
 <div class="constant">
-{Object.entries(colors).map(([name, color]) =>
-<div id="cardConstant">
-    <ThemeContextProvider
-    theme={{skin: 'Movistar'}}
-    >
-    <div class="cardColorConstant" theme={{skin: 'Movistar'}} style={{background: color}}></div>
-    <div class="cardColorConstant" theme={{skin: 'Vivo'}} style={{background: color}}></div>
-    <div class="cardColorConstant" theme={{skin: 'O2'}} style={{background: color}}></div>
-    <div class="cardColorConstant" theme={{skin: 'ClassicO2'}} style={{background: color}}></div>
-</ThemeContextProvider>
-    <div class="info">
-        <h5>{name}</h5>
-    </div>
-</div>
-)}
+    {Object.entries(colors).map(([name, themedColors]) =>
+        <div id="cardConstant">
+            {themedColors.map(color =>
+                <div title={color} class="cardColorConstant" style={{background: color}}></div>
+            )}
+            <div class="info">
+                <h5>{name}</h5>
+            </div>
+        </div>
+    )}
 </div>
