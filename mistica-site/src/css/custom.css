@@ -403,3 +403,58 @@ html[data-theme='light'] .DocSearch {
   padding: 0;
   width: 100%;
 }
+
+
+.constant{
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 100%;
+  display: grid;
+  padding: 0;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  grid-gap: 0px;
+  align-items: stretch;
+}
+
+#cardConstant{
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /* border-radius:8px; */
+  border-bottom: 1px solid #eee;
+  /* box-shadow: 0px 2px 6px rgba(0, 0, 0, .1); */
+  width: 100%;
+  overflow: hidden;
+  padding: 24px 0;
+}
+
+#cardConstant .info{
+  padding: 0em 1em;
+  float: left;
+}
+
+#cardConstant .info h5{
+  text-transform: none;
+}
+
+#cardConstant h1, h2, h3, h4, h5{
+  margin: 0px 0;
+  text-transform: uppercase;
+}
+
+#cardConstant h2{
+  font-weight: normal;
+  margin: 0;
+}
+
+.cardColorConstant {
+  background: blue;
+  border: 0;
+  border-radius: 40px;
+  height: 2em;
+  float: left;
+  padding: 0;
+  width: 2em;
+  margin-right: 8px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
+}
