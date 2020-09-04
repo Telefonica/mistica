@@ -24,7 +24,6 @@ And here is an example of a live code block. You can edit the code:
 <br/>
 
 ```jsx live
-
 <ThemeContextProvider
     theme={{skin: 'Movistar'}}
 >
@@ -34,5 +33,4 @@ And here is an example of a live code block. You can edit the code:
         Button primary
     </ButtonPrimary>
 </ThemeContextProvider>
-
 ```
