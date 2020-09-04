@@ -359,6 +359,7 @@ html[data-theme='light'] .DocSearch {
 .palette{
   margin: 0 auto;
   max-width: 100%;
+  min-width: 100%;
   display: grid;
   padding: 0;
   grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
@@ -379,6 +380,10 @@ html[data-theme='light'] .DocSearch {
 
 #cardPalette .info{
   padding: 0.5em 1em;
+}
+
+#cardPalette .info h4{
+  text-transform: none;
 }
 
 #cardPalette h1, h2, h3, h4{

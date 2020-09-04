@@ -11,7 +11,7 @@ getColors('Movistar')
 <div id="cardPalette">
     <div class="cardColor movistarBlue"></div>
     <div class="info">
-        <h3>Input</h3>
+        <h4>movistarBlue</h4>
         <h4>#Color</h4>
     </div>
 </div>
