@@ -7,10 +7,20 @@ sidebar_label: Color Guidelines
 import {getColors} from '@telefonica/mistica'
 getColors('Movistar')
 
-<ul class="palette">
-    <li class="cardPalette">
-        <div></div>
-        <p>colorName</p>
-        <p>#value</p>
-    </li>
-</ul>
+<div id="cardPalette">
+    <div class="cardColor movistarBlue"></div>
+    <div class="info">
+        <h2>Input</h2>
+        <h3>#Color</h3>
+    </div>
+</div>
+
+
+<div id="cardPalette">
+    <div class="cardColor movistarGreen"></div>
+    <div class="info">
+        <h2>Input</h2>
+        <h3>#Color</h3>
+    </div>
+</div>
+
