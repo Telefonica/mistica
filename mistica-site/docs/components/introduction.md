@@ -18,10 +18,13 @@ Here is an example of using mistica components in mdx
 
 
 <br/><br/>
+
 And here is an example of a live code block. You can edit the code:
-<br/><br/>
+
+<br/>
 
 ```jsx live
+
 <ThemeContextProvider
     theme={{skin: 'Movistar'}}
 >
@@ -31,4 +34,5 @@ And here is an example of a live code block. You can edit the code:
         Button primary
     </ButtonPrimary>
 </ThemeContextProvider>
+
 ```

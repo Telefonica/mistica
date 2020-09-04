@@ -436,79 +436,79 @@ Object.entries(colorThemes[0]).forEach(([colorName, color]) => {
 ### O2
 <div class="palette">
 <div id="cardPalette">
-    <div class="cardColor movistarBlue"></div>
+    <div class="cardColor o2BluePrimary"></div>
     <div class="info">
-        <h5>movistarBlue</h5>
+        <h5>o2BluePrimary</h5>
         <h5>#019DF4</h5>
     </div>
 </div>
 <div id="cardPalette">
-    <div class="cardColor movistarBlueDark"></div>
+    <div class="cardColor o2BluePrimaryDark"></div>
     <div class="info">
-        <h5>movistarBlueDark</h5>
+        <h5>o2BluePrimaryDark</h5>
         <h5>#color</h5>
     </div>
 </div>
 <div id="cardPalette">
-    <div class="cardColor movistarBlueLight60"></div>
+    <div class="cardColor o2BluePrimaryLight60"></div>
     <div class="info">
-        <h5>movistarBlueLight60</h5>
+        <h5>o2BluePrimaryLight60</h5>
         <h5>#color</h5>
     </div>
 </div>
 <div id="cardPalette">
-    <div class="cardColor movistarBlueLight50"></div>
+    <div class="cardColor o2BluePrimaryLight10"></div>
     <div class="info">
-        <h5>movistarBlueLight50</h5>
+        <h5>o2BluePrimaryLight10</h5>
         <h5>#color</h5>
     </div>
 </div>
 <div id="cardPalette">
-    <div class="cardColor movistarBlueLight30"></div>
+    <div class="cardColor o2BlueMid"></div>
     <div class="info">
-        <h5>movistarBlueLight30</h5>
+        <h5>o2BlueMid</h5>
         <h5>#color</h5>
     </div>
 </div>
 <div id="cardPalette">
-    <div class="cardColor movistarBlueLight10"></div>
+    <div class="cardColor o2BlueMidDark"></div>
     <div class="info">
-        <h5>movistarBlueLight10</h5>
+        <h5>o2BlueMidDark</h5>
         <h5>#color</h5>
     </div>
 </div>
 <div id="cardPalette">
-    <div class="cardColor movistarBlueLight60Percent25"></div>
+    <div class="cardColor o2BlueLight"></div>
     <div class="info">
-        <h5>movistarBlueLight60Percent25</h5>
+        <h5>o2BlueLight</h5>
         <h5>#color</h5>
     </div>
 </div>
 <div id="cardPalette">
-    <div class="cardColor movistarBlueLight30Percent25"></div>
+    <div class="cardColor o2BlueLight60"></div>
     <div class="info">
-        <h5>movistarBlueLight30Percent25</h5>
+        <h5>o2BlueLight60</h5>
         <h5>#color</h5>
     </div>
 </div>
 <div id="cardPalette">
-    <div class="cardColor movistarGreen"></div>
+    <div class="cardColor o2BlueLight30"></div>
     <div class="info">
-        <h5>movistarGreen</h5>
+        <h5>o2BlueLight30</h5>
         <h5>#color</h5>
     </div>
 </div>
 <div id="cardPalette">
-    <div class="cardColor movistarGreenDark"></div>
+    <div class="cardColor o2BlueLight10"></div>
     <div class="info">
-        <h5>movistarGreenDark</h5>
+        <h5>o2BlueLight10</h5>
         <h5>#color</h5>
     </div>
 </div>
 <div id="cardPalette">
-    <div class="cardColor movistarGreenLight50"></div>
+    <div class="cardColor o2DeepSkyBlue"></div>
     <div class="info">
-        <h5>movistarGreenLight50</h5>
+        <h5>o2DeepSkyBlue</h5>
         <h5>#color</h5>
     </div>
 </div>
