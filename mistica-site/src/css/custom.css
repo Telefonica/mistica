@@ -362,7 +362,7 @@ html[data-theme='light'] .DocSearch {
   min-width: 100%;
   display: grid;
   padding: 0;
-  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
   grid-gap: 24px;
   align-items: stretch;
 }
@@ -403,6 +403,8 @@ html[data-theme='light'] .DocSearch {
   width: 100%;
 }
 
+/* Color Palettes */
+/* Primary Movistar */
 .movistarBlue{ background: #019DF4; }
 .movistarBlueDark{ background: #008EDD; }
 .movistarBlueLight60{ background: #65C3F8; }
@@ -415,6 +417,123 @@ html[data-theme='light'] .DocSearch {
 .movistarGreenDark{ background: #499110; }
 .movistarGreenLight50{ background: #ADDA8A; }
 .movistarGreenLight30{ background: #CEE9B9; }
+
+/* Secondary Movistar */
+.pepper{ background: #ff374a; }
+.pepperDark{ background: #d73241; }
+.pepperLight{ background: #ffc3c8; }
+.egg{ background: #f28d15; }
+.eggLight{ background: #f8d2b3; }
+.pink{ background: #e63780; }
+.purple{ background: #a13ea1; }
+
+/* Neutral Movistar */
+.grey0{ background: #313235; }
+.grey1{ background: #86888c; }
+.grey2{ background: #999; }
+.grey3{ background: #ddd; }
+.grey4{ background: #eee; }
+.grey5{ background: #f6f6f6; }
+.white{ background: #fff; }
+
+.movistarProminentBlue{ background: #0b2739; }
+.movistarProminentDark{ background: #081f2d; }
+
+/* Primary Vivo */
+.movistarBlue{ background: #019DF4; }
+.movistarBlueDark{ background: #008EDD; }
+.movistarBlueLight60{ background: #65C3F8; }
+.movistarBlueLight50{ background: #80CEF9; }
+.movistarBlueLight30{ background: #B3E1FB; }
+.movistarBlueLight10{ background: #E6F5FD; }
+.movistarBlueLight60Percent25{ background: #D8F0FD; }
+.movistarBlueLight30Percent25{ background: #ECF7FE; }
+.movistarGreen{ background: #5CB615; }
+.movistarGreenDark{ background: #499110; }
+.movistarGreenLight50{ background: #ADDA8A; }
+.movistarGreenLight30{ background: #CEE9B9; }
+
+/* Secondary Vivo */
+.orange{ background: #ff9900; }
+.orangeDark{ background: #fa6324; }
+.orangeLight{ background: #ffd699; }
+.pink{ background: #eb3d7d; }
+.pepper{ background: #cc1f59; }
+.pepperDark{ background: #b71d63; }
+.pepperLight{ background: #f7b1cb; }
+
+/* Neutral Vivo */
+.grey0{ background: #000; }
+.grey1{ background: #666; }
+.grey2{ background: #999; }
+.grey3{ background: #ddd; }
+.grey4{ background: #eee; }
+.grey5{ background: #f6f6f6; }
+.white{ background: #fff; }
+
+/* Primary O2 */
+.movistarBlue{ background: #019DF4; }
+.movistarBlueDark{ background: #008EDD; }
+.movistarBlueLight60{ background: #65C3F8; }
+.movistarBlueLight50{ background: #80CEF9; }
+.movistarBlueLight30{ background: #B3E1FB; }
+.movistarBlueLight10{ background: #E6F5FD; }
+.movistarBlueLight60Percent25{ background: #D8F0FD; }
+.movistarBlueLight30Percent25{ background: #ECF7FE; }
+.movistarGreen{ background: #5CB615; }
+.movistarGreenDark{ background: #499110; }
+.movistarGreenLight50{ background: #ADDA8A; }
+.movistarGreenLight30{ background: #CEE9B9; }
+
+/* Secondary O2 */
+.pepper{ background: #ff374a; }
+.pepperDark{ background: #d73241; }
+.pepperLight{ background: #ffc3c8; }
+.egg{ background: #f28d15; }
+.eggLight{ background: #f8d2b3; }
+.pink{ background: #e63780; }
+.purple{ background: #a13ea1; }
+
+/* Neutral O2 */
+.grey0{ background: #313235; }
+.grey1{ background: #86888c; }
+.grey2{ background: #999; }
+.grey3{ background: #ddd; }
+.grey4{ background: #eee; }
+.grey5{ background: #f6f6f6; }
+.white{ background: #fff; }
+
+/* Primary ClassicO2 */
+.movistarBlue{ background: #019DF4; }
+.movistarBlueDark{ background: #008EDD; }
+.movistarBlueLight60{ background: #65C3F8; }
+.movistarBlueLight50{ background: #80CEF9; }
+.movistarBlueLight30{ background: #B3E1FB; }
+.movistarBlueLight10{ background: #E6F5FD; }
+.movistarBlueLight60Percent25{ background: #D8F0FD; }
+.movistarBlueLight30Percent25{ background: #ECF7FE; }
+.movistarGreen{ background: #5CB615; }
+.movistarGreenDark{ background: #499110; }
+.movistarGreenLight50{ background: #ADDA8A; }
+.movistarGreenLight30{ background: #CEE9B9; }
+
+/* Secondary ClassicO2 */
+.pepper{ background: #ff374a; }
+.pepperDark{ background: #d73241; }
+.pepperLight{ background: #ffc3c8; }
+.egg{ background: #f28d15; }
+.eggLight{ background: #f8d2b3; }
+.pink{ background: #e63780; }
+.purple{ background: #a13ea1; }
+
+/* Neutral ClassicO2 */
+.grey0{ background: #313235; }
+.grey1{ background: #86888c; }
+.grey2{ background: #999; }
+.grey3{ background: #ddd; }
+.grey4{ background: #eee; }
+.grey5{ background: #f6f6f6; }
+.white{ background: #fff; }
 
 
 .constant{
@@ -470,4 +589,20 @@ html[data-theme='light'] .DocSearch {
   width: 2em;
   margin-right: 8px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
+}
+.brandConstants{list-style: none; margin: 0 !important; padding: 0; height: 24px;}
+.brandConstants li {margin: 0 !important; padding: 0; float: left; margin-right: 12px !important; margin-left: 4px !important;}
+#brandConstantMovistar{ width: 24px; height: 24px; background: url(../../docs/img/brandConstantMovistar.png); background-size: cover;}
+#brandConstantVivo{ width: 24px; height: 24px; background: url(../../docs/img/brandConstantVivo.png); background-size: cover;}
+#brandConstantO2{ width: 24px; height: 24px; background: url(../../docs/img/brandConstantO2.png); background-size: cover;}
+#brandConstantClassicO2{ width: 24px; height: 24px; background: url(../../docs/img/brandConstantClassicO2.png); background-size: cover;}
+
+hr {
+  border-color: #eee;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: content-box;
+  margin: var(--ifm-hr-margin-vertical) 0;
+  overflow: hidden;
+  padding: 0;
 }
