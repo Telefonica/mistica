@@ -1,7 +1,6 @@
 ---
 id: colors
-title: Color Guidelines
-sidebar_label: Color Guidelines
+title: Color Palette
 ---
 
 import {getColors} from '@telefonica/mistica'
