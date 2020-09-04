@@ -355,3 +355,12 @@ html[data-theme='light'] .DocSearch {
   /* Footer */
   --docsearch-footer-background: var(--ifm-color-white);
 }
+
+.palette
+{
+
+}
+
+.cardPalette{
+  list-style: none;
+}
