@@ -4,38 +4,16 @@ title: Color Palette
 ---
 
 import {getColors} from '@telefonica/mistica'
-getColors('Movistar')
+const colors = getColors('Movistar');
 
 <div class="palette">
+{Object.entries(colors).map(([name, color]) =>
 <div id="cardPalette">
-    <div class="cardColor movistarBlue"></div>
+    <div class="cardColor" style={{background: color}}></div>
     <div class="info">
-        <h4>movistarBlue</h4>
-        <h4>#Color</h4>
+        <h4>{name}</h4>
+        <h4>{color}</h4>
     </div>
 </div>
-
-<div id="cardPalette">
-    <div class="cardColor movistarGreen"></div>
-    <div class="info">
-        <h3>Input</h3>
-        <h4>#Color</h4>
-    </div>
-</div>
-
-<div id="cardPalette">
-    <div class="cardColor movistarGreen"></div>
-    <div class="info">
-        <h3>Input</h3>
-        <h4>#Color</h4>
-    </div>
-</div>
-
-<div id="cardPalette">
-    <div class="cardColor movistarGreen"></div>
-    <div class="info">
-        <h3>Input</h3>
-        <h4>#Color</h4>
-    </div>
-</div>
+)}
 </div>
