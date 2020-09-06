@@ -7,4 +7,6 @@ jobs:
   generator:
     runs-on: ubuntu-latest
     steps:
-    - run: GIT_USER=yceballost USE_SSH=true yarn deploy
+    - run: |
+    cd mistica-site
+    GIT_USER=yceballost USE_SSH=true yarn deploy
