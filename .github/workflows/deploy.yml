@@ -10,5 +10,5 @@ jobs:
 
     - name: convert folder to sketch file
       run: |
-        cd mistica-site
+        cd ./mistica-site
         GIT_USER=yceballost USE_SSH=true yarn deploy
