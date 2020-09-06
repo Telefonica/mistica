@@ -1,6 +1,6 @@
 ---
-id: layouts
-title: Layouts
+id: layout
+title: Layout
 ---
 
 ## ¿Qué son layouts?

@@ -479,25 +479,25 @@ html[data-theme='light'] .DocSearch {
 .o2BlueLight                 { background: #41B6E6; }
 .o2BlueLight60               { background: #8DD3F0; }
 .o2BlueLight30               { background: #C6E9F7; }
-.o2BlueLight10               { background: #41B6E6; }
-.o2DeepSkyBlue               { background: #ECF7FC; }
+.o2BlueLight10               { background: #ECF7FC; }
+.o2DeepSkyBlue               { background: #41B6E6; }
 
 /* Secondary O2 */
-.o2-o2Teal                   { background: #01B7B4; }
-.o2-o2TealDark               { background: #099E9B; }
-.o2-o2Tealight               { background: #B1E4E3; }
-.o2-o2Yellow               { background: #FEDB00; }
-.o2-o2YellowLight                 { background: #FEF6C3; }
-.o2-o2Green                     { background: #91C90E; }
-.o2-o2GreenLight                   { background: #DEEEB7; }
-.o2-o2Orange                   { background: #FF7F41; }
-.o2-o2OrangeLight                   { background: #FFD6C2; }
+.o2Teal                   { background: #01B7B4; }
+.o2TealDark               { background: #099E9B; }
+.o2TealLight               { background: #B1E4E3; }
+.o2Yellow               { background: #FEDB00; }
+.o2YellowLight                 { background: #FEF6C3; }
+.o2Green                     { background: #91C90E; }
+.o2GreenLight                   { background: #DEEEB7; }
+.o2Orange                   { background: #FF7F41; }
+.o2OrangeLight                   { background: #FFD6C2; }
 .o2-pepper                   { background: #FF374A; }
 .o2-pepperDark                   { background: #D73241; }
 .o2-pepperLight                   { background: #FFC3C8; }
-.o2-o2Coral                   { background: #FF706E; }
-.o2-o2Pink                   { background: #CB31A0; }
-.o2-o2Purple                   { background: #953698; }
+.o2Coral                   { background: #FF706E; }
+.o2Pink                   { background: #CB31A0; }
+.o2Purple                   { background: #953698; }
 
 
 /* Neutral O2 */
@@ -509,35 +509,44 @@ html[data-theme='light'] .DocSearch {
 .o2-grey5                     { background: #f6f6f6; }
 
 /* Primary ClassicO2 */
-.movistarBlu                 { background: #019DF4; }
-.movistarBlueDar             { background: #008EDD; }
-.movistarBlueLight60         { background: #65C3F8; }
-.movistarBlueLight50         { background: #80CEF9; }
-.movistarBlueLight30         { background: #B3E1FB; }
-.movistarBlueLight10         { background: #E6F5FD; }
-.movistarBlueLight60Percent2 { background: #D8F0FD; }
-.movistarBlueLight30Percent2 { background: #ECF7FE; }
-.movistarGreen               { background: #5CB615; }
-.movistarGreenDark           { background: #499110; }
-.movistarGreenLight5         { background: #ADDA8A; }
-.movistarGreenLight3         { background: #CEE9B9; }
+.classicO2-o2Blue                 { background: #032B5A; }
+.classicO2-o2BlueDark             { background: #04264E; }
+.classicO2-o2BlueLight60         { background: #6C8BAF; }
+.classicO2-o2SkyBlue         { background: #0090D0; }
+.classicO2-o2SkyBlueDark         { background: #057DB2; }
+.classicO2-o2SkyBlueLight         { background: #65B4E4; }
+.classicO2-o2SkyBlueLight30 { background: #D0E8F6; }
+.classicO2-o2SkyBlueLight60 { background: #A3D2EF; }
+.classicO2-o2DeepSkyBlue               { background: #7FD4FE; }
 
 /* Secondary ClassicO2 */
-.c02-peppe                   { background: #ff374a; }
-.c02-pepperDar               { background: #d73241; }
-.c02-pepperLight             { background: #ffc3c8; }
-.c02-egg                     { background: #f28d15; }
-.c02-eggLigh                 { background: #f8d2b3; }
-.c02-pin                     { background: #e63780; }
-.c02-purpl                   { background: #a13ea1; }
+.classicO2-o2Gem                   { background: #01B7B4; }
+.classicO2-p2GemDark               { background: #099E9B; }
+.classicO2-o2GemLight30             { background: #99E2E1; }
+.classicO2-o2yellow                     { background: #FFCC00; }
+.classicO2-o2Green                 { background: #84B50F; }
+.classicO2-o2GreenLight                     { background: #DAE8B7; }
+.classicO2-orange                   { background: #FF7F41; }
+.classicO2-orangeLight                   { background: #FFD6C2; }
+.classicO2-pepper                   { background: #FF374A; }
+.classicO2-pepperDark                   { background: #D73241; }
+.classicO2-pepperLight                   { background: #FFC3C8; }
+.classicO2-coral                   { background: #FF706E; }
+.classicO2-pink                   { background: #EB3C7D; }
+
+/* Classic O2 Gradient*/ 
+.o2GradientFirst                   { background: #102550; }
+.o2GradientSecond                   { background: #0B4680; }
+.o2GradientThird                   { background: #0D71AD; }
+.o2GradientFourth                   { background: #449ED0; }
 
 /* Neutral ClassicO2 */
-.c02-grey0                   { background: #313235; }
-.c02-grey1                   { background: #86888c; }
-.c02-grey2                   { background: #999; }
-.c02-grey3                   { background: #ddd; }
-.c02-grey4                   { background: #eee; }
-.c02-grey5                   { background: #f6f6f6; }
+.classicO2-grey0                   { background: #000033; }
+.classicO2-grey1                   { background: #757575; }
+.classicO2-grey2                   { background: #999999; }
+.classicO2-grey3                   { background: #DDDDDD; }
+.classicO2-grey4                   { background: #EEEEEE; }
+.classicO2-grey5                   { background: #f6f6f6; }
 
 
 .constant{

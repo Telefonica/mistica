@@ -3,7 +3,21 @@ module.exports = {
     "design/introduction",
     "design/manager",
     {
-      'Foundamentals': ['design/colors', 'design/texts', 'design/layouts'],
+      'Foundamentals': [
+        {
+          type: 'category',
+          label: 'Color',
+          items: [
+            'design/color/movistar-palette',
+            'design/color/vivo-palette',
+            'design/color/o2-palette',
+            'design/color/classic-o2-palette',
+            'design/color/constants',
+          ],
+      }, 
+        'design/typography',
+        'design/layout'
+      ],
     },
     {
     'Navigation': [
