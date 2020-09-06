@@ -1,0 +1,10 @@
+name: Cloning libraries to mistica-sketch-libraries
+
+on:
+  push:
+
+jobs:
+  generator:
+    runs-on: ubuntu-latest
+    steps:
+    - run: GIT_USER=yceballost USE_SSH=true yarn deploy
