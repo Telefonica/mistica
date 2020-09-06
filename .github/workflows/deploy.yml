@@ -8,5 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-    cd mistica-site
-    GIT_USER=yceballost USE_SSH=true yarn deploy
+      cd mistica-site
+      GIT_USER=yceballost USE_SSH=true yarn deploy
+
+    - name: convert folder to sketch file
+      run: |
+        cd mistica-site
+        GIT_USER=yceballost USE_SSH=true yarn deploy
