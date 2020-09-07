@@ -21,11 +21,11 @@ jobs:
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
           elif [ -e misticaSite/package-lock.json ]; then
-          npm ci
+          yarn install --frozen-lockfile
           else
           npm i
           fi
-          npm run build        
+          yarn build      
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
