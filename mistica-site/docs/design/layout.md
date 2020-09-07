@@ -21,7 +21,7 @@ Un layout está formado por diferentes tipos de espacios.
 
 ![](../img/levels.png)
 
-### \[LVL 1\] Espacio exterior del contenedor
+### Level 1 · Espacio exterior del contenedor
 
 Llamamos “contenedor del layout” a todo el grupo de bloques y componentes donde se le está aplicando el layout. Por ejemplo, en esta pantalla, estamos aplicando el layout a la zona con fondo blanco.
 
@@ -59,7 +59,7 @@ Al meter un segundo componente se pueden tomar 2 decisiones.
 
 Ésta decisión es importante, porque dependiendo de cómo se organicen las pantalla, los componentes se distanciarán más o menos entre ellos, esto ayudará al usuario en la organización de información en la interfaz.
 
-### \[LVL 2\] Espacios entre bloques
+### Level 2 ·  Espacios entre bloques
 
 El espacio entre bloques sería la distancia visual entre diferentes bloques \(Bloque A - Bloque B\). El espaciado entre bloques será siempre de 32px, y no podrá ser modificado.
 
@@ -73,7 +73,7 @@ Un diseñador o diseñadora podrá hacer cuantos bloques necesite sin importar e
 A este espacio entre elementos, en desarrollo se le conoce con la etiqueta **&lt;Stack&gt;**
 :::
 
-### \[LVL 3\] Espacio entre elementos dentro de un bloque
+### Level 3 ·  Espacio entre elementos dentro de un bloque
 
 Los elementos que se encuentran dentro de un bloque tendrán a su vez unos espacios definidos entre ellos. Volviendo al ejemplo de 1 solo bloque con dos componentes en su interior.
 
