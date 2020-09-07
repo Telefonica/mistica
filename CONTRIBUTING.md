@@ -35,7 +35,7 @@ Implementation related issues, each platform ([Android](https://github.com/Telef
 ### Pull requests
 
 * [Android](https://github.com/Telefonica/mistica-android/blob/master/CONTRIBUTING.md#pull-requests)
-* [ios](https://github.com/Telefonica/mistica-ios/blob/master/CONTRIBUTING.md#pull-requests)
+* [iOS](https://github.com/Telefonica/mistica-ios/blob/master/CONTRIBUTING.md#pull-requests)
 * [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.md#pull-requests)
 
 ### Bug reports
