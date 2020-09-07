@@ -98,7 +98,7 @@ Aplicaremos la misma definición de "niveles" que hemos explicado [anteriormente
 Solo cambiarán las distancias relativas a cada elemento.
 
 * Distancia del contenedor por arriba es de **40px** y por debajo de **80px**
-* Distancia entre bloques **56px**
+* Distancia entre bloques **48px**
 * Distancia entre componentes dentro de un bloque **24px**
 
 ## Otros recursos
