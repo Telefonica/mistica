@@ -521,9 +521,9 @@ html[data-theme='light'] .DocSearch {
 
 /* Secondary ClassicO2 */
 .classicO2-o2Gem                   { background: #01B7B4; }
-.classicO2-p2GemDark               { background: #099E9B; }
+.classicO2-o2GemDark               { background: #099E9B; }
 .classicO2-o2GemLight30             { background: #99E2E1; }
-.classicO2-o2yellow                     { background: #FFCC00; }
+.classicO2-o2Yellow                     { background: #FFCC00; }
 .classicO2-o2Green                 { background: #84B50F; }
 .classicO2-o2GreenLight                     { background: #DAE8B7; }
 .classicO2-orange                   { background: #FF7F41; }
