@@ -16,6 +16,7 @@ jobs:
         with:
           node-version: '12.x'
       - name: Test Build
+        working-directory: ./mistica-site
         run: |
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
@@ -24,7 +25,7 @@ jobs:
           else
           npm i
           fi
-          npm run build
+          npm run build        
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
@@ -34,6 +35,7 @@ jobs:
         with:
           node-version: '12.x'
       - name: Add key to allow access to repository
+        working-directory: ./mistica-site
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
@@ -50,6 +52,7 @@ jobs:
         env:
           USE_SSH: true
           GIT_USER: git
+        working-directory: ./mistica-site
         run: |
           git config --global user.email "actions@gihub.com"
           git config --global user.name "gh-actions"
