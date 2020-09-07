@@ -1,14 +1,10 @@
-name: deploy to mistica site
+name: documentation
 
-# on:
-#   pull_request:
-#     branches: [master]
-#     paths:
-#     - 'mistica-site/**'
-#   push:
-#     branches: [master]
-#     paths:
-#     - 'mistica-site/**'
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
 
 jobs:
   checks:
@@ -21,7 +17,6 @@ jobs:
           node-version: '12.x'
       - name: Test Build
         run: |
-          cd mistica-site
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
@@ -58,7 +53,6 @@ jobs:
         run: |
           git config --global user.email "actions@gihub.com"
           git config --global user.name "gh-actions"
-          cd mistica-site
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
