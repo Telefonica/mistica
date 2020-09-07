@@ -55,8 +55,9 @@ module.exports = {
         //   position: 'right',
         // },
         {
-          to: 'docs/contributing',
+          to: 'docs/contribute/design',
           label: 'Contribute',
+          activeBasePath: 'docs/contribute',
           position: 'right',
         },
         {

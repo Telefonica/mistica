@@ -205,4 +205,8 @@ module.exports = {
               ],
     },
   ],
+  contribute: [
+    'contribute/design', 
+    'contribute/develop',
+  ],
 };

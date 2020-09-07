@@ -1,9 +1,9 @@
 ---
-id: contributing
-title: Contribute to Mística
+id: develop
+title: As a develop
 ---
 
-![Mística Cover](img/cover.gif)
+![Mística Cover](../img/cover.gif)
 
 Thank you for your interest to contribute to Mística! This document explains different ways to contribute to this project.
 
