@@ -4,8 +4,8 @@ on:
   push:
     branches:
     - master
-    paths:
-    - 'mistica-site/docs/documentation-images.sketch'
+    # paths:
+    # - 'mistica-site/docs/documentation-images.sketch'
     
 jobs:
   imgs:
