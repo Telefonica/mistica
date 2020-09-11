@@ -1,4 +1,4 @@
-name: SketchTool Export Assets
+name: SketchTool Export imgs
 
 on:
   push:
@@ -8,13 +8,13 @@ on:
     - 'mistica-site/docs/documentation-images.sketch'
     
 jobs:
-  assets:
-    runs-on: [self-hosted, macOS]
+  imgs:
+    runs-on: [self-hosted]
     steps:
     - uses: actions/checkout@v2
 
     # Cuando tengamos todas las imagenes pasadas a sketch, podriamos activar este paso
-    # - name: Removed assets
+    # - name: Removed imgs
     #   run: git rm -r icons/*
 
     - name: Download & Install Sketch
@@ -25,7 +25,7 @@ jobs:
     - name: Run SketchTool
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=icons mistica-site/docs/documentation-images.sketch
 
-    - name: Add assets
+    - name: Add imgs
       run: git add -A mistica-site/docs/img/*
 
     - name: Commit & Push
