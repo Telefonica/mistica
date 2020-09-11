@@ -3,9 +3,9 @@ name: SketchTool Export Assets
 on:
   push:
     branches:
-    - production
+    - master
     paths:
-    - 'images/documentationResources.sketch'
+    - 'mistica-site/docs/documentation-images.sketch'
     
 jobs:
   assets:
@@ -13,16 +13,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Install svgo
-      run: npm install -g svgo
-
-    - name: Removed assets
-      run: git rm -r icons/*
-    
-    - run: npm install --global kactus-cli
-
-    - name: Convert folder to sketch file
-      run: kactus import libs/Mistica_Icons
+    # Cuando tengamos todas las imagenes pasadas a sketch, podriamos activar este paso
+    # - name: Removed assets
+    #   run: git rm -r icons/*
 
     - name: Download & Install Sketch
       run: |
@@ -30,23 +23,14 @@ jobs:
         unzip sketch.zip
 
     - name: Run SketchTool
-      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=icons libs/*.sketch
-
-    - name: SVGO
-      run: svgo -f icons -r -o icons --disable=removeViewBox
+      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=icons mistica-site/docs/documentation-images.sketch
 
     - name: Add assets
-      run: git add -A icons/*
+      run: git add -A mistica-site/docs/img/*
 
     - name: Commit & Push
       run: |    
         git config --global user.name "Yayo"
         git config --global user.email "yceballost@gmail.com"  
-        git commit -am "Update Assets"
-        git push origin production
-
-    # - name: Push
-    #   run: |
-    #     git show-ref
-    #     git commit -m 'icon exported'
-        
+        git commit -am "Update sketch imgs"
+        git push origin master
