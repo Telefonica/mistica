@@ -4,8 +4,8 @@ on:
   push:
     branches:
     - master
-    # paths:
-    # - 'mistica-site/docs/documentation-images.sketch'
+    paths:
+    - 'mistica-site/docs/documentation-images.sketch'
     
 jobs:
   imgs:
@@ -23,10 +23,10 @@ jobs:
         unzip sketch.zip
 
     - name: Run SketchTool
-      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=mistica-site/docs/img-test mistica-site/docs/documentation-images.sketch
+      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=mistica-site/docs/img mistica-site/docs/documentation-images.sketch
 
     - name: Add imgs
-      run: git add -A mistica-site/docs/img-test/*
+      run: git add -A mistica-site/docs/img/*
 
     - name: Commit & Push
       run: |    
