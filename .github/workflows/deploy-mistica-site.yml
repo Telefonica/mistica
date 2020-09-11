@@ -8,6 +8,12 @@ on:
     paths:
     - 'mistica-site/**'
     - '!mistica-site/docs/documentation-images.sketch'
+  workflow_run:
+    workflows: ["SketchTool Export Imgs"]
+    branches:
+      - production
+    types: 
+      - completed
 
 
 jobs:

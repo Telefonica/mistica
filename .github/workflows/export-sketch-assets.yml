@@ -1,4 +1,4 @@
-name: SketchTool Export imgs
+name: SketchTool Export Imgs
 
 on:
   push:
