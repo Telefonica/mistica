@@ -11,7 +11,7 @@ on:
   workflow_run:
     workflows: ["SketchTool Export Imgs"]
     branches:
-      - production
+      - master
     types: 
       - completed
 
