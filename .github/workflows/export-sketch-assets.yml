@@ -1,0 +1,52 @@
+name: SketchTool Export Assets
+
+on:
+  push:
+    branches:
+    - production
+    paths:
+    - 'images/documentationResources.sketch'
+    
+jobs:
+  assets:
+    runs-on: [self-hosted, macOS]
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install svgo
+      run: npm install -g svgo
+
+    - name: Removed assets
+      run: git rm -r icons/*
+    
+    - run: npm install --global kactus-cli
+
+    - name: Convert folder to sketch file
+      run: kactus import libs/Mistica_Icons
+
+    - name: Download & Install Sketch
+      run: |
+        curl -OL https://sketch.com/download/sketch.zip
+        unzip sketch.zip
+
+    - name: Run SketchTool
+      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=icons libs/*.sketch
+
+    - name: SVGO
+      run: svgo -f icons -r -o icons --disable=removeViewBox
+
+    - name: Add assets
+      run: git add -A icons/*
+
+    - name: Commit & Push
+      run: |    
+        git config --global user.name "Yayo"
+        git config --global user.email "yceballost@gmail.com"  
+        git commit -am "Update Assets"
+        git push origin production
+
+    # - name: Push
+    #   run: |
+    #     git show-ref
+    #     git commit -m 'icon exported'
+        
