@@ -23,10 +23,10 @@ jobs:
         unzip sketch.zip
 
     - name: Run SketchTool
-      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=icons mistica-site/docs/documentation-images.sketch
+      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=mistica-site/docs/img-test mistica-site/docs/documentation-images.sketch
 
     - name: Add imgs
-      run: git add -A mistica-site/docs/img/*
+      run: git add -A mistica-site/docs/img-test/*
 
     - name: Commit & Push
       run: |    
