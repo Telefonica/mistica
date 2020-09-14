@@ -6,6 +6,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+import Head from '@docusaurus/Head';
+
 const features = [
   {
     title: <>Easy to Use</>,
@@ -61,6 +63,9 @@ function Home() {
     <Layout
       // title={`${siteConfig.title} Design System`}
       description="Description will go into a meta tag in <head />">
+      <Head>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap" rel="stylesheet" />
+      </Head>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h4>Mística, Telefonica CX Design System</h4>
