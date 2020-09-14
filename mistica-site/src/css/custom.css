@@ -39,7 +39,7 @@
 }
 
 /* ----- Fonts ----- */
-@font-face {
+/* @font-face {
 	font-family: 'Manrope';
 	src: url('/static/fonts/Manrope-Bold.woff') format('woff');
 	font-weight: bold;
@@ -58,7 +58,7 @@
 	src: url('/static/fonts/Manrope-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
-}
+} */
 
 /* ----- Edited css ----- */
 .docusaurus-highlight-code-line {
