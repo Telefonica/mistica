@@ -5,7 +5,7 @@ title: Typography
 
 This is a link to other page This is a link to an [external page.](http://www.example.com/)
 
-
+<!-- 
 |                   |      App      |    Desktop    |
 | :---------------- | :-----------: | :-----------: |
 | **text-preset-1** |  32/40 Light  |  40/48 Light  |
@@ -21,7 +21,7 @@ This is a link to other page This is a link to an [external page.](http://www.ex
 |                   | 14/20 Medium  | 16/24 Medium  |
 | **text-preset-8** | 12/16 Regular | 14/20 Regular |
 |                   | 12/16 Medium  | 14/20 Medium  |
-
+ -->
 
 
 ![](../img/equivalenceTypographyTable.svg)
