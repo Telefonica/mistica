@@ -48,6 +48,15 @@ Fields allow users to enter information. In our system, the fields are of the fo
     <FormPhoneNumberField name="phone" label="Phone" />
 </ThemeContextProvider>
 
+<br/>
+
+:::note
+<ThemeContextProvider theme={{skin: 'Movistar'}}>
+Play & explore all the possibilities of this component <br/>
+<TextLink href="https://mistica-web.now.sh/?path=/story/components-forms-doublefield--default" newTab>Go to Mistica Web Playroom</TextLink>
+</ThemeContextProvider>
+:::
+
 
 ## Anatomy
 
