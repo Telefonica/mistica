@@ -5,7 +5,7 @@
         <g id="equivalenceTypographyTable">
             <rect fill="#FFFFFF" x="0" y="0" width="783" height="754"></rect>
             <text id="text-preset-1" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#959595">
-                <tspan x="32" y="130">TEXT-PRESET-1</tspan>
+                <tspan x="0" y="130">TEXT-PRESET-1</tspan>
             </text>
             <text id="32/40-Light" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="326.316406" y="130">32/40 LIGHT</tspan>
@@ -14,7 +14,7 @@
                 <tspan x="555.897461" y="130">40/48 LIGHT</tspan>
             </text>
             <text id="text-preset-2" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#959595">
-                <tspan x="32" y="177">TEXT-PRESET-2</tspan>
+                <tspan x="0" y="177">TEXT-PRESET-2</tspan>
             </text>
             <text id="28/32-Light" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="326.530273" y="177">28/32 LIGHT</tspan>
@@ -22,11 +22,11 @@
             <text id="40/48-Light" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="555.897461" y="177">40/48 LIGHT</tspan>
             </text>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="149" width="718" height="1"></rect>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="102" width="718" height="1"></rect>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="196" width="718" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="149" width="782" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="102" width="782" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="196" width="782" height="1"></rect>
             <text id="text-preset-3" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#959595">
-                <tspan x="32" y="224">TEXT-PRESET-3</tspan>
+                <tspan x="0" y="224">TEXT-PRESET-3</tspan>
             </text>
             <text id="24/32-Light" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="326.5625" y="224">24/32 LIGHT</tspan>
@@ -34,9 +34,9 @@
             <text id="32/40-Light" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="556.316406" y="224">32/40 LIGHT</tspan>
             </text>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="243" width="718" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="243" width="782" height="1"></rect>
             <text id="text-preset-4" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#959595">
-                <tspan x="32" y="271">TEXT-PRESET-4</tspan>
+                <tspan x="0" y="271">TEXT-PRESET-4</tspan>
             </text>
             <text id="22/24-Light" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="326.714844" y="271">22/24 LIGHT</tspan>
@@ -44,9 +44,9 @@
             <text id="28/32-Light" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="556.530273" y="271">28/32 LIGHT</tspan>
             </text>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="290" width="718" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="290" width="782" height="1"></rect>
             <text id="text-preset-5" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#959595">
-                <tspan x="32" y="318">TEXT-PRESET-5</tspan>
+                <tspan x="0" y="318">TEXT-PRESET-5</tspan>
             </text>
             <text id="18/24-Light" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="327.195312" y="318">18/24 LIGHT</tspan>
@@ -60,10 +60,10 @@
             <text id="20/28-Medium" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="549.425781" y="365">20/28 MEDIUM</tspan>
             </text>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="337" width="718" height="1"></rect>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="384" width="718" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="337" width="782" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="384" width="782" height="1"></rect>
             <text id="text-preset-6" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#959595">
-                <tspan x="32" y="412">TEXT-PRESET-6</tspan>
+                <tspan x="0" y="412">TEXT-PRESET-6</tspan>
             </text>
             <text id="16/24-Light" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="327.253906" y="412">16/24 LIGHT</tspan>
@@ -83,11 +83,11 @@
             <text id="18/24-Medium" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="550.18457" y="506">18/24 MEDIUM</tspan>
             </text>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="431" width="718" height="1"></rect>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="478" width="718" height="1"></rect>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="525" width="718" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="431" width="782" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="478" width="782" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="525" width="782" height="1"></rect>
             <text id="text-preset-7" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#959595">
-                <tspan x="32" y="553">TEXT-PRESET-7</tspan>
+                <tspan x="0" y="553">TEXT-PRESET-7</tspan>
             </text>
             <text id="14/20-Regular" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="316.780273" y="553">14/20 REGULAR</tspan>
@@ -101,10 +101,10 @@
             <text id="16/20-Medium" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="550.266602" y="600">16/20 MEDIUM</tspan>
             </text>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="572" width="718" height="1"></rect>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="619" width="718" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="572" width="782" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="619" width="782" height="1"></rect>
             <text id="text-preset-8" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#959595">
-                <tspan x="32" y="647">TEXT-PRESET-8</tspan>
+                <tspan x="0" y="647">TEXT-PRESET-8</tspan>
             </text>
             <text id="12/16-Regular" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="317.834961" y="647">12/16 REGULAR</tspan>
@@ -118,8 +118,8 @@
             <text id="14/20-Medium" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="550.240234" y="694">14/20 MEDIUM</tspan>
             </text>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="666" width="718" height="1"></rect>
-            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="33" y="713" width="718" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="666" width="782" height="1"></rect>
+            <rect id="Rectangle" fill="#EEEEEE" fill-rule="nonzero" x="1" y="713" width="782" height="1"></rect>
             <text id="MOBILE" font-family="SFProText-Bold, SF Pro Text" font-size="12" font-weight="bold" fill="#232323">
                 <tspan x="341.410156" y="59">MOBILE</tspan>
             </text>
