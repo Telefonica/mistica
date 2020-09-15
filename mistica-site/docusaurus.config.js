@@ -134,6 +134,10 @@ module.exports = {
       ],
     },
   },
+  stylesheets: [
+    "https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap",
+    "./src/css/custom.css"
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
