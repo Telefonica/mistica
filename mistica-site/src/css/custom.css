@@ -69,12 +69,12 @@
 }
 
 h1, h2, h3, h4, h5, h6, li, p, a{
-  font-family: 'Manrope', sans-serif !important;
+  font-family: 'Manrope', sans-serif;
   color: var(--ifm-color-primary);
 }
 
 *{
-  font-family: 'Manrope', sans-serif !important;
+  font-family: 'Manrope', sans-serif;
 }
 
 p, li{
