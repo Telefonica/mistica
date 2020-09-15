@@ -21,3 +21,7 @@ This is a link to other page This is a link to an [external page.](http://www.ex
 |                   | 14/20 Medium  | 16/24 Medium  |
 | **text-preset-8** | 12/16 Regular | 14/20 Regular |
 |                   | 12/16 Medium  | 14/20 Medium  |
+
+
+
+![](../img/equivalenceTypographyTable.svg)
