@@ -7,46 +7,46 @@ Fields allow users to enter information. In our system, the fields are of the fo
 
 ## Type
 #### Text
-<MultiBrandExample>
-    <FormTextField name="name" label="Name" />
-</MultiBrandExample>
+<ThemeContextProvider theme={{skin: 'Movistar'}}>
+<FormTextField name="name" label="Name" />
+</ThemeContextProvider>
 
 #### Dropdown
-<MultiBrandExample>
+<ThemeContextProvider theme={{skin: 'Movistar'}}>
     <FormSelect
-  name="fruits"
-  label="Choose a fruit"
-  options={[
-    { value: "orange", text: "Orange" },
-    { value: "banana", text: "Banana" },
-  ]}
-/>
-</MultiBrandExample>
+        name="fruits"
+        label="Choose a fruit"
+        options={[
+            { value: "orange", text: "Orange" },
+            { value: "banana", text: "Banana" },
+        ]}
+    />
+</ThemeContextProvider>
 
 #### Password
-<MultiBrandExample>
-    <FormPasswordField name="password" label="Password" />
-</MultiBrandExample>
+<ThemeContextProvider theme={{skin: 'Movistar'}}>
+<FormPasswordField name="password" label="Password" />
+</ThemeContextProvider>
 
 #### Text area
-<MultiBrandExample>
-    <FormTextField name="name" label="Name" />
-</MultiBrandExample>
+<ThemeContextProvider theme={{skin: 'Movistar'}}>
+<FormTextField name="name" label="Name" />
+</ThemeContextProvider>
 
 #### Card number
-<MultiBrandExample>
-    <FormCreditCardFields />
-</MultiBrandExample>
+<ThemeContextProvider theme={{skin: 'Movistar', i18n: {locale: 'es-ES', phoneNumberFormattingRegionCode: 'ES'},}}>
+<FormCreditCardFields />
+</ThemeContextProvider>
 
 #### Date
-<MultiBrandExample>
-    <FormDateField name="date" label="Date" />
-</MultiBrandExample>
+<ThemeContextProvider theme={{skin: 'Movistar'}}>
+<FormDateField name="date" label="Date" />
+</ThemeContextProvider>
 
 #### Telephone number
-<MultiBrandExample>
+<ThemeContextProvider theme={{skin: 'Movistar', i18n: {locale: 'es-ES', phoneNumberFormattingRegionCode: 'ES'},}}>
     <FormPhoneNumberField name="phone" label="Phone" />
-</MultiBrandExample>
+</ThemeContextProvider>
 
 
 ## Anatomy
