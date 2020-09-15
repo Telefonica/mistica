@@ -5,16 +5,49 @@ title: Fields
 
 Fields allow users to enter information. In our system, the fields are of the following types:
 
-* Text
-* Dropdown
-* Password
-* Text area
-* Card number
-* Expiry date
-* CVV
-* Telephone number
-
 ## Type
+#### Text
+<MultiBrandExample>
+    <FormTextField name="name" label="Name" />
+</MultiBrandExample>
+
+#### Dropdown
+<MultiBrandExample>
+    <FormSelect
+  name="fruits"
+  label="Choose a fruit"
+  options={[
+    { value: "orange", text: "Orange" },
+    { value: "banana", text: "Banana" },
+  ]}
+/>
+</MultiBrandExample>
+
+#### Password
+<MultiBrandExample>
+    <FormPasswordField name="password" label="Password" />
+</MultiBrandExample>
+
+#### Text area
+<MultiBrandExample>
+    <FormTextField name="name" label="Name" />
+</MultiBrandExample>
+
+#### Card number
+<MultiBrandExample>
+    <FormCreditCardFields />
+</MultiBrandExample>
+
+#### Date
+<MultiBrandExample>
+    <FormDateField name="date" label="Date" />
+</MultiBrandExample>
+
+#### Telephone number
+<MultiBrandExample>
+    <FormPhoneNumberField name="phone" label="Phone" />
+</MultiBrandExample>
+
 
 ## Anatomy
 
