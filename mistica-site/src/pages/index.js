@@ -65,7 +65,7 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h4>Mística, Telefonica CX Design System</h4>
+          <h4>Mística, Telefónica Design System</h4>
           <h1 className="hero__title">Building our design system together</h1>
           <div className={styles.buttons}>
             <Link
