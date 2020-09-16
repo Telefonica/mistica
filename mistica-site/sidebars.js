@@ -100,6 +100,7 @@ module.exports = {
     },
     {
     'Feedbacks': [
+      'components/feedbacks/usage',
       {
         type: 'category',
         label: 'Feedbacks scenarios',
