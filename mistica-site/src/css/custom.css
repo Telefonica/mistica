@@ -620,3 +620,12 @@ hr {
   overflow: hidden;
   padding: 0;
 }
+
+.footer__link-item {
+  color: var(--ifm-footer-link-color);
+  line-height: 2;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-white);
+}

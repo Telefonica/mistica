@@ -1,7 +1,7 @@
 module.exports = {
   design: [
     "design/introduction",
-    "design/manager",
+    "design/start-using",
     {
       'Foundamentals': [
         {

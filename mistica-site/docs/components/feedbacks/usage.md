@@ -10,16 +10,6 @@ title: Usage
 Please note this documentation is being validated at the moment and is **not** implementation-ready
 ::: -->
 
-<ThemeContextProvider theme={{skin: 'Movistar'}}>
-<SuccessFeedbackScreen
-  title="Some title"
-  description="Some description text"
-  primaryButton={
-    <ButtonPrimary href="https://google.com">Action</ButtonPrimary>
-  }
-/>
-</ThemeContextProvider>
-
 This documentation establishes which components should designers in Novum incorporate when giving feedback to our users. For instance, providing the result of an action or process, requesting actions or giving important information beforehand.
 
 In the first section **Feedback scenarios** we define the different possible scenarios we may find depending on the type of information we want to provide our users. Please read the definition of each scenario carefully in order to find out which component to use for every platform \(iOS, Android and web\).

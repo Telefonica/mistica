@@ -10,7 +10,7 @@ title: Introduction
 Mística is Telefónica CX design system, a system that responds to our specific circumstances.
 The aim of Mistica is to help Telefonica designers and developers deliver work faster and better. It provides teams with a common language and encourages adherence to design guidelines with compliant components right out of the box.
 
-- <b> It is the language of the entire Telefónica CX universe</b><br/>
+- <b> It is the language of the entire Telefónica universe</b><br/>
 Mística enables us to have a universal language with which to develop our products.
 
 - <b>Consistency in all our products</b><br/>
