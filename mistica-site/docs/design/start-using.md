@@ -18,7 +18,7 @@ Para acceder a estas librerías tendrás que descargar un pequeño programa que 
 Este pequeño programa te permitirá:
 * Instalar las diferentes tipo de librerías en Sketch
     * Librerías de plataformas (iOS / Android / Desktop) 
-    * Librerías de marca (Movistar, Vivo, O2)
+    * Librerías de marca (Movistar, Vivo, O2, ClassicO2 y Telefónica)
     * Librería de iconos
 
 Además te permitirá descargar recursos necesarios como:
