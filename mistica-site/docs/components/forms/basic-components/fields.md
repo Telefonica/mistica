@@ -53,7 +53,7 @@ Fields allow users to enter information. In our system, the fields are of the fo
 :::note
 <ThemeContextProvider theme={{skin: 'Movistar'}}>
 Play & explore all the possibilities of this component <br/>
-<TextLink href="https://mistica-web.now.sh/?path=/story/components-forms-doublefield--default" newTab>Go to Mistica Web Playroom</TextLink>
+<TextLink href="https://mistica-web.now.sh/?path=/story/components-forms-doublefield--default" newTab>Go to Mistica Web Storybook</TextLink>
 </ThemeContextProvider>
 :::
 
