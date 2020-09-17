@@ -77,7 +77,6 @@ a{color: #24B4E1;}
 
 p, li{
   color: var(--ifm-color-neutral-dark);
-  font-size: 16px;
 }
 
 .navbar{
