@@ -1,5 +1,5 @@
 ---
-id: usage
+id: controls
 title: Controls
 ---
 

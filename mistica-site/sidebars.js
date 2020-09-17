@@ -64,9 +64,6 @@ module.exports = {
     ],
     },
   ],
-  develop: {
-    'Getting Started': ['develop/introduction', 'develop/android', 'develop/ios', 'develop/web']
-  },
   components:  [
     "components/introduction",
     {
@@ -98,6 +95,7 @@ module.exports = {
                   'components/buttons/accessibility'
                 ],
     },
+    "components/controls/controls",
     {
     'Feedbacks': [
       'components/feedbacks/usage',
