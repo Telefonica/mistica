@@ -36,7 +36,7 @@ Además te permitirá descargar recursos necesarios como:
 
 <br/>
 
-![](../img/startusing/img01.png)
+![](../img/startusing-01.png)
 
 
 

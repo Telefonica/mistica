@@ -19,7 +19,7 @@ Un layout está formado por diferentes tipos de espacios.
 2. Espacio entre bloques dentro del contenedor
 3. Espacio entre elementos dentro de un bloque
 
-![](../img/levels.png)
+![](../img/levels-00.png)
 
 ### Level 1 · Espacio exterior del contenedor
 
