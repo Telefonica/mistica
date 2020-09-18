@@ -39,7 +39,7 @@ jobs:
           npm run build        
   gh-release:
     if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted]
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
