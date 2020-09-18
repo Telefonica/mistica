@@ -6,6 +6,7 @@ on:
   push:
     branches: [master]
     paths:
+    - '.github/workflows/**'
     - 'mistica-site/**'
     - '!mistica-site/docs/documentation-images.sketch'
   workflow_run:
