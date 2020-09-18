@@ -55,7 +55,6 @@ Si tenemos una row con varias líneas, el componente *control* siempre estará c
 Sin embargo, cuando usemos *checkboxs* junto a un inputs siempre colocaremos los *controls* a la izquierda, en primer lugar antes del texto.
 ![Toggle](../../img/controls-08.png)
 
-
 ## Recomendaciones sobre los copies
 * Sé claro y conciso con lo que el usuario va a seleccionar
 * Utiliza frase afirmativas
