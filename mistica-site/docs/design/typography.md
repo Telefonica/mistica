@@ -5,6 +5,18 @@ title: Typography
 
 This is a link to other page This is a link to an [external page.](http://www.example.com/)
 
+Mística cuenta con 8 estilos tipográficos, a los que denominamos _text-presets_ y que se ordenan del 1 al 8 en una escala de mayor a menor respectivamente.
+
+La nomenclatura _text-presets_ nos permite que estos estilos sean reutilizables en diferentes pantallas y contextos sin importar su ubicuidad. A su vez posibilitan crear una relación de tamaños entre los diferentes formatos y dispositivos con los que diseñamos; móvil, escritorio, TV, … de esta manera podemos abarcar distintos contenidos y necesidades de un producto.
+
+
+## H2 Text style
+
+Nuestro sistema tipográfico utiliza las tipografías de los sistemas operativos móviles San Francisco (iOS) y Roboto (Android), aunque también está preparado para hacer uso de la tipografía corporativa Telefónica.   
+
+Actualmente dimensionamos nuestros estilos tipográficos, _text-presets_, en dos grupos; App y Desktop. Los tamaños que se muestran a continuación corresponden al tamaño y la altura de la línea:
+
+
 <!-- 
 |                   |      App      |    Desktop    |
 | :---------------- | :-----------: | :-----------: |
