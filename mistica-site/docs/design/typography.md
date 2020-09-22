@@ -12,7 +12,7 @@ La nomenclatura _text-presets_ nos permite que estos estilos sean reutilizables 
 
 ## H2 Text style
 
-Nuestro sistema tipográfico utiliza las tipografías de los sistemas operativos móviles San Francisco (iOS) y Roboto (Android), aunque también está preparado para hacer uso de la tipografía corporativa Telefónica.   
+Nuestro sistema tipográfico utiliza las tipografías de los sistemas operativos móviles _San Francisco (iOS)_ y _Roboto (Android)_ para el diseño app. En escritorio recurrimos de nuevo a la fuente _Roboto_ ya sea PC o Mac. Aunque también está preparado para hacer uso de la tipografía corporativa _Telefónica_ en ambos entornos.   
 
 Actualmente dimensionamos nuestros estilos tipográficos, _text-presets_, en dos grupos; App y Desktop. Los tamaños que se muestran a continuación corresponden al tamaño y la altura de la línea:
 
