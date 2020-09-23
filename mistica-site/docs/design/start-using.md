@@ -8,7 +8,7 @@ Hemos desarrollado un conjunto de herramientas para que los diseñadores de los 
 
 Entre ellas encontramos:
 * Librerías de Sketch con todos los componentes disponibles de código
-* Documentación de uso de componentes, disponible en la pestaña [Components](../components/introduction.mdx)
+* Documentación de uso de componentes, disponible en la pestaña [Components](../components/introduction.md)
 * Specs de creación de los componentes para desarrollo en [Zeplin](https://zpl.io/VqL93vZ)
 
 ## Sketch libraries

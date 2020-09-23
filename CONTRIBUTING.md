@@ -14,19 +14,19 @@ If this is your first contribution, before starting your work, please talk to us
 
 TBD
 
-[Create new component issue](https://github.com/Telefonica/mistica-web/issues/new?assignees=&labels=new-component&template=new-component.mdx&title=)
+[Create new component issue](https://github.com/Telefonica/mistica-web/issues/new?assignees=&labels=new-component&template=new-component.md&title=)
 
 ### Update existing component UI or UX
 
 TBD
 
-[Create component update issue](https://github.com/Telefonica/mistica-web/issues/new?assignees=&labels=enhancement&template=enhancement.mdx&title=)
+[Create component update issue](https://github.com/Telefonica/mistica-web/issues/new?assignees=&labels=enhancement&template=enhancement.md&title=)
 
 ### Documentation, help
 
 TBD
 
-[Create documentation issue](https://github.com/Telefonica/mistica-web/issues/new?assignees=&labels=documentation&template=documentation.mdx&title=)
+[Create documentation issue](https://github.com/Telefonica/mistica-web/issues/new?assignees=&labels=documentation&template=documentation.md&title=)
 
 ## Implementation
 
@@ -34,24 +34,24 @@ Implementation related issues, each platform ([Android](https://github.com/Telef
 
 ### Pull requests
 
-* [Android](https://github.com/Telefonica/mistica-android/blob/master/CONTRIBUTING.mdx#pull-requests)
-* [iOS](https://github.com/Telefonica/mistica-ios/blob/master/CONTRIBUTING.mdx#pull-requests)
-* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.mdx#pull-requests)
+* [Android](https://github.com/Telefonica/mistica-android/blob/master/CONTRIBUTING.md#pull-requests)
+* [iOS](https://github.com/Telefonica/mistica-ios/blob/master/CONTRIBUTING.md#pull-requests)
+* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.md#pull-requests)
 
 ### Bug reports
 
-* [Android](https://github.com/Telefonica/mistica-android/blob/master/CONTRIBUTING.mdx#bug-reports)
-* [iOS](https://github.com/Telefonica/mistica-ios/blob/master/CONTRIBUTING.mdx#bug-reports)
-* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.mdx#bug-reports)
+* [Android](https://github.com/Telefonica/mistica-android/blob/master/CONTRIBUTING.md#bug-reports)
+* [iOS](https://github.com/Telefonica/mistica-ios/blob/master/CONTRIBUTING.md#bug-reports)
+* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.md#bug-reports)
 
 ### Feature requests (no UI/UX changes)
 
-* [Android](https://github.com/Telefonica/mistica-android/blob/master/CONTRIBUTING.mdx#feature-requests-no-uiux-changes)
-* [iOS](https://github.com/Telefonica/mistica-iOS/blob/master/CONTRIBUTING.mdx#feature-requests-no-uiux-changes)
-* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.mdx#feature-requests-no-uiux-changes)
+* [Android](https://github.com/Telefonica/mistica-android/blob/master/CONTRIBUTING.md#feature-requests-no-uiux-changes)
+* [iOS](https://github.com/Telefonica/mistica-iOS/blob/master/CONTRIBUTING.md#feature-requests-no-uiux-changes)
+* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.md#feature-requests-no-uiux-changes)
 
 ### Documentation, help
 
-* [Android](https://github.com/Telefonica/mistica-android/blob/master/CONTRIBUTING.mdx#documentation-and-help-requests)
-* [iOS](https://github.com/Telefonica/mistica-iOS/blob/master/CONTRIBUTING.mdx#documentation-and-help-requests)
-* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.mdx#documentation-and-help-requests)
+* [Android](https://github.com/Telefonica/mistica-android/blob/master/CONTRIBUTING.md#documentation-and-help-requests)
+* [iOS](https://github.com/Telefonica/mistica-iOS/blob/master/CONTRIBUTING.md#documentation-and-help-requests)
+* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.md#documentation-and-help-requests)

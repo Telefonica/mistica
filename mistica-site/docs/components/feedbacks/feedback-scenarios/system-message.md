@@ -11,9 +11,9 @@ We define system messages as those that communicate information that is related 
 
 Please use:
 
-* For iOS a [crouton](../ios/crouton.mdx)
-* For Android a [snackbar](../android/snackbar.mdx)
-* For web a [snackbar](../web/snackbar.mdx)
+* For iOS a [crouton](../ios/crouton.md)
+* For Android a [snackbar](../android/snackbar.md)
+* For web a [snackbar](../web/snackbar.md)
 
 ![](../../../img/error-crouton.jpg)
 

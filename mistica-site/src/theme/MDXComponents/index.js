@@ -29,7 +29,7 @@ export default {
   a: (props) => {
     return <Link {...props} />;
   },
-  pre: (props) => <div className={styles.mdxxCodeBlock} {...props} />,
+  pre: (props) => <div className={styles.mdxCodeBlock} {...props} />,
   h1: Heading('h1'),
   h2: Heading('h2'),
   h3: Heading('h3'),

@@ -39,17 +39,17 @@ Implementation related issues, each platform ([Android](https://github.com/Telef
 
 * Android
 * iOS
-* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.mdx#bug-reports)
+* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.md#bug-reports)
 
 ### Feature requests (no UI/UX changes)
 
 * Android
 * iOS
-* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.mdx#feature-requests-no-uiux-changes)
+* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.md#feature-requests-no-uiux-changes)
 
 ### Documentation, help
 
 * Android
 * iOS
-* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.mdx#documentation-and-help-requests)
+* [Web](https://github.com/Telefonica/mistica-web/blob/master/CONTRIBUTING.md#documentation-and-help-requests)
 

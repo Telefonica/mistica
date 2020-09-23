@@ -42,4 +42,4 @@ We are currently building our roadmap and initial components inventory to estima
 
 ## Contributing
 
-See [CONTRIBUTING.mdx](./CONTRIBUTING.mdx)
+See [CONTRIBUTING.md](./CONTRIBUTING.md)

@@ -70,10 +70,10 @@ Actions keep floating when user scrolls down
 
 How is it in iOS?
 
-{% page-ref page="../../ios/internal/flow.mdx" %}
+{% page-ref page="../../ios/internal/flow.md" %}
 
   
 Related technical documentation 
 
-{% page-ref page="../../../../develop/webviews.mdx" %}
+{% page-ref page="../../../../develop/webviews.md" %}
 

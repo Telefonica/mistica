@@ -5,7 +5,7 @@ title: Tooltip
 
 We use tooltips for
 
-* [contextual guides](../feedback-scenarios/contextual-guide.mdx)
+* [contextual guides](../feedback-scenarios/contextual-guide.md)
 
 ## Use considerations
 

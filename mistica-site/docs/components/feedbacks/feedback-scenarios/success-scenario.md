@@ -18,17 +18,17 @@ For long multi-steps processes or those where any kind of purchase is involved \
 
 Please check out:
 
-* for iOS the [iOS success screen](../ios/success-screen.mdx)
-* for Android the [Android success screen](../android/success-screen.mdx)
-* for web the [web success screen](../web/success-screen.mdx)
+* for iOS the [iOS success screen](../ios/success-screen.md)
+* for Android the [Android success screen](../android/success-screen.md)
+* for web the [web success screen](../web/success-screen.md)
 
 ![](../../../img/success-screen.jpg)
 
 For **small and very specific actions** where it’s not possible to communicate success implicitly and where a success screen may be unnecessary \(for short processes or those not related with purchases, balance, upgrades, etc.\) consider using:
 
-* in iOS a [crouton](../ios/crouton.mdx)
-* In Android a [snackbar](../android/snackbar.mdx)
-* in web a [snackbar](../web/snackbar.mdx)
+* in iOS a [crouton](../ios/crouton.md)
+* In Android a [snackbar](../android/snackbar.md)
+* in web a [snackbar](../web/snackbar.md)
 
 ![](../../../img/success-crouton.jpg)
 

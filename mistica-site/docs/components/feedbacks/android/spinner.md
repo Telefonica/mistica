@@ -5,7 +5,7 @@ title: Spinner
 
 We use spinners as
 
-* [loading indicators](../feedback-scenarios/loading-indicator.mdx)
+* [loading indicators](../feedback-scenarios/loading-indicator.md)
 
 ## Use considerations
 

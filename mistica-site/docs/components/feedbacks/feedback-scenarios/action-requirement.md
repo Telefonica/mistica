@@ -14,9 +14,9 @@ We define action requirements as messages where we need to interrupt users on th
 
 Please use:
 
-* for iOS an [alert](../ios/alert.mdx)
-* for web a [dialog](../web/dialog.mdx)
-* For Android use a [dialog](../android/dialog.mdx). If the action is related to device permissions, use the specific format for this: the permission dialog
+* for iOS an [alert](../ios/alert.md)
+* for web a [dialog](../web/dialog.md)
+* For Android use a [dialog](../android/dialog.md). If the action is related to device permissions, use the specific format for this: the permission dialog
 
 ![](../../../img/action-requirement.jpg)
 

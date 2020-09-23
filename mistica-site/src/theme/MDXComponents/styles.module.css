@@ -5,12 +5,12 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-.mdxxCodeBlock {
+.mdxCodeBlock {
   position: relative;
   margin-bottom: var(--ifm-leading);
   font-size: var(--ifm-code-font-size);
 }
 
-.mdxxCodeBlock pre {
+.mdxCodeBlock pre {
   font-size: inherit;
 }

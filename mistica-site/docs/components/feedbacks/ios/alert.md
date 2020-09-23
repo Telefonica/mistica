@@ -5,9 +5,9 @@ title: Alert
 
 We use alerts for
 
-* [action confirmations](../feedback-scenarios/action-confirmation.mdx)
-* [action requirements](../feedback-scenarios/action-requirement.mdx)
-* [error messages](../feedback-scenarios/error-scenario.mdx)
+* [action confirmations](../feedback-scenarios/action-confirmation.md)
+* [action requirements](../feedback-scenarios/action-requirement.md)
+* [error messages](../feedback-scenarios/error-scenario.md)
 
 ## Use considerations
 

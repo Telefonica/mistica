@@ -5,7 +5,7 @@ title: Load Error
 
 We use load errors for
 
-* [error messages](../feedback-scenarios/error-scenario.mdx)
+* [error messages](../feedback-scenarios/error-scenario.md)
 
 ## Use considerations
 
