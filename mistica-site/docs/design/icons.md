@@ -38,3 +38,10 @@ Esta librería cuenta con aproximadamente unos 400 iconos en diferentes estilos 
 * En dispositivos móviles usaremos el estilo **regular** para tamaños **menores de 64px**.
 * El estilo filled se usa en aquellos dispositivos que la calidad de renderizado sea inferior, por ejemplo, en televisión.
 :::
+
+
+---
+
+## Pending
+* hablar de contribución
+* cuando hablamos de otra librería de desarrollo y enlazamos a mistica icons habría que meter en el repo de mistica icons la documentación necesario para el uso de iconos para desarrolladores o enlaces y demás.
