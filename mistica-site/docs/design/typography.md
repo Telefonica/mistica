@@ -110,7 +110,7 @@ Son los tamaños de fuente más pequeña y proporcionan información detallada e
 
 <br/>
 
-#### Ejejemplos de combinaciones aplicadas a diferentes pantallas y componentes
+#### Ejemplos de combinaciones aplicadas a diferentes pantallas y componentes
 ![](../img/typography-02.png)
 
 
