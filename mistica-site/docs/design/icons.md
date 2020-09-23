@@ -27,7 +27,7 @@ import * as Icons from '@telefonica/mistica/dist-es/generated/mistica-icons';
 
 <!-- <h5 id={name}>{name}</h5> -->
 
-Desde Mística damos soporte a los iconos que se trabajaron desde el equipo de marca global para todos los productos de Telefónica. Para esto lo que hemos creado ha sido una librería para diseño (disponible desde [Mística Manager](start-using.md) y otra librería en desarrollo (web) [mistica-icons](https://github.com/Telefonica/mistica-icons).
+Desde Mística damos soporte a los iconos que se trabajaron desde el equipo de marca global para todos los productos de Telefónica. Para esto lo que hemos creado ha sido una librería para diseño (disponible desde [Mística Manager](start-using.md) y otra librería en desarrollo [mistica-icons](https://github.com/Telefonica/mistica-icons).
 
 ![](../img/misticaIcons.png)
 
