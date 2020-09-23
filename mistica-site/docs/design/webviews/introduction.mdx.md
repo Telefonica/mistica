@@ -12,14 +12,14 @@ In Novum there are native screens living with webviews througout the app. Here y
 This documentation is split in both operative systems, so it takes into account the particularities and patterns of each system. The definition of the different modes is the same but the configurability of each mode can change depending on the platform.
 
 ### Android
-* [internal flow](android/internal/flow.md)
-* [internal modal](android/internal/modal.md)
-* [browser](android/browser.md)
-* [configuration by default](android/configuration-by-default.md)
+* [internal flow](android/internal/flow.mdx)
+* [internal modal](android/internal/modal.mdx)
+* [browser](android/browser.mdx)
+* [configuration by default](android/configuration-by-default.mdx)
 
 ### iOS
-* [iOS internal flow](ios/internal/flow.md)
-* [iOS internal modal](ios/internal/modal.md)
-* [iOS internal browser](ios/browser.md)
-* [iOS configuration by default](ios/configuration-by-default.md)
+* [iOS internal flow](ios/internal/flow.mdx)
+* [iOS internal modal](ios/internal/modal.mdx)
+* [iOS internal browser](ios/browser.mdx)
+* [iOS configuration by default](ios/configuration-by-default.mdx)
 

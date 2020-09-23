@@ -13,12 +13,12 @@ Component use depends on two factors: the estimated loading time of the screen/p
 
 For cached screens, where we want to convey users that the presented content is being refreshed, please use:
 
-* For iOS a [progress bar](../ios/progress-bar.md)
-* For Android a [progress bar](../android/progress-bar.md)
+* For iOS a [progress bar](../ios/progress-bar.mdx)
+* For Android a [progress bar](../android/progress-bar.mdx)
 
 ![](../../../img/progress-bar.jpg)
 
-This is also shown in webviews in browser mode \(check out the documentation for [Android](../../../design/webviews/android/browser.md) and [iOS](../../../design/webviews/ios/browser.md)\)
+This is also shown in webviews in browser mode \(check out the documentation for [Android](../../../design/webviews/android/browser.mdx) and [iOS](../../../design/webviews/ios/browser.mdx)\)
 
 For new screens, please take into account the estimated loading time of the screen and use the most suitable component:
 
@@ -26,9 +26,9 @@ If the estimated load time is medium \(in the range of 500ms-3s\) and if the lay
 
 Therefore, in this case please use:
 
-* For iOS a [skeleton](../ios/skeleton.md)
-* For Android a [skeleton](../android/skeleton.md)
-* For web a [skeleton](../web/skeleton.md)
+* For iOS a [skeleton](../ios/skeleton.mdx)
+* For Android a [skeleton](../android/skeleton.mdx)
+* For web a [skeleton](../web/skeleton.mdx)
 
 ![](../../../img/skeleton.jpg)
 
@@ -42,9 +42,9 @@ If the estimated load time is very short \(in the range of 0-500ms\) using spinn
 
 Therefore, in these cases please use:
 
-* For iOS a [spinner](../ios/spinner.md)
-* For Android a [spinner](../android/spinner.md)
-* For web a [spinner](../web/spinner.md)
+* For iOS a [spinner](../ios/spinner.mdx)
+* For Android a [spinner](../android/spinner.mdx)
+* For web a [spinner](../web/spinner.mdx)
 
 We just showcased how to indicate a loading process when navigating between screens. However, sometimes the loading time of a process or action must be shown in the same screen where the action took place. In fact, this is always preferred, as explained when describing error messages, so users can see a possible error in the same screen and edit or retry what necessary.
 

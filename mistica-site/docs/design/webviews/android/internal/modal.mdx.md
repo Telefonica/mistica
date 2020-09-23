@@ -16,7 +16,7 @@ Consider creating a modal context only when a task must be completed or abandone
 Non critical subtasks, so it doesn’t matter if the users leave, that should be accomplished or abandoned to continue using the app.
 
 :::caution
-**Don’t apply to purchase flows. For internal purchase flows should always be applied**[ **Internal Webview mode with Flow Presentation**](flow.md)**.**
+**Don’t apply to purchase flows. For internal purchase flows should always be applied**[ **Internal Webview mode with Flow Presentation**](flow.mdx)**.**
 :::
 
 ## Behaviour
@@ -76,9 +76,9 @@ Actions keep floating when user scrolls down
 
 How is it in iOS?
 
-{% page-ref page="../../ios/internal/modal.md" %}
+{% page-ref page="../../ios/internal/modal.mdx" %}
 
  Related technical documentation
 
-{% page-ref page="../../../../develop/webviews.md" %}
+{% page-ref page="../../../../develop/webviews.mdx" %}
 

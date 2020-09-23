@@ -11,9 +11,9 @@ We define contextual guides as messages around a specific component of the inter
 
 Please use:
 
-* For iOS a [tooltip](../ios/tooltip.md)
-* For Android a [tooltip](../android/tooltip.md)
-* For web a [tooltip](../web/tooltip.md)
+* For iOS a [tooltip](../ios/tooltip.mdx)
+* For Android a [tooltip](../android/tooltip.mdx)
+* For web a [tooltip](../web/tooltip.mdx)
 
 ![](../../../img/tooltip.jpg)
 

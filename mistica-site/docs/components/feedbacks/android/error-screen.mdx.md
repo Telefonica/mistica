@@ -5,7 +5,7 @@ title: Error Screen
 
 We use error screens for
 
-* [error messages](../feedback-scenarios/error-scenario.md)
+* [error messages](../feedback-scenarios/error-scenario.mdx)
 
 ## Use considerations
 

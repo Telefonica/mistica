@@ -5,9 +5,9 @@ title: SnackBar
 
 We use snackbars for
 
-* [error messages](../feedback-scenarios/error-scenario.md)
-* [success messages](../feedback-scenarios/success-scenario.md)
-* [system messages](../feedback-scenarios/system-message.md)
+* [error messages](../feedback-scenarios/error-scenario.mdx)
+* [success messages](../feedback-scenarios/success-scenario.mdx)
+* [system messages](../feedback-scenarios/system-message.mdx)
 
 ## Use considerations
 

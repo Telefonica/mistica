@@ -68,7 +68,7 @@ Play & explore all the possibilities of this component <br/>
 
 ### 1. Container
 
-View the fields within a single screen. The width of the container varies depending on the [type of layout](../structure.md#disposicion-de-los-elementos-de-formulario) and the type of information that the user needs to enter in the field.
+View the fields within a single screen. The width of the container varies depending on the [type of layout](../structure.mdx#disposicion-de-los-elementos-de-formulario) and the type of information that the user needs to enter in the field.
 
 ### 2. Label
 

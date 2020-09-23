@@ -11,9 +11,9 @@ We define informative messages as those that contain extra info related with a s
 
 Please use:
 
-* For iOS a [banner](../ios/banner.md) or [info screen](https://app.gitbook.com/@tef-novum/s/novum/~/drafts/-LtU-1GY-zzIljdw9K5C/design/feedbacks/components/ios/info-screen)
-* For Android a [banner](../android/banner.md) or [info screen](https://app.gitbook.com/@tef-novum/s/novum/~/drafts/-LtU-1GY-zzIljdw9K5C/design/feedbacks/components/android/info-screen)
-* For web a [banner](../web/banner.md) or [info screen](https://app.gitbook.com/@tef-novum/s/novum/~/drafts/-LtU-1GY-zzIljdw9K5C/design/feedbacks/components/web/info-screen)
+* For iOS a [banner](../ios/banner.mdx) or [info screen](https://app.gitbook.com/@tef-novum/s/novum/~/drafts/-LtU-1GY-zzIljdw9K5C/design/feedbacks/components/ios/info-screen)
+* For Android a [banner](../android/banner.mdx) or [info screen](https://app.gitbook.com/@tef-novum/s/novum/~/drafts/-LtU-1GY-zzIljdw9K5C/design/feedbacks/components/android/info-screen)
+* For web a [banner](../web/banner.mdx) or [info screen](https://app.gitbook.com/@tef-novum/s/novum/~/drafts/-LtU-1GY-zzIljdw9K5C/design/feedbacks/components/web/info-screen)
 
 ![banner](../../../img/informative-message.jpg)
 

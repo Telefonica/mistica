@@ -5,7 +5,7 @@ title: Banner
 
 We use banners for
 
-* [informative messages](../feedback-scenarios/informative-message.md)
+* [informative messages](../feedback-scenarios/informative-message.mdx)
 
 ## Use considerations
 
