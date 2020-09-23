@@ -21,10 +21,7 @@ import * as Icons from '@telefonica/mistica/dist/generated/mistica-icons'
 <div class="constant">
     {Object.entries(colors).map(([name, themedColors]) =>
         <div id="cardConstant">
-            {themedColors.map(color =>
-                <div title={color} class="cardColorConstant" style={{background: color}}></div>
-            )}
-            {Icons.map(Icon, index =>
+            {Icons.map(Icon, index) =>
                 <Icon key={index} size={24} />
             )}
         </div>
