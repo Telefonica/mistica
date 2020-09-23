@@ -628,3 +628,18 @@ hr {
 .footer__link-item:hover {
   color: var(--ifm-color-white);
 }
+
+.iconBlock{
+  
+}
+
+.iconModule {
+  display: flex;
+  align-items: center;
+  height: 104px;
+  border-bottom: 1px solid #eee;
+}
+
+.iconModule svg{
+  margin-right: 40px;
+}
