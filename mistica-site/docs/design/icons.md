@@ -3,6 +3,7 @@ id: icons
 title: Icons
 ---
 
+<!-- 
 import {ThemeContextProvider} from '@telefonica/mistica';
 import * as Icons from '@telefonica/mistica/dist-es/generated/mistica-icons';
 
@@ -17,10 +18,11 @@ import * as Icons from '@telefonica/mistica/dist-es/generated/mistica-icons';
             const Icon = Icons[name];
             return (
                 <div class="iconModule" key={index}>
-                    <Icon size={40} />
-                    <h5 id={name}>{name}</h5>
+                    <Icon size={32} alt={name} />         
                 </div>
             );
         })}
     </ThemeContextProvider>
-</div>
+</div> -->
+
+<!-- <h5 id={name}>{name}</h5> -->

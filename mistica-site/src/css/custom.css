@@ -630,16 +630,15 @@ hr {
 }
 
 .iconBlock{
-  
+  grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+  display: grid;
+  height: 200px;
+  overflow: hidden;
 }
 
 .iconModule {
-  display: flex;
-  align-items: center;
-  height: 104px;
-  border-bottom: 1px solid #eee;
+  height: 88px;
 }
 
 .iconModule svg{
-  margin-right: 40px;
 }
