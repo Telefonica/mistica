@@ -11,5 +11,4 @@ import * as Icons from '@telefonica/mistica/dist/generated/mistica-icons'
                 <Icon key={index} size={24} />
             )}
         </div>
-    )}
 </div>
