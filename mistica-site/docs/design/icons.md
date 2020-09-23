@@ -42,6 +42,7 @@ Esta librería cuenta con aproximadamente unos 400 iconos en diferentes estilos 
 
 ---
 
+
 ## Pending
 * hablar de contribución
 * cuando hablamos de otra librería de desarrollo y enlazamos a mistica icons habría que meter en el repo de mistica icons la documentación necesario para el uso de iconos para desarrolladores o enlaces y demás.
