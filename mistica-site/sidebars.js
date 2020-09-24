@@ -2,6 +2,7 @@ module.exports = {
   design: [
     "design/introduction",
     "design/start-using",
+    "design/icons",
     {
       'Foundamentals': [
         {

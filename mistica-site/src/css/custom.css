@@ -628,3 +628,17 @@ hr {
 .footer__link-item:hover {
   color: var(--ifm-color-white);
 }
+
+.iconBlock{
+  grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+  display: grid;
+  height: 200px;
+  overflow: hidden;
+}
+
+.iconModule {
+  height: 88px;
+}
+
+.iconModule svg{
+}
