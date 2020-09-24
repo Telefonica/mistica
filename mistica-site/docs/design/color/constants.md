@@ -30,7 +30,7 @@ Object.entries(colorThemes[0]).forEach(([colorName, color]) => {
                 <div title={color} class="cardColorConstant" style={{background: color}}></div>
             )}
             <div class="info">
-                <h5>{name}</h5>
+                <h5 id={name}>{name}</h5>
             </div>
         </div>
     )}
