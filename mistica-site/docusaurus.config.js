@@ -135,7 +135,7 @@ module.exports = {
     },
   },
   stylesheets: [
-    "https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap",
     "./src/css/custom.css"
   ],
   presets: [
