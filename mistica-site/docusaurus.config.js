@@ -25,6 +25,7 @@ module.exports = {
         alt: 'Mística Design System',
         src: 'img/misticaLogo.svg',
         href: 'https://brandfactorytest.frontify.com/d/GLhY6viKNE69',
+        target: '_self',
       },
       items: [
         // {
