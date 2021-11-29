@@ -39,6 +39,8 @@ We are currently building our roadmap and initial components inventory to estima
 | [mistica-icons](https://github.com/Telefonica/mistica-icons)      | The source of truth for icons in our digital products |
 | [mistica-manager](https://github.com/Telefonica/mistica-manager)     | App to allows designer install al the system in one-click  |
 
+[Visit Design documentation](https://brandfactory.telefonica.com/mistica)
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
