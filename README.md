@@ -24,9 +24,6 @@ Mística reduces design and development time in order to be able to put more eff
 Iterations and improvements will be carried out at all times based on the needs and points of improvement that we identify among ourselves.
 
 
-We are currently building our roadmap and initial components inventory to estimate the v1 release date. We are in active development and testing with selected teams, so the components API may change frequently. However, you can play with the alpha version today! Your feedback will help us shape Mistica.
-
-
 <br>
 
 | Mística Development Repos | Description                                               |
@@ -40,7 +37,6 @@ We are currently building our roadmap and initial components inventory to estima
 | :------------------ | :-------------------------------------------------------- |
 | [mistica-design](https://github.com/Telefonica/mistica-design) | Libraries with components, colors & typographies needed to design our digital products  |
 | [mistica-icons](https://github.com/Telefonica/mistica-icons)      | The source of truth for icons in our digital products |
-| [mistica-manager](https://github.com/Telefonica/mistica-manager)     | App to allows designer install al the system in one-click  |
 
 [Visit Design documentation](https://brandfactory.telefonica.com/mistica)
 
